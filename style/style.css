@@ -1,13 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    /* Make sure padding and border not expand the size of element*/
+    box-sizing:border-box;
+}
+
 body{
     font-family:sans-serif;
-    margin: 0;
-    padding:0;
     background-color:aliceblue;
+    padding:0 20px;
+    line-height:1.6;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+    border-radius:8px;
 }
 header{
-    max-width:700px;
+    text-align:center;
     margin:auto;
+}
+nav{
+    margin-top:20px;
+    text-align:center;
+}
+nav a {
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    text-decoration:wavy;
 }
 h1,h2{
     color:pink;
+    margin-bottom:10px;
+}
+footer{
+    text-align:center;
 }
