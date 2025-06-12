@@ -9,15 +9,32 @@
     <body>
         <header>
             <h1>Ronglin's Blog</h1>
-            <nav><a href="index.html">Home</a></nav>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+            </nav>
         </header>
 
         <main>
-            <h2>Recently</h2>
-            <div id="posts-container">
+            <section id="photos" class="section fade-in">
+                <h2>My Photography</h2>
+                <p>Check out some of my photography work on Instagram!</p>
+                <a href="https://www.instagram.com/crl10_4/" target="_blank">Visit my Insta</a>
+            </section>
+            <section id ="blog"class="section fade-in">
+                <h2>Recently</h2>
+                <div id="posts-container">
 
-            </div>
+                </div>
+            </section>
         </main>
         <script src="scripts/blog-loader.js"></script>
+        <script>
+            const toggleButton=document.querySelector('.menu-toggle');
+            const navLinks=document.querySelector('.nav-links');
+            toggleButton.addEventListener('click',()=>{
+                navLinks.classList.toggle('open');
+            });
+        </script>
     </body>
 </html>
