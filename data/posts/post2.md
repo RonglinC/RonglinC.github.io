@@ -1,0 +1,2 @@
+# Book List
+Recently, I am reading the razor's edge by somerset maugham. It is a very good book. It make me to think a lot. I feel like I am Larry in another world. I hope I can finish this book soon and back to finish writing down my thoughts here.s
