@@ -2,20 +2,63 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Ronglin C - Portfolio</title>
-        <link rel="stylesheet" href="style/style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Hi, Welcome</h1>
-                <p>I am Ronglin</p>
-                <a href="blog.html"class="btn">Explore my page</a>
-            </div>
-        </section>
-        <footer>
-            <p>Contact : ronglinchen02@gmail.com</p>
+        <header class="site-header">
+            <a class="logo" href="index.html">RL</a>
+            <nav class="top-nav">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="eyebrow">Hello, I’m</p>
+                    <h1>Ronglin Chen</h1>
+                    <p class="hero-subtitle">Full-stack developer, photographer, and storyteller.</p>
+                    <div class="hero-actions">
+                        <a class="btn" href="blog.html">Explore My Blog</a>
+                        <a class="btn btn-outline" href="#contact">Get in Touch</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section glass">
+                <h2>About Me</h2>
+                <p>Passionate about building clean, accessible web interfaces and sharing experiences through blog posts and travel stories.</p>
+            </section>
+
+            <section id="projects" class="section glass">
+                <h2>Featured Projects</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Personal Blog</h3>
+                        <p>A responsive site with Markdown-powered posts, dynamic content loading, and a mobile-first design.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Media Tracker</h3>
+                        <p>Movie, book, and trip trackers with sorted JSON data that update in real-time via a simple UI.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section glass">
+                <h2>Contact</h2>
+                <p>Reach me at <a href="mailto:ronglinchen02@gmail.com">ronglinchen02@gmail.com</a> or connect via Instagram.</p>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Ronglin Chen. Built with HTML, CSS and simple JavaScript.</p>
         </footer>
     </body>
 </html>

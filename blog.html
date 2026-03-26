@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <Title>My Blog</Title>
-        <link rel="stylesheet" href="style/style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ronglin's Blog</title>
+        <link rel="stylesheet" href="style/style.css" />
     </head>
 
     <body>
-        <header>
-            <h1>Ronglin's Blog</h1>
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-            <nav class="nav-links">
+        <header class="site-header">
+            <a class="logo" href="index.html">RL</a>
+            <nav class="top-nav">
                 <a href="index.html">Home</a>
                 <a href ="#photos">Photos</a>
                 <a href="#movies">Movies</a>
@@ -20,49 +20,47 @@
         </header>
 
         <main>
-            <div id="editor-controls" style="position:sticky; top:0; background:#fff; padding:8px; z-index:1000; display:flex; gap:8px; align-items:center; border-bottom:1px solid #eee;"></div>
-            <section id="photos" class="section fade-in">
-                <h2>My Photography</h2>
-                <p>Check out some of my photography work on Instagram!</p>
-                <a href="https://www.instagram.com/crl10_4/" target="_blank">Visit my Insta</a>
-            </section>
-            <section id ="blog"class="section fade-in">
-                <h2>Recently</h2>
-                <div id="posts-container">
-
+            <section class="hero" style="padding-top: 90px; min-height: 28vh;">
+                <div class="hero-content">
+                    <h1>Ronglin's Blog</h1>
+                    <p class="hero-subtitle">A place where I share ideas about development, media, and travel.</p>
                 </div>
             </section>
-            <section id="movies" class="section fade-in">
+
+            <section id="photos" class="section">
+                <h2>My Photography</h2>
+                <p>Check out some of my photography work on <a href="https://www.instagram.com/crl10_4/" target="_blank" rel="noopener">Instagram</a>.</p>
+            </section>
+
+            <section id="blog" class="section">
+                <h2>Recent Posts</h2>
+                <div id="posts-container" class="cards"></div>
+            </section>
+
+            <section id="movies" class="section">
                 <h2>Movies List</h2>
                 <div id="movies-container">
-                    <p>on the way</p>
+                    <p>On the way</p>
                 </div>
             </section>
 
-
-            <section id="books" class="section fade-in">
+            <section id="books" class="section">
                 <h2>Book List</h2>
                 <div id="books-container">
-                    <p>on the way</p>
+                    <p>On the way</p>
                 </div>
             </section>
 
-            <section id="travel" class="section fade-in">
-                <h2>Travel </h2>
+            <section id="travel" class="section">
+                <h2>Travel</h2>
                 <div id="travel-container">
-                    <p>on the way</p>
+                    <p>On the way</p>
                 </div>
             </section>
-            
-            
         </main>
+
+        <footer class="site-footer">&copy; 2026 Ronglin Chen</footer>
+
         <script src="scripts/blog-loader.js"></script>
-        <script>
-            const toggleButton=document.querySelector('.menu-toggle');
-            const navLinks=document.querySelector('.nav-links');
-            toggleButton.addEventListener('click',()=>{
-                navLinks.classList.toggle('open');
-            });
-        </script>
     </body>
 </html>

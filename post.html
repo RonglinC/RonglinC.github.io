@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="../style/style.css"/>
-    <!--include Marked.js to convert Markdownt to html-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>Blog Post</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav class="nav">
-                <a href="../index.html">Home</a>
-                <a href="../blog.html">Blog</a>
-            </nav>
-            <div id="post-content">
+    <header class="site-header">
+        <a class="logo" href="../index.html">RL</a>
+        <nav class="top-nav">
+            <a href="../index.html">Home</a>
+            <a href="../blog.html">Blog</a>
+        </nav>
+    </header>
 
-            </div>
-        </header>
-    </div>
+    <main class="container" style="padding: 1.5rem 1rem;">
+        <article id="post-content" class="section" style="padding: 1.5rem;"></article>
+    </main>
+
+    <footer class="site-footer">&copy; 2026 Ronglin Chen</footer>
     <script src="../scripts/mdloader.js"></script>
 </body>
 </html>
