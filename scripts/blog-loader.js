@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((res) => res.json())
         .then((posts) => {
             if (!posts.length) {
-                container.innerHTML = '<p class="empty-hint">尚无札记 · No posts yet</p>';
+                container.innerHTML = '<p class="empty-hint">No posts yet.</p>';
                 return;
             }
 
@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 article.innerHTML = `
                     <h3><a href="post.html?post=${element.slug}">${element.title}</a></h3>
-                    <p class="post-meta"><em>记于 ${element.date}</em></p>
+                    <p class="post-meta"><em>${element.date}</em></p>
                     <p>${element.summary}</p>
                 `;
                 container.appendChild(article);
             });
         })
         .catch((err) => {
-            container.innerHTML = "<p class=\"empty-hint\">札记未能载入，请稍后再试。</p>";
+            container.innerHTML = '<p class="empty-hint">Failed to load posts. Try again later.</p>';
             console.error("Error loading posts:", err);
         });
 });
