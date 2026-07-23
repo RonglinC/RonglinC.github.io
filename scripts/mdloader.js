@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const contenDiv=document.getElementById("post-content");
     const params= new URLSearchParams(window.location.search);
     const postName=params.get("post");
-    fetch(`../data/posts/${postName}.md`)
+    fetch(`data/posts/${postName}.md`)
     .then((res)=>res.text())
     .then((markdown)=>{
         contenDiv.innerHTML=marked.parse(markdown);
