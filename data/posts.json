@@ -1,8 +1,8 @@
 [
     {
-        "title": "Testing",
-        "date":"2025-06-05",
-        "summary":"A testing json file",
-        "slug":"post1"
+        "title": "试笔 · Testing",
+        "date": "2025-06-05",
+        "summary": "第一篇 Markdown 札记，练笔之用。",
+        "slug": "post1"
     }
 ]

@@ -1,85 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ronglin Chen — 雨过天青</title>
+        <title>陈荣霖 · 雨过天青</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;700&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style/style.css" />
     </head>
     <body>
         <header class="site-header">
-            <a class="logo" href="index.html">RL</a>
-            <nav class="top-nav" aria-label="Primary">
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+            <a class="logo" href="index.html">
+                <span class="logo-mark">霖</span>
+                <span class="logo-text">荣霖</span>
+            </a>
+            <nav class="top-nav" aria-label="主导航">
+                <a href="index.html"><span class="nav-zh">首页</span><span class="nav-en">Home</span></a>
+                <a href="blog.html"><span class="nav-zh">札记</span><span class="nav-en">Blog</span></a>
+                <a href="#about"><span class="nav-zh">关于</span><span class="nav-en">About</span></a>
+                <a href="#projects"><span class="nav-zh">作品</span><span class="nav-en">Works</span></a>
+                <a href="#contact"><span class="nav-zh">联络</span><span class="nav-en">Contact</span></a>
             </nav>
         </header>
 
         <main>
             <section class="hero">
                 <div class="hero-content">
-                    <p class="eyebrow">Hello, I’m</p>
-                    <h1>Ronglin Chen</h1>
+                    <p class="eyebrow">清寂 · 温润</p>
+                    <h1>陈荣霖</h1>
+                    <p class="hero-name-en">Ronglin Chen</p>
                     <p class="hero-subtitle">
-                        Full-stack developer, photographer, and storyteller — quiet craft, clear light.
+                        全栈开发 · 摄影 · 书写<br />
+                        <span class="hero-subtitle-en"
+                            >Quiet craft, clear light — code, images, and stories.</span
+                        >
                     </p>
                     <div class="hero-actions">
-                        <a class="btn" href="blog.html">Explore My Blog</a>
-                        <a class="btn btn-outline" href="#contact">Get in Touch</a>
+                        <a class="btn" href="blog.html">展阅札记</a>
+                        <a class="btn btn-outline" href="#contact">取得联络</a>
                     </div>
+                    <span class="seal seal-hero" aria-hidden="true">青</span>
                 </div>
             </section>
 
             <section id="about" class="section">
-                <h2>About Me</h2>
+                <p class="section-kicker">自述</p>
+                <h2>关于我</h2>
                 <p>
-                    Passionate about building clean, accessible web interfaces and sharing experiences
-                    through blog posts and travel stories. I prefer work that feels considered —
-                    like glaze over clay: simple at a glance, rich up close.
+                    喜欢把界面做得干净、好用，也喜欢用文字与影像记下旅途。做事希望像瓷器上釉——远看素净，近看有层次。
                 </p>
             </section>
 
             <section id="projects" class="section">
-                <h2>Featured Projects</h2>
+                <p class="section-kicker">案头</p>
+                <h2>精选作品</h2>
                 <div class="cards">
                     <article class="card">
-                        <h3>Personal Blog</h3>
-                        <p>
-                            A responsive site with Markdown-powered posts, dynamic content loading,
-                            and a mobile-first design.
-                        </p>
+                        <h3>个人札记</h3>
+                        <p>以 Markdown 驱动的响应式博客，动态加载内容，兼顾桌面与移动端阅读。</p>
                     </article>
                     <article class="card">
-                        <h3>Media Tracker</h3>
-                        <p>
-                            Movie, book, and trip trackers with sorted JSON data that update in
-                            real-time via a simple UI.
-                        </p>
+                        <h3>影书行踪</h3>
+                        <p>电影、书单与旅行记录，用简洁界面整理 JSON 数据，随看随记。</p>
                     </article>
                 </div>
             </section>
 
             <section id="contact" class="section">
-                <h2>Contact</h2>
+                <p class="section-kicker">鱼雁</p>
+                <h2>联络</h2>
                 <p>
-                    Reach me at
+                    来信：
                     <a href="mailto:ronglinchen02@gmail.com">ronglinchen02@gmail.com</a>
-                    or connect via Instagram.
+                    ，或至 Instagram 一叙。
                 </p>
             </section>
         </main>
 
         <footer class="site-footer">
-            <p>&copy; 2026 Ronglin Chen. Built with HTML, CSS and simple JavaScript.</p>
+            <span class="seal seal-footer" aria-hidden="true">霖</span>
+            <p>公元二〇二六年 · 陈荣霖</p>
+            <p class="footer-note">以 HTML、CSS 与简朴 JavaScript 手作</p>
         </footer>
     </body>
 </html>

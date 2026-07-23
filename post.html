@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Blog Post — Ronglin Chen</title>
+        <title>札记正文 · 陈荣霖</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;700&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style/style.css" />
@@ -15,18 +15,27 @@
     </head>
     <body>
         <header class="site-header">
-            <a class="logo" href="index.html">RL</a>
-            <nav class="top-nav" aria-label="Primary">
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
+            <a class="logo" href="index.html">
+                <span class="logo-mark">霖</span>
+                <span class="logo-text">荣霖</span>
+            </a>
+            <nav class="top-nav" aria-label="主导航">
+                <a href="index.html"><span class="nav-zh">首页</span><span class="nav-en">Home</span></a>
+                <a href="blog.html"><span class="nav-zh">札记</span><span class="nav-en">Blog</span></a>
             </nav>
         </header>
 
-        <main class="container" style="padding: 1.5rem 1rem">
-            <article id="post-content" class="section" style="padding: 1.5rem"></article>
+        <main class="container post-page">
+            <p class="post-back">
+                <a href="blog.html">← 返回札记</a>
+            </p>
+            <article id="post-content" class="section post-article"></article>
         </main>
 
-        <footer class="site-footer">&copy; 2026 Ronglin Chen</footer>
+        <footer class="site-footer">
+            <span class="seal seal-footer" aria-hidden="true">霖</span>
+            <p>公元二〇二六年 · 陈荣霖</p>
+        </footer>
         <script src="scripts/mdloader.js"></script>
     </body>
 </html>
