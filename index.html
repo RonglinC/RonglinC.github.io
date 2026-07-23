@@ -3,18 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ronglin Chen — 雨过天青</title>
+        <title>Ronglin Chen — Celadon</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;700&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style/style.css" />
     </head>
     <body>
         <header class="site-header">
-            <a class="logo" href="index.html">RL</a>
+            <a class="logo" href="index.html">
+                <span class="logo-mark">RL</span>
+                <span class="logo-text">Ronglin</span>
+            </a>
             <nav class="top-nav" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="blog.html">Blog</a>
@@ -27,7 +30,7 @@
         <main>
             <section class="hero">
                 <div class="hero-content">
-                    <p class="eyebrow">Hello, I’m</p>
+                    <p class="eyebrow">Quiet · Clear</p>
                     <h1>Ronglin Chen</h1>
                     <p class="hero-subtitle">
                         Full-stack developer, photographer, and storyteller — quiet craft, clear light.
@@ -36,10 +39,12 @@
                         <a class="btn" href="blog.html">Explore My Blog</a>
                         <a class="btn btn-outline" href="#contact">Get in Touch</a>
                     </div>
+                    <span class="seal seal-hero" aria-hidden="true">青</span>
                 </div>
             </section>
 
             <section id="about" class="section">
+                <p class="section-kicker">About</p>
                 <h2>About Me</h2>
                 <p>
                     Passionate about building clean, accessible web interfaces and sharing experiences
@@ -49,6 +54,7 @@
             </section>
 
             <section id="projects" class="section">
+                <p class="section-kicker">Work</p>
                 <h2>Featured Projects</h2>
                 <div class="cards">
                     <article class="card">
@@ -69,7 +75,8 @@
             </section>
 
             <section id="contact" class="section">
-                <h2>Contact</h2>
+                <p class="section-kicker">Contact</p>
+                <h2>Get in Touch</h2>
                 <p>
                     Reach me at
                     <a href="mailto:ronglinchen02@gmail.com">ronglinchen02@gmail.com</a>
@@ -79,7 +86,9 @@
         </main>
 
         <footer class="site-footer">
-            <p>&copy; 2026 Ronglin Chen. Built with HTML, CSS and simple JavaScript.</p>
+            <span class="seal seal-footer" aria-hidden="true">RL</span>
+            <p>&copy; 2026 Ronglin Chen</p>
+            <p class="footer-note">Built with HTML, CSS, and simple JavaScript</p>
         </footer>
     </body>
 </html>

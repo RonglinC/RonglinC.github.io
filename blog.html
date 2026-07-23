@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ronglin's Blog — 雨过天青</title>
+        <title>Ronglin's Blog — Celadon</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;700&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style/style.css" />
@@ -15,7 +15,10 @@
 
     <body>
         <header class="site-header">
-            <a class="logo" href="index.html">RL</a>
+            <a class="logo" href="index.html">
+                <span class="logo-mark">RL</span>
+                <span class="logo-text">Ronglin</span>
+            </a>
             <nav class="top-nav" aria-label="Blog sections">
                 <a href="index.html">Home</a>
                 <a href="#photos">Photos</a>
@@ -33,11 +36,13 @@
                     <p class="hero-subtitle">
                         A quiet place for development notes, media, and travel.
                     </p>
+                    <span class="seal seal-hero" aria-hidden="true">记</span>
                 </div>
             </section>
 
             <section id="photos" class="section">
-                <h2>My Photography</h2>
+                <p class="section-kicker">Lens</p>
+                <h2>Photography</h2>
                 <p>
                     Check out some of my photography work on
                     <a href="https://www.instagram.com/crl10_4/" target="_blank" rel="noopener"
@@ -47,33 +52,40 @@
             </section>
 
             <section id="blog" class="section">
+                <p class="section-kicker">Recent</p>
                 <h2>Recent Posts</h2>
                 <div id="posts-container" class="cards"></div>
             </section>
 
             <section id="movies" class="section">
-                <h2>Movies List</h2>
+                <p class="section-kicker">Screen</p>
+                <h2>Movies</h2>
                 <div id="movies-container">
-                    <p>On the way</p>
+                    <p class="empty-hint">On the way</p>
                 </div>
             </section>
 
             <section id="books" class="section">
-                <h2>Book List</h2>
+                <p class="section-kicker">Pages</p>
+                <h2>Books</h2>
                 <div id="books-container">
-                    <p>On the way</p>
+                    <p class="empty-hint">On the way</p>
                 </div>
             </section>
 
             <section id="travel" class="section">
+                <p class="section-kicker">Roads</p>
                 <h2>Travel</h2>
                 <div id="travel-container">
-                    <p>On the way</p>
+                    <p class="empty-hint">On the way</p>
                 </div>
             </section>
         </main>
 
-        <footer class="site-footer">&copy; 2026 Ronglin Chen</footer>
+        <footer class="site-footer">
+            <span class="seal seal-footer" aria-hidden="true">RL</span>
+            <p>&copy; 2026 Ronglin Chen</p>
+        </footer>
 
         <script src="scripts/blog-loader.js"></script>
     </body>

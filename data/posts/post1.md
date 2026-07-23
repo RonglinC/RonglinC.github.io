@@ -1,2 +1,3 @@
-# Testing Article 1 
-Hi, this is my first markdown file. I am trying to improve my English writting skills. 
+# Testing
+
+Hi — this is my first markdown note. I'm practicing my writing skills here.

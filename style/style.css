@@ -17,6 +17,7 @@
     --clay: #d9d0c3;
     --foot: #5c4a3a;
     --blush: #c97b84;
+    --seal-red: #c41e3a;
     --ink: #2c2c2c;
     --ink-soft: #4a4540;
     --muted: #6e6a63;
@@ -109,36 +110,48 @@ a:focus-visible {
 }
 
 .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
     font-family: "ZCOOL XiaoWei", "Noto Serif SC", serif;
     font-weight: 400;
-    font-size: 1.55rem;
-    letter-spacing: 0.18em;
+    font-size: 1.35rem;
+    letter-spacing: 0.22em;
     color: var(--celadon-plum);
     text-decoration: none;
     position: relative;
 }
 
-.logo::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -0.2rem;
-    width: 100%;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--celadon-sky), transparent);
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.5s var(--ease-glaze);
+.logo-mark {
+    font-family: "ZCOOL KuaiLe", "ZCOOL XiaoWei", cursive;
+    display: inline-grid;
+    place-items: center;
+    width: 1.85rem;
+    height: 1.85rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--seal-red);
+    border: 1.5px solid var(--seal-red);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px rgba(196, 30, 58, 0.25);
+    transform: rotate(-6deg);
+    opacity: 0.9;
 }
 
-.logo:hover::after,
-.logo:focus-visible::after {
-    transform: scaleX(1);
+.logo-text {
+    letter-spacing: 0.28em;
+}
+
+.logo:hover .logo-mark,
+.logo:focus-visible .logo-mark {
+    opacity: 1;
+    transform: rotate(-3deg) scale(1.04);
+    transition: transform 0.35s var(--ease-glaze), opacity 0.35s var(--ease-glaze);
 }
 
 .top-nav {
     display: flex;
-    gap: 0.35rem;
+    gap: 0.2rem;
     align-items: center;
 }
 
@@ -147,10 +160,12 @@ a:focus-visible {
     color: var(--ink-soft);
     font-weight: 400;
     font-size: 0.95rem;
-    letter-spacing: 0.04em;
-    padding: 0.4rem 0.75rem;
+    letter-spacing: 0.06em;
+    padding: 0.45rem 0.75rem;
     border-radius: 0;
     position: relative;
+    display: inline-block;
+    line-height: 1.3;
     transition: color 0.3s var(--ease-glaze);
 }
 
@@ -175,6 +190,37 @@ a:focus-visible {
 .top-nav a:hover::after,
 .top-nav a:focus-visible::after {
     transform: scaleX(1);
+}
+
+/* —— Seal stamp —— */
+.seal {
+    font-family: "ZCOOL KuaiLe", "ZCOOL XiaoWei", cursive;
+    display: inline-grid;
+    place-items: center;
+    color: var(--seal-red);
+    border: 2px solid var(--seal-red);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(196, 30, 58, 0.35);
+    letter-spacing: 0;
+    user-select: none;
+    opacity: 0.82;
+}
+
+.seal-hero {
+    width: 2.6rem;
+    height: 2.6rem;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    transform: rotate(-8deg);
+    animation: seal-settle 1.4s var(--ease-glaze) 0.4s both;
+}
+
+.seal-footer {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.95rem;
+    margin: 0 auto 0.85rem;
+    transform: rotate(-5deg);
 }
 
 /* —— Hero: one composition, full-bleed glaze —— */
@@ -247,8 +293,8 @@ a:focus-visible {
 }
 
 .hero h1 {
-    font-family: "ZCOOL XiaoWei", "Noto Serif SC", serif;
-    font-size: clamp(2.8rem, 7vw, 4.6rem);
+    font-family: "Ma Shan Zheng", "ZCOOL XiaoWei", "Noto Serif SC", serif;
+    font-size: clamp(2.8rem, 7vw, 4.8rem);
     font-weight: 400;
     letter-spacing: 0.06em;
     color: var(--ink);
@@ -262,7 +308,17 @@ a:focus-visible {
     font-weight: 300;
     max-width: 28em;
     margin: 0 auto 2rem;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.08em;
+    line-height: 1.9;
+}
+
+.hero-subtitle-en {
+    display: inline-block;
+    margin-top: 0.35rem;
+    font-size: 0.92em;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+    opacity: 0.85;
 }
 
 .hero-actions {
@@ -342,12 +398,20 @@ main > .section:nth-of-type(1) {
     border-top: none;
 }
 
+.section-kicker {
+    font-family: "Zhi Mang Xing", "Ma Shan Zheng", cursive;
+    font-size: 1.05rem;
+    letter-spacing: 0.35em;
+    color: var(--celadon-sky);
+    margin-bottom: 0.35rem;
+}
+
 .section h2 {
-    font-family: "ZCOOL XiaoWei", "Noto Serif SC", serif;
+    font-family: "Ma Shan Zheng", "ZCOOL XiaoWei", "Noto Serif SC", serif;
     font-weight: 400;
     margin-bottom: 1rem;
-    font-size: clamp(1.65rem, 3vw, 2.1rem);
-    letter-spacing: 0.12em;
+    font-size: clamp(1.85rem, 3.4vw, 2.35rem);
+    letter-spacing: 0.18em;
     color: var(--ink);
     position: relative;
     display: inline-block;
@@ -360,6 +424,40 @@ main > .section:nth-of-type(1) {
     height: 1px;
     margin-top: 0.65rem;
     background: linear-gradient(90deg, var(--celadon-plum), transparent);
+}
+
+.empty-hint {
+    color: var(--muted);
+    font-style: italic;
+    letter-spacing: 0.08em;
+}
+
+.post-meta {
+    margin-bottom: 0.35rem;
+}
+
+.post-page {
+    padding: 1.5rem 1rem 2rem;
+}
+
+.post-back {
+    max-width: 880px;
+    margin: 1rem auto 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+}
+
+.post-back a {
+    text-decoration: none;
+    color: var(--celadon-plum);
+}
+
+.post-back a:hover {
+    color: var(--foot);
+}
+
+.post-article {
+    margin-top: 0.5rem;
 }
 
 .section p {
@@ -429,10 +527,10 @@ main > .section:nth-of-type(1) {
 
 .card h3,
 .post h3 {
-    font-family: "ZCOOL XiaoWei", "Noto Serif SC", serif;
+    font-family: "Ma Shan Zheng", "ZCOOL XiaoWei", "Noto Serif SC", serif;
     font-weight: 400;
-    font-size: 1.35rem;
-    letter-spacing: 0.06em;
+    font-size: 1.55rem;
+    letter-spacing: 0.1em;
     margin-bottom: 0.55rem;
     color: var(--ink);
 }
@@ -485,11 +583,16 @@ main > .section:nth-of-type(1) {
 #post-content h1,
 #post-content h2,
 #post-content h3 {
-    font-family: "ZCOOL XiaoWei", "Noto Serif SC", serif;
+    font-family: "Ma Shan Zheng", "ZCOOL XiaoWei", "Noto Serif SC", serif;
     font-weight: 400;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
     color: var(--ink);
     margin: 1.5rem 0 0.75rem;
+}
+
+#post-content h1 {
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+    letter-spacing: 0.14em;
 }
 
 #post-content p {
@@ -525,19 +628,16 @@ main > .section:nth-of-type(1) {
     padding: 2.25rem 1rem 2.5rem;
     color: var(--muted);
     font-size: 0.9rem;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.12em;
     border-top: 1px solid var(--line);
     background: linear-gradient(180deg, transparent, rgba(217, 208, 195, 0.25));
 }
 
-.site-footer::before {
-    content: "○";
-    display: block;
-    color: var(--celadon-mist);
-    font-size: 0.7rem;
-    margin-bottom: 0.65rem;
-    letter-spacing: 0;
-    opacity: 0.7;
+.footer-note {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    opacity: 0.75;
 }
 
 /* —— Motion —— */
@@ -585,6 +685,17 @@ main > .section:nth-of-type(1) {
     }
 }
 
+@keyframes seal-settle {
+    from {
+        opacity: 0;
+        transform: rotate(-18deg) scale(0.85);
+    }
+    to {
+        opacity: 0.82;
+        transform: rotate(-8deg) scale(1);
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -603,6 +714,10 @@ main > .section:nth-of-type(1) {
         display: none;
     }
 
+    .logo-text {
+        letter-spacing: 0.18em;
+    }
+
     .hero::after {
         left: 0.75rem;
         font-size: 1rem;
@@ -613,6 +728,10 @@ main > .section:nth-of-type(1) {
         right: -8%;
         top: 8%;
         opacity: 0.7;
+    }
+
+    .hero h1 {
+        letter-spacing: 0.12em;
     }
 }
 

@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;700&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style/style.css" />
@@ -15,18 +15,27 @@
     </head>
     <body>
         <header class="site-header">
-            <a class="logo" href="index.html">RL</a>
+            <a class="logo" href="index.html">
+                <span class="logo-mark">RL</span>
+                <span class="logo-text">Ronglin</span>
+            </a>
             <nav class="top-nav" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="blog.html">Blog</a>
             </nav>
         </header>
 
-        <main class="container" style="padding: 1.5rem 1rem">
-            <article id="post-content" class="section" style="padding: 1.5rem"></article>
+        <main class="container post-page">
+            <p class="post-back">
+                <a href="blog.html">← Back to blog</a>
+            </p>
+            <article id="post-content" class="section post-article"></article>
         </main>
 
-        <footer class="site-footer">&copy; 2026 Ronglin Chen</footer>
+        <footer class="site-footer">
+            <span class="seal seal-footer" aria-hidden="true">RL</span>
+            <p>&copy; 2026 Ronglin Chen</p>
+        </footer>
         <script src="scripts/mdloader.js"></script>
     </body>
 </html>
