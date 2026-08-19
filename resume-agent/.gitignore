@@ -1,0 +1,11 @@
+.resume-agent/
+.env
+*.pyc
+__pycache__/
+.venv/
+venv/
+dist/
+*.egg-info/
+.pytest_cache/
+resume.yaml
+resume.pdf

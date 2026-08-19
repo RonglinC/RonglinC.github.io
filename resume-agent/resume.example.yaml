@@ -1,0 +1,34 @@
+name: Ronglin Chen
+email: your.email@example.com
+phone: "+1-555-0100"
+location: Remote
+linkedin: https://linkedin.com/in/yourprofile
+github: https://github.com/RonglinC
+website: https://ronglinc.github.io
+summary: >
+  Full-stack developer passionate about building clean, accessible web interfaces
+  and reliable backend systems. Experienced with modern JavaScript, Python, and cloud deployment.
+skills:
+  - JavaScript
+  - TypeScript
+  - Python
+  - React
+  - Node.js
+  - HTML/CSS
+  - SQL
+  - Git
+  - AWS
+experience:
+  - company: Example Tech
+    title: Full-Stack Developer
+    start_date: "2022-06"
+    end_date: Present
+    location: Remote
+    highlights:
+      - Built responsive web apps with React and Node.js
+      - Improved page load performance by 40%
+      - Collaborated with design team on accessible UI components
+education:
+  - school: Your University
+    degree: B.S. Computer Science
+    end_date: "2020"

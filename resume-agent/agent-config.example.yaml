@@ -1,0 +1,30 @@
+# Resume Agent Configuration
+# Copy to agent-config.yaml and customize
+
+resume_path: resume.yaml
+# resume_pdf_path: resume.pdf
+
+data_dir: .resume-agent
+
+# Job search settings
+search_keywords:
+  - software engineer
+  - full stack
+  - python
+  - react
+search_locations:
+  - remote
+exclude_companies: []
+
+min_match_score: 0.2
+max_applications_per_run: 5
+
+# Application behavior
+dry_run: true          # Set false to actually fill/submit forms
+auto_submit: false     # Set true to click submit (use with caution!)
+headless: true
+tailor_cover_letter: true
+
+# Optional: OpenAI for AI-tailored cover letters
+# Set OPENAI_API_KEY in .env instead
+openai_model: gpt-4o-mini
