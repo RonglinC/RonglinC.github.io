@@ -6,9 +6,15 @@ import yaml
 
 from resume_agent.config import load_resume
 from resume_agent.models.resume import Resume
+from resume_agent.parsers.pdf_parser import parse_pdf_resume
 
 
-def parse_resume(path: Path) -> Resume:
+def parse_resume(
+    path: Path,
+    cache_dir: Path | None = None,
+    openai_api_key: str | None = None,
+    openai_model: str = "gpt-4o-mini",
+) -> Resume:
     suffix = path.suffix.lower()
     if suffix in {".yaml", ".yml"}:
         return load_resume(path)
@@ -18,7 +24,14 @@ def parse_resume(path: Path) -> Resume:
         with path.open(encoding="utf-8") as f:
             data = json.load(f)
         return Resume.model_validate(data)
-    raise ValueError(f"Unsupported resume format: {suffix}. Use .yaml or .json")
+    if suffix == ".pdf":
+        return parse_pdf_resume(
+            path,
+            cache_dir=cache_dir,
+            openai_api_key=openai_api_key,
+            openai_model=openai_model,
+        )
+    raise ValueError(f"Unsupported resume format: {suffix}. Use .pdf, .yaml, or .json")
 
 
 def resume_to_yaml(resume: Resume) -> str:

@@ -17,11 +17,22 @@ console = Console()
 
 @click.group()
 @click.option("--config", "config_path", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--resume",
+    "resume_path",
+    type=click.Path(exists=True, path_type=Path),
+    help="Path to resume (.pdf, .yaml, or .json)",
+)
 @click.pass_context
-def main(ctx: click.Context, config_path: Path | None) -> None:
+def main(ctx: click.Context, config_path: Path | None, resume_path: Path | None) -> None:
     """Resume Agent — automated job search and application CLI."""
     ctx.ensure_object(dict)
-    ctx.obj["config"] = load_config(config_path)
+    config = load_config(config_path)
+    if resume_path:
+        config.resume_path = resume_path
+        if resume_path.suffix.lower() == ".pdf":
+            config.resume_pdf_path = resume_path
+    ctx.obj["config"] = config
 
 
 @main.command("init")
@@ -101,15 +112,23 @@ def apply_cmd(ctx: click.Context, limit: int, dry_run: bool) -> None:
     orchestrator = ResumeApplyOrchestrator(config)
 
     async def run():
+        orchestrator = ResumeApplyOrchestrator(config)
         try:
-            resume = parse_resume(config.resume_path)
+            resume = orchestrator.load_resume()
         except FileNotFoundError:
             console.print(
-                "[red]Resume not found.[/red] Run [bold]resume-agent init[/bold] first."
+                "[red]Resume not found.[/red] Place your PDF at [bold]resume.pdf[/bold] "
+                "or run [bold]resume-agent init[/bold]."
             )
             return
+        except ValueError as exc:
+            console.print(f"[red]{exc}[/red]")
+            return
 
-        console.print(f"[bold]Applying as:[/bold] {resume.name} ({resume.email})")
+        pdf_note = ""
+        if config.resume_pdf_path and config.resume_pdf_path.exists():
+            pdf_note = f" | PDF upload: {config.resume_pdf_path.name}"
+        console.print(f"[bold]Applying as:[/bold] {resume.name} ({resume.email}){pdf_note}")
         if config.dry_run:
             console.print("[yellow]DRY RUN mode — no forms will be submitted[/yellow]")
 
@@ -166,6 +185,43 @@ def status_cmd(ctx: click.Context) -> None:
         console.print("[dim]No applications yet. Run resume-agent apply[/dim]")
 
 
+@main.command("import-pdf")
+@click.argument("pdf_path", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--output",
+    "-o",
+    default="resume.yaml",
+    help="Save extracted fields to YAML for review/editing",
+)
+@click.option("--show-text", is_flag=True, help="Print raw PDF text extraction")
+@click.pass_context
+def import_pdf_cmd(ctx: click.Context, pdf_path: Path, output: str, show_text: bool) -> None:
+    """Extract structured data from a PDF resume."""
+    from resume_agent.parsers.pdf_parser import extract_text_from_pdf
+
+    config = ctx.obj["config"]
+    if show_text:
+        console.print(extract_text_from_pdf(pdf_path))
+        return
+
+    resume = parse_resume(
+        pdf_path,
+        cache_dir=config.data_dir / "cache",
+        openai_api_key=config.openai_api_key,
+        openai_model=config.openai_model,
+    )
+    out = Path(output)
+    out.write_text(resume_to_yaml(resume), encoding="utf-8")
+    console.print(f"[green]Extracted resume saved to:[/green] {out}")
+    console.print(f"  Name: {resume.name}")
+    console.print(f"  Email: {resume.email}")
+    console.print(f"  Skills: {', '.join(resume.skills[:8]) or 'none detected'}")
+    console.print(
+        "\n[dim]Review and edit the YAML if needed. "
+        "You can keep using the PDF directly with --resume resume.pdf[/dim]"
+    )
+
+
 @main.command("cover-letter")
 @click.argument("job_url")
 @click.pass_context
@@ -176,7 +232,8 @@ def cover_letter_cmd(ctx: click.Context, job_url: str) -> None:
     from resume_agent.search.job_search import stable_job_key
 
     config = ctx.obj["config"]
-    resume = parse_resume(config.resume_path)
+    orchestrator = ResumeApplyOrchestrator(config)
+    resume = orchestrator.load_resume()
     job = Job(
         id=stable_job_key("Custom", "Unknown", job_url),
         title="Position",

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from resume_agent.agents import get_agents, select_agent
-from resume_agent.config import AgentConfig, load_config
+from resume_agent.config import AgentConfig, load_config, resolve_config
 from resume_agent.models.application import ApplicationStatus
 from resume_agent.models.job import Job
 from resume_agent.models.resume import Resume
@@ -12,9 +12,17 @@ from resume_agent.storage.tracker import ApplicationTracker
 
 class ResumeApplyOrchestrator:
     def __init__(self, config: AgentConfig | None = None):
-        self.config = config or load_config()
+        self.config = resolve_config(config or load_config())
         self.tracker = ApplicationTracker(self.config.data_dir / "applications.db")
         self.agents = get_agents(self.config)
+
+    def load_resume(self) -> Resume:
+        return parse_resume(
+            self.config.resume_path,
+            cache_dir=self.config.data_dir / "cache",
+            openai_api_key=self.config.openai_api_key,
+            openai_model=self.config.openai_model,
+        )
 
     async def search_jobs(self, limit: int = 30) -> list[Job]:
         engine = JobSearchEngine(
@@ -31,7 +39,7 @@ class ResumeApplyOrchestrator:
         resume: Resume | None = None,
     ) -> list:
         if resume is None:
-            resume = parse_resume(self.config.resume_path)
+            resume = self.load_resume()
 
         if jobs is None:
             jobs = await self.search_jobs(limit=self.config.max_applications_per_run * 3)

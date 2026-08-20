@@ -23,17 +23,18 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 playwright install chromium
 
-# Create your resume
-cp resume.example.yaml resume.yaml
-# Edit resume.yaml with your info
+# Option A: Use your PDF resume directly (recommended)
+cp /path/to/your/resume.pdf resume.pdf
+resume-agent apply --resume resume.pdf --dry-run
+
+# Option B: Extract PDF to YAML for review, then apply
+resume-agent import-pdf resume.pdf -o resume.yaml
+resume-agent apply --dry-run
 
 # Search jobs
 resume-agent search --limit 20
 
-# Preview applications (dry run)
-resume-agent apply --dry-run
-
-# Apply for real (fills forms, does not submit by default)
+# Apply for real (fills forms + uploads PDF, does not submit by default)
 resume-agent apply --limit 5
 
 # Check application history
@@ -64,6 +65,7 @@ OPENAI_API_KEY=sk-...
 | Command | Description |
 |---------|-------------|
 | `resume-agent init` | Create sample resume.yaml |
+| `resume-agent import-pdf <file>` | Extract PDF resume to YAML |
 | `resume-agent search` | Search matching jobs |
 | `resume-agent apply` | Search + auto-apply |
 | `resume-agent status` | View application history |
@@ -94,25 +96,44 @@ resume-agent/
 
 ## 中文说明
 
-这是一个自动投简历工具，帮助你：
+这是一个自动投简历工具，**直接支持 PDF 简历**。
 
-1. 从 Remotive、Arbeitnow 等远程工作平台搜索职位
-2. 根据关键词自动匹配合适的岗位
-3. 自动生成求职信（支持 OpenAI 智能定制）
-4. 自动填写 Greenhouse / Lever 等常见 ATS 申请表
-5. 记录所有投递历史，避免重复申请
-
-**使用步骤：**
+### 只用 PDF（最简单）
 
 ```bash
 cd resume-agent
 pip install -e .
 playwright install chromium
-cp resume.example.yaml resume.yaml   # 编辑你的简历
-resume-agent search                  # 搜索职位
-resume-agent apply --dry-run         # 预览投递
-resume-agent apply                   # 正式投递
-resume-agent status                  # 查看投递记录
+
+# 把你的 PDF 简历放进来
+cp ~/Downloads/我的简历.pdf resume.pdf
+
+# 预览投递（不会真正提交）
+resume-agent apply --resume resume.pdf --dry-run
+
+# 正式投递（自动填表 + 上传 PDF）
+resume-agent apply --resume resume.pdf
+```
+
+系统会：
+1. 从 PDF 自动提取姓名、邮箱、电话、LinkedIn、技能等
+2. 投递时自动上传你的 PDF 到 Greenhouse / Lever 表单
+3. 生成匹配岗位的求职信
+
+可选：设置 `OPENAI_API_KEY` 后，PDF 解析和求职信质量会更好。
+
+### 其他命令
+
+```bash
+# 把 PDF 解析成 YAML，方便检查和修改
+resume-agent import-pdf resume.pdf -o resume.yaml
+
+# 查看原始 PDF 文本（调试用）
+resume-agent import-pdf resume.pdf --show-text
+
+# 搜索职位 / 查看投递记录
+resume-agent search
+resume-agent status
 ```
 
 默认开启安全模式（dry_run），不会自动提交表单。确认无误后可在配置中设置 `auto_submit: true`。

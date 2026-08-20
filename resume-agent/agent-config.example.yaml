@@ -1,8 +1,9 @@
 # Resume Agent Configuration
 # Copy to agent-config.yaml and customize
 
-resume_path: resume.yaml
-# resume_pdf_path: resume.pdf
+# Primary resume file — supports PDF, YAML, or JSON
+resume_path: resume.pdf
+# resume_pdf_path is auto-set when resume_path is a PDF
 
 data_dir: .resume-agent
 
