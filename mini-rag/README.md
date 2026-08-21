@@ -66,7 +66,7 @@ You should see:
 - `metadata` (includes `source` path)
 - a preview of `page_content`
 
-## Step 3 — Chunking (current)
+## Step 3 — Chunking
 
 ```bash
 python -m src.ingestion --mode chunk
@@ -75,17 +75,29 @@ python -m src.ingestion --mode chunk --chunk-size 200 --chunk-overlap 50 --max-c
 
 Inspect total chunk count, each chunk's length, metadata, and overlap between consecutive chunks.
 
+## Step 4 — Embeddings (current)
+
+Requires a valid `OPENAI_API_KEY` in `.env`.
+
+```bash
+python -m src.embeddings
+```
+
+You should see vector dimensions, a few float values, and cosine similarity scores
+(ARR question high, unrelated bread question low).
+
 ## Project layout
 
 ```
 mini-rag/
-├── data/documents/     # Source files for RAG
+├── data/documents/
 ├── src/
-│   ├── config.py       # Env + chunk defaults
-│   └── ingestion.py    # Load + split (Steps 2–3)
+│   ├── config.py
+│   ├── ingestion.py    # Load + split
+│   └── embeddings.py   # Embedding model demo (Step 4)
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
 
-Later steps add embeddings, vector store, retrieval, `rag.py`, and Streamlit `app.py`.
+Later steps add vector store, retrieval, `rag.py`, and Streamlit `app.py`.

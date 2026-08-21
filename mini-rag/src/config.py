@@ -28,6 +28,9 @@ CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 
+# Embedding model (Step 4)
+EMBEDDING_MODEL = "text-embedding-3-small"
+
 
 def require_openai_api_key() -> str:
     """Fail fast with a clear message if the key is missing."""
