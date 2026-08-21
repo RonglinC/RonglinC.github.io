@@ -51,14 +51,14 @@ If you see `Key loaded: sk-proj...` (or similar), the environment works.
 - Anyone with repo access (or a leaked public repo) can burn your quota / steal access.
 - `.env` + `python-dotenv` keeps secrets local; production later uses a secret manager.
 
-## Step 2 — Document ingestion (current)
+## Step 2 — Document ingestion
 
 Sample file: `data/documents/acme_overview_2024.txt`
 
 ```bash
 cd mini-rag
 source .venv/bin/activate
-python -m src.ingestion
+python -m src.ingestion --mode load
 ```
 
 You should see:
@@ -66,17 +66,26 @@ You should see:
 - `metadata` (includes `source` path)
 - a preview of `page_content`
 
+## Step 3 — Chunking (current)
+
+```bash
+python -m src.ingestion --mode chunk
+python -m src.ingestion --mode chunk --chunk-size 200 --chunk-overlap 50 --max-chunks 8
+```
+
+Inspect total chunk count, each chunk's length, metadata, and overlap between consecutive chunks.
+
 ## Project layout
 
 ```
 mini-rag/
 ├── data/documents/     # Source files for RAG
 ├── src/
-│   ├── config.py       # Env loading (Step 1)
-│   └── ingestion.py    # Document loading (Step 2)
+│   ├── config.py       # Env + chunk defaults
+│   └── ingestion.py    # Load + split (Steps 2–3)
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
 
-Later steps add chunking, embeddings, retrieval, `rag.py`, and Streamlit `app.py`.
+Later steps add embeddings, vector store, retrieval, `rag.py`, and Streamlit `app.py`.

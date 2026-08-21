@@ -24,6 +24,10 @@ DOCUMENTS_DIR = PROJECT_ROOT / "data" / "documents"
 # Where Chroma will persist embeddings on disk (Step 5)
 CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 
+# Chunking defaults (Step 3) — measured in characters for RecursiveCharacterTextSplitter
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 100
+
 
 def require_openai_api_key() -> str:
     """Fail fast with a clear message if the key is missing."""
