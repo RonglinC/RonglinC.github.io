@@ -1,0 +1,65 @@
+Acme Analytics — 2024 Company Overview
+======================================
+
+About Acme Analytics
+--------------------
+Acme Analytics is a B2B software company founded in 2018 and headquartered in Austin, Texas.
+The company builds tools that help mid-market businesses turn operational data into
+actionable insights. Acme's mission is to make trustworthy analytics accessible without
+requiring a dedicated data science team.
+
+Leadership
+----------
+- CEO: Maya Chen
+- CTO: Omar Patel
+- Head of Customer Success: Priya Nair
+
+Products
+--------
+1. Acme Pulse
+   A real-time dashboard product for monitoring KPIs across sales, marketing, and support.
+   Pulse supports live connectors to Salesforce, HubSpot, and Zendesk.
+
+2. Acme Forecast
+   A demand-forecasting product that uses historical order data to predict inventory needs
+   for the next 4–12 weeks. Forecast is designed for retail and e-commerce operations teams.
+
+3. Acme Guard
+   A data-quality monitoring product that alerts teams when pipelines break, schemas drift,
+   or metric definitions change unexpectedly.
+
+Financial Highlights (FY2024)
+-----------------------------
+- Annual recurring revenue (ARR): $42 million
+- Year-over-year revenue growth: 38%
+- Gross margin: 79%
+- Customers: 310 paying customers
+- Net revenue retention (NRR): 118%
+- Average contract value (ACV): $135,000
+
+Customers and Markets
+---------------------
+Acme focuses on mid-market companies with 200–2,000 employees in North America.
+Top industries served: retail, SaaS, logistics, and financial services.
+In 2024, retail customers contributed 41% of ARR, SaaS contributed 27%, logistics 18%,
+and financial services 14%.
+
+Support and SLAs
+----------------
+Acme offers Standard and Enterprise support tiers.
+Standard support responds within 1 business day.
+Enterprise support responds within 4 business hours and includes a dedicated success manager.
+Uptime SLA for Enterprise customers is 99.9%.
+
+Notable Events in 2024
+----------------------
+- Opened a second office in Chicago in March 2024.
+- Launched Acme Guard in June 2024.
+- Closed a Series B funding round of $55 million in September 2024, led by Northriver Ventures.
+- Expanded Salesforce connector coverage to include Opportunity Stages and Campaign ROI fields.
+
+Policies relevant to this overview
+----------------------------------
+This document is an internal overview summary for interview and demo purposes.
+It does not include employee salaries, unpublished roadmap items, or customer-identifying
+contract details.

@@ -12,7 +12,7 @@ Documents → Loader → Splitter → Embeddings → Vector Store
                          Answer ← LLM ← Prompt ← Retriever
 ```
 
-## Step 1 — Environment setup (current)
+## Step 1 — Environment setup
 
 ### 1. Create a virtual environment
 
@@ -51,17 +51,32 @@ If you see `Key loaded: sk-proj...` (or similar), the environment works.
 - Anyone with repo access (or a leaked public repo) can burn your quota / steal access.
 - `.env` + `python-dotenv` keeps secrets local; production later uses a secret manager.
 
+## Step 2 — Document ingestion (current)
+
+Sample file: `data/documents/acme_overview_2024.txt`
+
+```bash
+cd mini-rag
+source .venv/bin/activate
+python -m src.ingestion
+```
+
+You should see:
+- number of documents
+- `metadata` (includes `source` path)
+- a preview of `page_content`
+
 ## Project layout
 
 ```
 mini-rag/
-├── data/documents/   # Put PDFs / .txt files here (Step 2)
+├── data/documents/     # Source files for RAG
 ├── src/
-│   └── config.py     # Env loading (Step 1)
-├── app.py            # Streamlit UI (Step 11)
+│   ├── config.py       # Env loading (Step 1)
+│   └── ingestion.py    # Document loading (Step 2)
 ├── requirements.txt
 ├── .env.example
 └── README.md
 ```
 
-Later steps add `ingestion.py`, `retrieval.py`, and `rag.py`.
+Later steps add chunking, embeddings, retrieval, `rag.py`, and Streamlit `app.py`.
