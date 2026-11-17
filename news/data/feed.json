@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T02:42:31.190087+00:00",
+  "generatedAt": "2026-11-17T11:57:20.790455+00:00",
   "itemCount": 256,
   "sources": [
     {
@@ -517,9 +517,305 @@
   ],
   "items": [
     {
-      "id": "433d15b1fe236bf7",
-      "title": "Optimizely supply chain attack infects major brands' sites with malware",
-      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+      "id": "30902055693190f4",
+      "title": "Holiday shopping in a world of fakes: How AI is changing the game",
+      "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/holiday-shopping-in-a-world-of-fakes-how-ai-is-changing-the-game",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-17T11:29:09+00:00",
+      "excerpt": "It’s the most wonderful time of the year—especially for scammers looking to make the most of shopping season.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint"
+      ]
+    },
+    {
+      "id": "f371a0ab892db2ce",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T11:20:18+00:00",
+      "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been…",
+      "cves": [],
+      "vendors": [
+        "Microsoft",
+        "GitHub"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "ea2549ceae1583e9",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T11:19:51+00:00",
+      "excerpt": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "467b07390d2b9bee",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T11:07:31+00:00",
+      "excerpt": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more…",
+      "cves": [],
+      "vendors": [
+        "Apple"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "5d6e1425b1aa1521",
+      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T10:22:20+00:00",
+      "excerpt": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "511126df0b40bd1c",
+      "title": "ICO Issues GTA 6 Scam Warning as Release Date Nears",
+      "url": "https://www.infosecurity-magazine.com/news/ico-gta-6-scam-warning-release/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T10:15:00+00:00",
+      "excerpt": "The UK's Information Commissioner’s Office has warned of Grand Theft Auto 6-related cyber-attacks",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "99fd76b8eaab3ed9",
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T09:44:22+00:00",
+      "excerpt": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "94cde2c15931e865",
+      "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
+      "url": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T09:30:00+00:00",
+      "excerpt": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "d64abbfcceb07275",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T08:35:42+00:00",
+      "excerpt": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "9f547f88c90e8592",
+      "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+      "url": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-17T08:30:00+00:00",
+      "excerpt": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI. Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. Artificial…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "5e9c46dd307146f2",
+      "title": "Sovereign AI in Europe: New ways to control your AI stack",
+      "url": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-17T08:00:00+00:00",
+      "excerpt": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance with AI under European control. We're here with our European partners to…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "db9154a3ccc4ff32",
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T07:25:44+00:00",
+      "excerpt": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "f431b5f36fe39e75",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T07:12:13+00:00",
+      "excerpt": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom,…",
+      "cves": [],
+      "vendors": [
+        "Apple"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "748c5a7994cba745",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T06:29:27+00:00",
+      "excerpt": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "4e9127c239b9a76e",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-17T05:00:34+00:00",
+      "excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "3dbe7b6eb27754d9",
+      "title": "Q&A: Why building math muscles remains important in the AI era",
+      "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+      "sourceId": "mit-ai",
+      "source": "MIT News — AI",
+      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
+      "category": "ai",
+      "publishedAt": "2026-11-17T05:00:00+00:00",
+      "excerpt": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "f22f3a8174fe3685",
+      "title": "Learning the language of machine learning",
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "sourceId": "mit-ai",
+      "source": "MIT News — AI",
+      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
+      "category": "ai",
+      "publishedAt": "2026-11-17T05:00:00+00:00",
+      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "10c9900a0c2bb972",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
       "sourceId": "bleeping",
       "source": "BleepingComputer",
       "sourceHome": "https://www.bleepingcomputer.com/",
@@ -553,6 +849,24 @@
         "endpoint",
         "cloud",
         "phishing"
+      ]
+    },
+    {
+      "id": "154bcb19c934ec16",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-17T00:00:00+00:00",
+      "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "cves": [],
+      "vendors": [
+        "OpenAI"
+      ],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -682,25 +996,6 @@
       ]
     },
     {
-      "id": "bd8024cdaf9268ea",
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T19:57:13+00:00",
-      "excerpt": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "cloud"
-      ]
-    },
-    {
       "id": "cc05f42c29872cfb",
       "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
       "url": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
@@ -821,26 +1116,6 @@
       ]
     },
     {
-      "id": "d1b20b87d6831ec4",
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T16:43:24+00:00",
-      "excerpt": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "5c9cadb48d82fc47",
       "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
@@ -952,25 +1227,6 @@
       ]
     },
     {
-      "id": "8acac63d5f45fc1e",
-      "title": "Fandango says hackers stole payment card details from checkout pages",
-      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T15:44:21+00:00",
-      "excerpt": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "finance"
-      ]
-    },
-    {
       "id": "fb260dd2841ac267",
       "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
       "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
@@ -1019,25 +1275,6 @@
       "topics": [
         "security",
         "vuln"
-      ]
-    },
-    {
-      "id": "4d09e2f8b0b978e4",
-      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T15:01:11+00:00",
-      "excerpt": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords,…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "identity"
       ]
     },
     {
@@ -1238,23 +1475,6 @@
       ]
     },
     {
-      "id": "737ca2cf429ec583",
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T12:33:18+00:00",
-      "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "endpoint"
-      ]
-    },
-    {
       "id": "df46cd4eb302b441",
       "title": "How to prepare your data for your death (Lock and Code S07E23)",
       "url": "https://www.malwarebytes.com/blog/podcast/2026/11/how-to-prepare-your-data-for-your-death-lock-and-code-s07e23",
@@ -1375,23 +1595,6 @@
       ]
     },
     {
-      "id": "8274ce1c1c47a72b",
-      "title": "Uber Data Breach Impacts 150,000 People",
-      "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T11:02:48+00:00",
-      "excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "5f13b6aa33ecfa4a",
       "title": "Information Commissioner’s Office Receives 300+ Reports of Medical Snooping",
       "url": "https://www.infosecurity-magazine.com/news/ico-300-reports-of-medical-snooping/",
@@ -1409,22 +1612,21 @@
       ]
     },
     {
-      "id": "31b37d4c93ee471b",
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T09:32:57+00:00",
-      "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based…",
+      "id": "a26370526430b9e2",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-16T09:30:00+00:00",
+      "excerpt": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
       "cves": [],
       "vendors": [
-        "Linux"
+        "OpenAI"
       ],
       "topics": [
-        "security",
-        "endpoint"
+        "ai"
       ]
     },
     {
@@ -1549,40 +1751,6 @@
       ]
     },
     {
-      "id": "dd891b7bc37e547c",
-      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T07:34:21+00:00",
-      "excerpt": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
-      "id": "782d64c4abd89b76",
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T06:53:34+00:00",
-      "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by…",
-      "cves": [],
-      "vendors": [
-        "VMware"
-      ],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "018ed68be8b794db",
       "title": "Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models",
       "url": "https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/",
@@ -1600,22 +1768,6 @@
       ]
     },
     {
-      "id": "762c4270342c7167",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-16T06:00:00+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "31e0d2067a2301be",
       "title": "More ways to move care forward with ChatGPT for Healthcare",
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
@@ -1625,24 +1777,6 @@
       "category": "ai",
       "publishedAt": "2026-11-16T06:00:00+00:00",
       "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "cves": [],
-      "vendors": [
-        "OpenAI"
-      ],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "1a8026c4f8684d6c",
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-16T00:00:00+00:00",
-      "excerpt": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "cves": [],
       "vendors": [
         "OpenAI"
@@ -1665,24 +1799,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "eadf96dfdef8b046",
-      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-15T11:27:31+00:00",
-      "excerpt": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app…",
-      "cves": [],
-      "vendors": [
-        "Google"
-      ],
-      "topics": [
-        "security"
       ]
     },
     {
@@ -1947,42 +2063,6 @@
       ]
     },
     {
-      "id": "fb52198dd5d77ff5",
-      "title": "Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26",
-      "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
-      "sourceId": "gcp-blog",
-      "source": "Google Cloud Blog",
-      "sourceHome": "https://cloud.google.com/blog/",
-      "category": "cloud",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "excerpt": "Computational scientists and HPC engineers have always been among the earliest adopters of new computing paradigms, and agents are no exception. Today, research and engineering teams use AI models and agents for things such as ingesting dense scientific literature, optimizing…",
-      "cves": [],
-      "vendors": [
-        "Google"
-      ],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "eb9b6a410b23ebed",
-      "title": "What’s new with Google Cloud",
-      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "sourceId": "gcp-blog",
-      "source": "Google Cloud Blog",
-      "sourceHome": "https://cloud.google.com/blog/",
-      "category": "cloud",
-      "publishedAt": "2026-11-13T17:00:00+00:00",
-      "excerpt": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip: Not sure where to find what you’re looking for on the Google Cloud blog? Start…",
-      "cves": [],
-      "vendors": [
-        "Google"
-      ],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
       "id": "e5a7fae5fa9bc4aa",
       "title": "New York City votes to ban surveillance pricing",
       "url": "https://www.malwarebytes.com/blog/news/2026/11/new-york-city-council-votes-to-ban-surveillance-pricing",
@@ -1996,6 +2076,23 @@
       "vendors": [],
       "topics": [
         "endpoint"
+      ]
+    },
+    {
+      "id": "f141f30be458164b",
+      "title": "Inside the loop: Five AI attack frameworks that never ask permission",
+      "url": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
+      "sourceId": "elastic-sec",
+      "source": "Elastic Security Labs",
+      "sourceHome": "https://www.elastic.co/security-labs/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-13T16:00:00+00:00",
+      "excerpt": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint",
+        "detection"
       ]
     },
     {
@@ -2109,23 +2206,6 @@
       ]
     },
     {
-      "id": "f141f30be458164b",
-      "title": "Inside the loop: Five AI attack frameworks that never ask permission",
-      "url": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
-      "sourceId": "elastic-sec",
-      "source": "Elastic Security Labs",
-      "sourceHome": "https://www.elastic.co/security-labs/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-13T16:00:00+00:00",
-      "excerpt": "Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint",
-        "detection"
-      ]
-    },
-    {
       "id": "d3e1fc40ee2f89c5",
       "title": "56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion",
       "url": "https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion",
@@ -2162,23 +2242,6 @@
       ]
     },
     {
-      "id": "46cf63eb7ed22730",
-      "title": "Hackers' Overreliance on AI Can Result in Weaker Cyber-Attacks, Proofpoint Researcher Says",
-      "url": "https://www.infosecurity-magazine.com/news/hackers-ai-weaker-cyber-attacks/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-13T13:45:00+00:00",
-      "excerpt": "Proofpoint’s Selena Larson notes that threat actors’ reliance on AI has led to lots of mistakes being made, with little evidence of increased sophistication",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
       "id": "53336be2de95583d",
       "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
       "url": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
@@ -2192,27 +2255,6 @@
       "vendors": [],
       "topics": [
         "security"
-      ]
-    },
-    {
-      "id": "72827967bb8b457f",
-      "title": "Microsoft 365 Outage Set to Ramp up Security Risks to Organizations",
-      "url": "https://www.infosecurity-magazine.com/news/microsoft-365-outage-security/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-13T12:29:00+00:00",
-      "excerpt": "While Microsoft resolves the global M365 and Outlook outage, cybersecurity teams remain on high alert as cybercriminals prepare to exploit the chaos",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "finance",
-        "vuln",
-        "azure"
       ]
     },
     {
@@ -2249,22 +2291,6 @@
       "topics": [
         "vuln",
         "security"
-      ]
-    },
-    {
-      "id": "bc6edb3876eac099",
-      "title": "Google pushes second Chrome update this week",
-      "url": "https://www.malwarebytes.com/blog/bugs/2026/11/google-pushes-second-chrome-update-this-week",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-13T11:20:50+00:00",
-      "excerpt": "Google has pushed out a second Chrome update this week, fixing security flaws that could allow attackers to run malicious code.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint"
       ]
     },
     {
@@ -3677,22 +3703,6 @@
       ]
     },
     {
-      "id": "2ffc887b14fd69fc",
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "sourceId": "mit-ai",
-      "source": "MIT News — AI",
-      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
-      "category": "ai",
-      "publishedAt": "2026-11-09T05:00:00+00:00",
-      "excerpt": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "1690ddb9a9590f60",
       "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
       "url": "https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/",
@@ -3767,22 +3777,6 @@
       "topics": [
         "azure",
         "cloud"
-      ]
-    },
-    {
-      "id": "017a99c12dbf11a6",
-      "title": "How to predict the behavior of molecules from scant data",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "sourceId": "mit-ai",
-      "source": "MIT News — AI",
-      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
-      "category": "ai",
-      "publishedAt": "2026-11-06T19:00:00+00:00",
-      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -4419,22 +4413,6 @@
       ]
     },
     {
-      "id": "326dccfbedfab508",
-      "title": "Whole-of-state defense: How SLED agencies can secure critical infrastructure in the AI era",
-      "url": "https://www.tenable.com/blog/whole-of-state-security-sled-critical-infrastructure",
-      "sourceId": "tenable",
-      "source": "Tenable Blog",
-      "sourceHome": "https://www.tenable.com/blog",
-      "category": "vuln",
-      "publishedAt": "2026-10-27T13:00:00+00:00",
-      "excerpt": "AI is widening the attack surface of the critical infrastructure facilities and services that state, local, and education (SLED) organizations run. In the final post of our Cybersecurity Awareness Month series, we explain how a whole-of-state security approach can help SLED…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
       "id": "a051f2949d24d7d8",
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
       "url": "https://blog.cloudflare.com/php-ctf/",
@@ -4450,6 +4428,22 @@
       ],
       "topics": [
         "cloud"
+      ]
+    },
+    {
+      "id": "326dccfbedfab508",
+      "title": "Whole-of-state defense: How SLED agencies can secure critical infrastructure in the AI era",
+      "url": "https://www.tenable.com/blog/whole-of-state-security-sled-critical-infrastructure",
+      "sourceId": "tenable",
+      "source": "Tenable Blog",
+      "sourceHome": "https://www.tenable.com/blog",
+      "category": "vuln",
+      "publishedAt": "2026-10-27T13:00:00+00:00",
+      "excerpt": "AI is widening the attack surface of the critical infrastructure facilities and services that state, local, and education (SLED) organizations run. In the final post of our Cybersecurity Awareness Month series, we explain how a whole-of-state security approach can help SLED…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
       ]
     },
     {
