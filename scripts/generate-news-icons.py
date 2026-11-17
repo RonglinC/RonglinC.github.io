@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write Qingqing mascot PNG icons for the news PWA (no Pillow required)."""
+"""Write Qingqing mascot PNG icons (no Pillow required)."""
 
 from __future__ import annotations
 
@@ -49,47 +49,36 @@ def ellipse(nx: float, ny: float, cx: float, cy: float, rx: float, ry: float) ->
 def pixel(x: int, y: int, size: int) -> tuple[int, int, int, int]:
     nx = (x + 0.5) / size * 2 - 1
     ny = (y + 0.5) / size * 2 - 1
-
-    # Circular sticker backdrop
     sticker = math.hypot(nx, ny)
     if sticker > 0.98:
         return (0, 0, 0, 0)
-    cream = mix((255, 246, 234), (232, 244, 236), (ny + 1) / 2)
-    if sticker > 0.92:
-        return (*mix(cream, (126, 191, 179), 0.55), 255)
+    cream = mix((255, 246, 238), (255, 228, 232), max(0.0, (ny + 1) / 2))
+    if sticker > 0.9:
+        return (*mix(cream, (59, 50, 44), 0.55), 255)
 
     col = cream
-    # Sprout leaves
-    if ellipse(nx, ny, -0.22, -0.72, 0.16, 0.09) <= 1 and nx < 0.05:
-        col = (127, 196, 176)
-    if ellipse(nx, ny, 0.24, -0.72, 0.16, 0.09) <= 1 and nx > -0.05:
-        col = (94, 168, 152)
-    if abs(nx) < 0.03 and -0.72 < ny < -0.42:
-        col = (95, 143, 134)
-
-    # Body
-    if ellipse(nx, ny, 0, 0.08, 0.62, 0.66) <= 1:
-        t = max(0.0, 1 - math.hypot(nx + 0.18, ny + 0.2) / 0.9)
-        col = mix((110, 168, 158), (214, 242, 233), t)
-    # Belly
-    if ellipse(nx, ny, 0, 0.28, 0.36, 0.3) <= 1:
-        col = (255, 247, 238)
-    # Blush
-    if ellipse(nx, ny, -0.38, 0.16, 0.11, 0.07) <= 1 or ellipse(nx, ny, 0.38, 0.16, 0.11, 0.07) <= 1:
-        col = mix(col, (244, 179, 184), 0.7)
-    # Eyes
-    if ellipse(nx, ny, -0.18, 0.0, 0.09, 0.12) <= 1 or ellipse(nx, ny, 0.18, 0.0, 0.09, 0.12) <= 1:
-        col = (44, 44, 44)
-    if ellipse(nx, ny, -0.15, -0.04, 0.03, 0.03) <= 1 or ellipse(nx, ny, 0.21, -0.04, 0.03, 0.03) <= 1:
+    if ellipse(nx, ny, -0.24, -0.7, 0.18, 0.1) <= 1:
+        col = (158, 224, 200)
+    if ellipse(nx, ny, 0.26, -0.7, 0.18, 0.1) <= 1:
+        col = (125, 207, 182)
+    if abs(nx) < 0.035 and -0.7 < ny < -0.38:
+        col = (90, 168, 136)
+    if ellipse(nx, ny, 0.0, 0.12, 0.66, 0.7) <= 1:
+        t = max(0.0, 1 - math.hypot(nx + 0.2, ny + 0.15) / 0.95)
+        col = mix((125, 207, 182), (255, 247, 251), t)
+    if ellipse(nx, ny, 0.0, 0.32, 0.36, 0.28) <= 1:
+        col = (255, 247, 240)
+    if ellipse(nx, ny, -0.4, 0.18, 0.13, 0.08) <= 1 or ellipse(nx, ny, 0.4, 0.18, 0.13, 0.08) <= 1:
+        col = (255, 179, 193)
+    if ellipse(nx, ny, -0.2, 0.02, 0.12, 0.15) <= 1 or ellipse(nx, ny, 0.2, 0.02, 0.12, 0.15) <= 1:
+        col = (43, 36, 32)
+    if ellipse(nx, ny, -0.16, -0.03, 0.045, 0.045) <= 1 or ellipse(nx, ny, 0.24, -0.03, 0.045, 0.045) <= 1:
         col = (255, 255, 255)
-    # Smile
-    smile = math.hypot(nx, ny - 0.18)
-    if 0.11 < smile < 0.16 and ny > 0.16 and abs(nx) < 0.14:
-        col = (92, 74, 58)
-    # Sparkle
-    if math.hypot(nx - 0.52, ny + 0.28) < 0.055:
-        col = (247, 226, 124)
-
+    smile = math.hypot(nx / 0.9, ny - 0.22)
+    if 0.12 < smile < 0.175 and ny > 0.2 and abs(nx) < 0.16:
+        col = (90, 64, 56)
+    if math.hypot(nx - 0.55, ny + 0.32) < 0.07:
+        col = (255, 213, 107)
     return (*col, 255)
 
 

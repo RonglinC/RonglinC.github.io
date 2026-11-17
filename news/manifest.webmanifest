@@ -1,7 +1,7 @@
 {
   "name": "Qingqing — Security & AI News",
   "short_name": "Qingqing",
-  "description": "A cute radial constellation of recent security and AI news. Installable as an app.",
+  "description": "A cute related-story map of security, cloud, Azure, endpoint, vulnerability, finance, and AI news for detection engineers.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
