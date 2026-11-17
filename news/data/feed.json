@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T01:17:23.903770+00:00",
-  "itemCount": 170,
+  "generatedAt": "2026-11-17T01:45:23.627211+00:00",
+  "itemCount": 156,
   "sources": [
     {
       "id": "krebs",
@@ -131,9 +131,9 @@
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": true,
-      "count": 14,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 3"
     },
     {
       "id": "project-zero",
@@ -554,17 +554,6 @@
       "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
     },
     {
-      "id": "bbee134c7344e95c",
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "url": "https://huggingface.co/blog/openrouter",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
-      "category": "ai",
-      "publishedAt": "2026-11-16T00:00:00+00:00",
-      "excerpt": ""
-    },
-    {
       "id": "1a8026c4f8684d6c",
       "title": "The King’s Trust and OpenAI launch £1m partnership",
       "url": "https://openai.com/index/the-kings-trust-and-openai",
@@ -585,6 +574,17 @@
       "category": "ai",
       "publishedAt": "2026-11-16T00:00:00+00:00",
       "excerpt": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
+    },
+    {
+      "id": "bbee134c7344e95c",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "excerpt": ""
     },
     {
       "id": "03d3f29589b6752a",
@@ -917,17 +917,6 @@
       "excerpt": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
     },
     {
-      "id": "86de79c5b7af195c",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-12T18:00:50+00:00",
-      "excerpt": ""
-    },
-    {
       "id": "44e60b292f1cab55",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -1093,17 +1082,6 @@
       "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist."
     },
     {
-      "id": "c2bda7949198ad6b",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-11T15:00:15+00:00",
-      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
-    },
-    {
       "id": "e7ed0be47c06793c",
       "title": "Google DeepMind just mathematically verified key parts of Signal",
       "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
@@ -1203,17 +1181,6 @@
       "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'"
     },
     {
-      "id": "cbdfde6120c2ae5a",
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T16:03:47+00:00",
-      "excerpt": ""
-    },
-    {
       "id": "6b5f262e13cb0af9",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -1247,17 +1214,6 @@
       "excerpt": "It’s a bad one, and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering…"
     },
     {
-      "id": "2f63006d81a32665",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T12:02:28+00:00",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption."
-    },
-    {
       "id": "54186d86b72e1874",
       "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
@@ -1267,17 +1223,6 @@
       "category": "security",
       "publishedAt": "2026-11-10T12:00:00+00:00",
       "excerpt": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks…"
-    },
-    {
-      "id": "d7b12a2a611a408d",
-      "title": "Opening the datasets behind our AI weather models",
-      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T11:13:04+00:00",
-      "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly."
     },
     {
       "id": "d6c86ee15ec487bd",
@@ -1311,17 +1256,6 @@
       "category": "ai",
       "publishedAt": "2026-11-10T00:00:00+00:00",
       "excerpt": ""
-    },
-    {
-      "id": "3b0e4af33c7a9d6d",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-09T19:51:47+00:00",
-      "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety"
     },
     {
       "id": "3e24bacfb02add1f",
@@ -1434,17 +1368,6 @@
       "excerpt": ""
     },
     {
-      "id": "ccf030571041f4fa",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-05T17:05:16+00:00",
-      "excerpt": ""
-    },
-    {
       "id": "8920253e1ab675c3",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -1544,17 +1467,6 @@
       "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected."
     },
     {
-      "id": "ecd5d67a2ce498f0",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-03T17:01:49+00:00",
-      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
-    },
-    {
       "id": "18324131613572d5",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1643,39 +1555,6 @@
       "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections."
     },
     {
-      "id": "6e2429956a00f241",
-      "title": "Speeding up planning decisions with AI",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-30T14:18:30+00:00",
-      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times"
-    },
-    {
-      "id": "e4966435a412e74f",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-28T17:00:58+00:00",
-      "excerpt": ""
-    },
-    {
-      "id": "6332196351797351",
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-27T16:01:38+00:00",
-      "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
-    },
-    {
       "id": "bf3ec0f40df02e85",
       "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
       "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
@@ -1696,17 +1575,6 @@
       "category": "ai",
       "publishedAt": "2026-10-26T16:00:00+00:00",
       "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\""
-    },
-    {
-      "id": "8b55c5c2b80c08da",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-22T14:30:24+00:00",
-      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types."
     },
     {
       "id": "7e2bd068699b6e2c",
@@ -1742,17 +1610,6 @@
       "excerpt": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group,…"
     },
     {
-      "id": "ea5022741d85a138",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-15T16:08:03+00:00",
-      "excerpt": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
-    },
-    {
       "id": "3c4c26c99359100c",
       "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
       "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
@@ -1773,17 +1630,6 @@
       "category": "security",
       "publishedAt": "2026-10-14T14:22:49+00:00",
       "excerpt": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia…"
-    },
-    {
-      "id": "b59f765bf36db82f",
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-10-14T02:00:14+00:00",
-      "excerpt": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
     },
     {
       "id": "9c96587bbe5111c9",
