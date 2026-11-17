@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#8ebfb4" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Qingqing" />
+    <meta
+      name="description"
+      content="Qingqing radiates the latest security and AI news from a cute mind-map you can install as an app."
+    />
+    <title>Qingqing — Security &amp; AI News</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#sky">Skip to constellation</a>
+
+    <header class="app-header">
+      <a class="brand" href="./" aria-label="Qingqing home">
+        <img src="./character.svg" width="40" height="44" alt="" />
+        <span class="brand-text">
+          <strong>Qingqing</strong>
+          <span>青青 · radiates news</span>
+        </span>
+      </a>
+      <label class="search-wrap">
+        <span class="sr-only">Search stories</span>
+        <input id="search" class="search" type="search" placeholder="Find a spark…" autocomplete="off" />
+      </label>
+      <div class="header-actions">
+        <a class="ghost" href="https://ronglinc.github.io/">Home</a>
+        <button id="install" class="ghost" type="button" hidden>Install</button>
+        <button id="refresh" class="refresh" type="button">Refresh</button>
+      </div>
+    </header>
+
+    <div class="status-row" aria-live="polite">
+      <span id="updated">Waking Qingqing…</span>
+      <span id="count">0 sparks</span>
+      <span id="origin">Snapshot</span>
+      <span id="offline" class="warn" hidden>Offline · saved sparks</span>
+      <span class="hint-inline">Drag to wander · tap a moon or spark</span>
+    </div>
+
+    <div class="sky-wrap" id="sky-wrap">
+      <div class="sky" id="sky" aria-label="News constellation">
+        <svg class="links" id="links" aria-hidden="true"></svg>
+        <div class="orbits" id="orbits" aria-hidden="true"></div>
+        <button class="hub" id="hub" type="button" title="Show every spark">
+          <span class="hub-glow"></span>
+          <img src="./character.svg" width="108" height="118" alt="" />
+          <span class="hub-label">
+            <b>Qingqing</b>
+            <small id="hub-caption">gathering sparks</small>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <section id="sheet" class="sheet" hidden>
+      <button class="sheet-close" id="sheet-close" type="button" aria-label="Close story">×</button>
+      <div class="sheet-handle" aria-hidden="true"></div>
+      <div id="sheet-body"></div>
+    </section>
+
+    <footer class="app-footer">
+      <p>
+        Qingqing is a celadon sprite who fans public headlines outward — security on the
+        mint moon, AI on the lilac moon. Stories are attributed; tap through to the source.
+      </p>
+      <p>
+        Run locally: <code>python3 -m http.server 8000</code> then open <code>/news/</code>.
+        Snapshot: <code>python3 scripts/fetch-news.py</code>.
+      </p>
+    </footer>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
