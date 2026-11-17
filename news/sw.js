@@ -1,4 +1,4 @@
-const CACHE = "qingqing-news-v2";
+const CACHE = "qingqing-news-v3";
 const PRECACHE = [
   "./",
   "./index.html",

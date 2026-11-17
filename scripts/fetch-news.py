@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch public security + AI RSS/Atom feeds into news/data/feed.json.
+"""Fetch public security, cloud, Azure, endpoint, vuln, finance, and AI RSS/Atom feeds.
 
-GitHub Pages cannot proxy third-party RSS (CORS). This script runs at build
-time and on a schedule so the PWA can load a same-origin snapshot. The
-browser may also try a live refresh through public CORS proxies.
+Writes news/data/feed.json for GitHub Pages (no CORS). Also extracts CVEs, vendors,
+and topics so the PWA can draw related-story links.
 """
 
 from __future__ import annotations
@@ -14,7 +13,6 @@ import json
 import re
 import sys
 import time
-import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -26,105 +24,117 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "news" / "data" / "feed.json"
 USER_AGENT = (
-    "PulseNews/1.0 (+https://ronglinc.github.io/news/; "
-    "personal security+AI news aggregator)"
+    "QingqingNews/1.1 (+https://ronglinc.github.io/news/; "
+    "personal security news aggregator for detection engineers)"
 )
 TIMEOUT = 18
-PER_SOURCE = 14
+PER_SOURCE = 8
 
 FEEDS = [
-    {
-        "id": "krebs",
-        "name": "Krebs on Security",
-        "category": "security",
-        "url": "https://krebsonsecurity.com/feed/",
-        "home": "https://krebsonsecurity.com/",
-    },
-    {
-        "id": "thn",
-        "name": "The Hacker News",
-        "category": "security",
-        "url": "https://feeds.feedburner.com/TheHackersNews",
-        "home": "https://thehackernews.com/",
-    },
-    {
-        "id": "bleeping",
-        "name": "BleepingComputer",
-        "category": "security",
-        "url": "https://www.bleepingcomputer.com/feed/",
-        "home": "https://www.bleepingcomputer.com/",
-    },
-    {
-        "id": "cisa",
-        "name": "CISA Advisories",
-        "category": "security",
-        "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-        "home": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-    },
-    {
-        "id": "schneier",
-        "name": "Schneier on Security",
-        "category": "security",
-        "url": "https://www.schneier.com/feed/atom/",
-        "home": "https://www.schneier.com/",
-    },
-    {
-        "id": "project-zero",
-        "name": "Google Project Zero",
-        "category": "security",
-        "url": "https://projectzero.google/feed.xml",
-        "home": "https://googleprojectzero.blogspot.com/",
-    },
-    {
-        "id": "openai",
-        "name": "OpenAI News",
-        "category": "ai",
-        "url": "https://openai.com/news/rss.xml",
-        "home": "https://openai.com/news/",
-    },
-    {
-        "id": "deepmind",
-        "name": "Google DeepMind",
-        "category": "ai",
-        "url": "https://deepmind.google/blog/rss.xml",
-        "home": "https://deepmind.google/blog/",
-    },
-    {
-        "id": "huggingface",
-        "name": "Hugging Face Blog",
-        "category": "ai",
-        "url": "https://huggingface.co/blog/feed.xml",
-        "home": "https://huggingface.co/blog",
-    },
-    {
-        "id": "mit-ai",
-        "name": "MIT News — AI",
-        "category": "ai",
-        "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
-        "home": "https://news.mit.edu/topic/artificial-intelligence2",
-    },
-    {
-        "id": "ars-ai",
-        "name": "Ars Technica — AI",
-        "category": "ai",
-        "url": "https://arstechnica.com/ai/feed/",
-        "home": "https://arstechnica.com/ai/",
-    },
-    {
-        "id": "nvidia-ai",
-        "name": "NVIDIA Technical Blog",
-        "category": "ai",
-        "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
-        "home": "https://blogs.nvidia.com/",
-    },
-    {
-        "id": "google-ai",
-        "name": "Google AI Blog",
-        "category": "ai",
-        "url": "https://blog.google/technology/ai/rss/",
-        "home": "https://blog.google/technology/ai/",
-    },
+    # Core security
+    {"id": "krebs", "name": "Krebs on Security", "category": "security", "topics": ["finance"], "url": "https://krebsonsecurity.com/feed/", "home": "https://krebsonsecurity.com/"},
+    {"id": "thn", "name": "The Hacker News", "category": "security", "topics": [], "url": "https://feeds.feedburner.com/TheHackersNews", "home": "https://thehackernews.com/"},
+    {"id": "bleeping", "name": "BleepingComputer", "category": "security", "topics": ["vuln", "endpoint"], "url": "https://www.bleepingcomputer.com/feed/", "home": "https://www.bleepingcomputer.com/"},
+    {"id": "schneier", "name": "Schneier on Security", "category": "security", "topics": [], "url": "https://www.schneier.com/feed/atom/", "home": "https://www.schneier.com/"},
+    {"id": "darkreading", "name": "Dark Reading", "category": "security", "topics": [], "url": "https://www.darkreading.com/rss.xml", "home": "https://www.darkreading.com/"},
+    {"id": "securityweek", "name": "SecurityWeek", "category": "security", "topics": ["vuln"], "url": "https://www.securityweek.com/feed/", "home": "https://www.securityweek.com/"},
+    {"id": "infosecmag", "name": "Infosecurity Magazine", "category": "security", "topics": ["finance"], "url": "https://www.infosecurity-magazine.com/rss/news/", "home": "https://www.infosecurity-magazine.com/"},
+    {"id": "unit42", "name": "Palo Alto Unit 42", "category": "security", "topics": ["endpoint"], "url": "https://unit42.paloaltonetworks.com/feed/", "home": "https://unit42.paloaltonetworks.com/"},
+    {"id": "talos", "name": "Cisco Talos", "category": "security", "topics": ["vuln", "endpoint"], "url": "https://blog.talosintelligence.com/rss/", "home": "https://blog.talosintelligence.com/"},
+    # Vulnerabilities
+    {"id": "cisa", "name": "CISA Advisories", "category": "vuln", "topics": ["security"], "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "home": "https://www.cisa.gov/news-events/cybersecurity-advisories"},
+    {"id": "project-zero", "name": "Google Project Zero", "category": "vuln", "topics": ["security"], "url": "https://projectzero.google/feed.xml", "home": "https://googleprojectzero.blogspot.com/"},
+    {"id": "zdi", "name": "Zero Day Initiative", "category": "vuln", "topics": [], "url": "https://www.zerodayinitiative.com/rss/published/", "home": "https://www.zerodayinitiative.com/"},
+    {"id": "rapid7", "name": "Rapid7 Blog", "category": "vuln", "topics": [], "url": "https://www.rapid7.com/rss.xml", "home": "https://www.rapid7.com/blog/"},
+    {"id": "tenable", "name": "Tenable Blog", "category": "vuln", "topics": [], "url": "https://www.tenable.com/blog/feed", "home": "https://www.tenable.com/blog"},
+    {"id": "msrc", "name": "Microsoft Update Guide", "category": "vuln", "topics": ["azure"], "url": "https://api.msrc.microsoft.com/update-guide/rss", "home": "https://msrc.microsoft.com/update-guide/"},
+    # Cloud
+    {"id": "aws-sec", "name": "AWS Security Blog", "category": "cloud", "topics": [], "url": "https://aws.amazon.com/blogs/security/feed/", "home": "https://aws.amazon.com/blogs/security/"},
+    {"id": "gcp-blog", "name": "Google Cloud Blog", "category": "cloud", "topics": [], "url": "https://cloudblog.withgoogle.com/rss/", "home": "https://cloud.google.com/blog/"},
+    {"id": "wiz", "name": "Wiz Blog", "category": "cloud", "topics": ["vuln"], "url": "https://www.wiz.io/feed/rss.xml", "home": "https://www.wiz.io/blog"},
+    {"id": "datadog-sec", "name": "Datadog Security Labs", "category": "cloud", "topics": ["detection"], "url": "https://securitylabs.datadoghq.com/rss/feed.xml", "home": "https://securitylabs.datadoghq.com/"},
+    {"id": "cloudflare-sec", "name": "Cloudflare Security", "category": "cloud", "topics": [], "url": "https://blog.cloudflare.com/tag/security/rss/", "home": "https://blog.cloudflare.com/tag/security/"},
+    {"id": "okta-sec", "name": "Okta Security", "category": "cloud", "topics": ["identity"], "url": "https://sec.okta.com/rss.xml", "home": "https://sec.okta.com/"},
+    # Azure
+    {"id": "ms-security", "name": "Microsoft Security Blog", "category": "azure", "topics": ["endpoint", "cloud"], "url": "https://www.microsoft.com/en-us/security/blog/feed/", "home": "https://www.microsoft.com/en-us/security/blog/"},
+    {"id": "azure-blog", "name": "Azure Blog", "category": "azure", "topics": ["cloud"], "url": "https://azure.microsoft.com/en-us/blog/feed/", "home": "https://azure.microsoft.com/en-us/blog/"},
+    # Endpoint
+    {"id": "crowdstrike", "name": "CrowdStrike Blog", "category": "endpoint", "topics": ["detection"], "url": "https://www.crowdstrike.com/en-us/blog/feed", "home": "https://www.crowdstrike.com/en-us/blog/"},
+    {"id": "sentinelone", "name": "SentinelOne Blog", "category": "endpoint", "topics": ["detection"], "url": "https://www.sentinelone.com/blog/feed/", "home": "https://www.sentinelone.com/blog/"},
+    {"id": "malwarebytes", "name": "Malwarebytes Labs", "category": "endpoint", "topics": [], "url": "https://www.malwarebytes.com/blog/feed/index.xml", "home": "https://www.malwarebytes.com/blog/"},
+    {"id": "elastic-sec", "name": "Elastic Security Labs", "category": "endpoint", "topics": ["detection"], "url": "https://www.elastic.co/security-labs/rss/feed.xml", "home": "https://www.elastic.co/security-labs/"},
+    # AI
+    {"id": "openai", "name": "OpenAI News", "category": "ai", "topics": [], "url": "https://openai.com/news/rss.xml", "home": "https://openai.com/news/"},
+    {"id": "deepmind", "name": "Google DeepMind", "category": "ai", "topics": [], "url": "https://deepmind.google/blog/rss.xml", "home": "https://deepmind.google/blog/"},
+    {"id": "huggingface", "name": "Hugging Face Blog", "category": "ai", "topics": [], "url": "https://huggingface.co/blog/feed.xml", "home": "https://huggingface.co/blog"},
+    {"id": "mit-ai", "name": "MIT News — AI", "category": "ai", "topics": [], "url": "https://news.mit.edu/rss/topic/artificial-intelligence2", "home": "https://news.mit.edu/topic/artificial-intelligence2"},
+    {"id": "ars-ai", "name": "Ars Technica — AI", "category": "ai", "topics": [], "url": "https://arstechnica.com/ai/feed/", "home": "https://arstechnica.com/ai/"},
+    {"id": "nvidia-ai", "name": "NVIDIA Technical Blog", "category": "ai", "topics": [], "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/", "home": "https://blogs.nvidia.com/"},
+    {"id": "google-ai", "name": "Google AI Blog", "category": "ai", "topics": [], "url": "https://blog.google/technology/ai/rss/", "home": "https://blog.google/technology/ai/"},
 ]
+
+CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.I)
+
+VENDOR_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    ("Microsoft", re.compile(r"\b(microsoft|azure|entra|defender|windows|m365|office 365|active directory|activedirectory)\b", re.I)),
+    ("Amazon Web Services", re.compile(r"\b(aws|amazon web services|amazon s3)\b", re.I)),
+    ("Google", re.compile(r"\b(google cloud|gcp|google chrome|android)\b", re.I)),
+    ("CrowdStrike", re.compile(r"\bcrowdstrike\b|\bfalcon\b", re.I)),
+    ("SentinelOne", re.compile(r"\bsentinelone\b", re.I)),
+    ("Palo Alto Networks", re.compile(r"\bpalo alto\b|\bunit 42\b|\bprisma cloud\b", re.I)),
+    ("Cisco", re.compile(r"\bcisco\b|\btalos\b", re.I)),
+    ("Fortinet", re.compile(r"\bfortinet\b|\bfortigate\b", re.I)),
+    ("Okta", re.compile(r"\bokta\b", re.I)),
+    ("Cloudflare", re.compile(r"\bcloudflare\b", re.I)),
+    ("Apple", re.compile(r"\b(apple|ios|macos|iphone)\b", re.I)),
+    ("Linux", re.compile(r"\b(linux|kernel)\b", re.I)),
+    ("Kubernetes", re.compile(r"\b(kubernetes|k8s)\b", re.I)),
+    ("GitHub", re.compile(r"\bgithub\b", re.I)),
+    ("OpenAI", re.compile(r"\bopenai\b|\bchatgpt\b", re.I)),
+    ("Ivanti", re.compile(r"\bivanti\b", re.I)),
+    ("Citrix", re.compile(r"\bcitrix\b|\bnetscaler\b", re.I)),
+    ("VMware", re.compile(r"\bvmware\b", re.I)),
+    ("Okta", re.compile(r"\bokta\b", re.I)),
+    ("Snowflake", re.compile(r"\bsnowflake\b", re.I)),
+    ("Wiz", re.compile(r"\bwiz\b", re.I)),
+    ("Elastic", re.compile(r"\belastic(search)?\b", re.I)),
+    ("Splunk", re.compile(r"\bsplunk\b", re.I)),
+]
+
+TOPIC_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    ("vuln", re.compile(r"\b(cve-\d{4}-\d+|vulnerabilit|zero-?day|n-day|rce|remote code|advisory|patch tuesday|exploit)\b", re.I)),
+    ("ransomware", re.compile(r"\bransomware\b|\bextortion\b", re.I)),
+    ("phishing", re.compile(r"\bphish|\bbeef\b|\bcredential theft\b", re.I)),
+    ("endpoint", re.compile(r"\b(edr|xdr|endpoint|malware|trojan|backdoor|loader)\b", re.I)),
+    ("cloud", re.compile(r"\b(cloud|aws|gcp|kubernetes|container|s3 bucket)\b", re.I)),
+    ("azure", re.compile(r"\b(azure|entra|m365|office 365|active directory)\b", re.I)),
+    ("finance", re.compile(r"\b(bank|banking|swift|atm|payment card|pci|fintech|wire fraud|ach)\b", re.I)),
+    ("identity", re.compile(r"\b(identity|iam|mfa|sso|okta|entra id)\b", re.I)),
+    ("detection", re.compile(r"\b(detection|siem|sigma|yara|telemetry|hunt)\b", re.I)),
+    ("ai", re.compile(r"\b(llm|generative ai|machine learning|chatgpt|openai|model)\b", re.I)),
+]
+
+
+def extract_signals(title: str, excerpt: str, source: dict) -> dict:
+    text = f"{title} {excerpt}"
+    cves = sorted({match.group(0).upper() for match in CVE_RE.finditer(text)})
+    vendors: list[str] = []
+    seen_v: set[str] = set()
+    for name, pattern in VENDOR_PATTERNS:
+        if name not in seen_v and pattern.search(text):
+            vendors.append(name)
+            seen_v.add(name)
+    topics: list[str] = []
+    seen_t: set[str] = set()
+    for topic in [source.get("category"), *(source.get("topics") or [])]:
+        if topic and topic not in seen_t:
+            topics.append(topic)
+            seen_t.add(topic)
+    for name, pattern in TOPIC_PATTERNS:
+        if name not in seen_t and pattern.search(text):
+            topics.append(name)
+            seen_t.add(name)
+    return {"cves": cves, "vendors": vendors, "topics": topics}
 
 
 class _TextExtractor(HTMLParser):
@@ -242,6 +252,7 @@ def parse_feed(xml_bytes: bytes, source: dict) -> list[dict]:
             child_text(entry, "pubdate", "published", "updated", "date", "dc:date")
         )
         item_id = hashlib.sha1(f"{source['id']}|{link}".encode()).hexdigest()[:16]
+        signals = extract_signals(title, summary, source)
         items.append(
             {
                 "id": item_id,
@@ -253,6 +264,7 @@ def parse_feed(xml_bytes: bytes, source: dict) -> list[dict]:
                 "category": source["category"],
                 "publishedAt": published,
                 "excerpt": summary,
+                **signals,
             }
         )
     return items
@@ -287,7 +299,7 @@ def main() -> int:
     items: list[dict] = []
     status: list[dict] = []
 
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=10) as pool:
         futures = [pool.submit(fetch_source, source) for source in FEEDS]
         for fut in as_completed(futures):
             source, entries, error = fut.result()
@@ -305,7 +317,6 @@ def main() -> int:
             mark = "ok" if not error else "fail"
             print(f"[{mark}] {source['name']}: {len(entries)} items" + (f" ({error})" if error else ""))
 
-    # Newest first; drop duplicate URLs, keeping the first (newest) occurrence.
     items.sort(key=sort_key, reverse=True)
     seen: set[str] = set()
     unique: list[dict] = []
