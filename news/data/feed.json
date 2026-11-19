@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:36:27.758988+00:00",
+  "generatedAt": "2026-11-19T11:45:52.406982+00:00",
   "itemCount": 264,
   "sources": [
     {
@@ -342,17 +342,17 @@
       "id": "gcp-blog",
       "name": "Google Cloud Blog",
       "category": "cloud",
-      "ok": false,
-      "count": 0,
-      "error": "HTTPError: HTTP Error 500: Internal Server Error"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": true,
-      "count": 8,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 2"
     },
     {
       "id": "project-zero",
@@ -517,6 +517,325 @@
   ],
   "items": [
     {
+      "id": "12c5962b7c47d02d",
+      "title": "TfL Warns 265,000 Photocard Customers May Have Had Personal Data Exposed",
+      "url": "https://www.infosecurity-magazine.com/news/tfl-customers-personal-data-exposed/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T11:35:00+00:00",
+      "excerpt": "London’s transport body was alerted to the incident after emails were sent from TfL’s system to Oyster Photocard customers",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "63b7c01c5678383a",
+      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+      "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T10:41:05+00:00",
+      "excerpt": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "Splunk"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "735902368319afce",
+      "title": "Microsoft confirms app installation, launch issues after hotpatch",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T10:35:05+00:00",
+      "excerpt": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "d9f8a2f9710fad16",
+      "title": "A Fifth of UK Employees Share Passwords with AI",
+      "url": "https://www.infosecurity-magazine.com/news/fifth-uk-employees-share-passwords/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T10:30:00+00:00",
+      "excerpt": "Dashlane research reveals UK workers are sharing passwords with AI tools and granting access to sensitive data, raising major enterprise security concerns",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "c148f7b737b01f87",
+      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+      "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T10:26:51+00:00",
+      "excerpt": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "b921ef8b2b420eb3",
+      "title": "Scattered Spider’s phishing and SIM-swap tactics led to six-year sentence",
+      "url": "https://www.malwarebytes.com/blog/news/2026/11/scattered-spiders-phishing-and-sim-swap-tactics-led-to-six-year-sentence",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-19T09:41:18+00:00",
+      "excerpt": "Scattered Spider used fake texts to break into systems and SIM swaps to intercept security codes. Here’s how to protect your number.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint",
+        "phishing"
+      ]
+    },
+    {
+      "id": "fdc99cc9c89f1ee1",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T09:31:26+00:00",
+      "excerpt": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "cloud"
+      ]
+    },
+    {
+      "id": "16b1b4bd1b0501ca",
+      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T09:23:21+00:00",
+      "excerpt": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "6332d965cdd35a36",
+      "title": "Rakuten Securities Breach Could Impact 15 Million Customers",
+      "url": "https://www.infosecurity-magazine.com/news/rakuten-securities-breach-15/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T09:20:00+00:00",
+      "excerpt": "Japanese broker Rakuten Securities has revealed a data breach involving the account details of 15 million customers",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "78109bac3e3d051e",
+      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+      "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T09:10:58+00:00",
+      "excerpt": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact. The post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "Cisco",
+        "Cloudflare",
+        "Elastic"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "20eda4034036f3a5",
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T08:42:11+00:00",
+      "excerpt": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "233ea26754e6be8a",
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T08:14:00+00:00",
+      "excerpt": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "49c36bf142411374",
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T08:00:00+00:00",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "5d6f42240a756aee",
+      "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
+      "url": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T08:00:00+00:00",
+      "excerpt": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top-5 most attacked countries globally.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "11bab3833d4170bd",
+      "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
+      "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T07:45:17+00:00",
+      "excerpt": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek.",
+      "cves": [
+        "CVE-2026-115560"
+      ],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "59c364cadfc93e10",
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T04:33:46+00:00",
+      "excerpt": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "a1cabfac7757cf2b",
+      "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+      "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T03:25:23+00:00",
+      "excerpt": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "b99f1620a53ca6de",
+      "title": "France Is Blaming Iran for the Fridge Cyberattack",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "sourceId": "schneier",
+      "source": "Schneier on Security",
+      "sourceHome": "https://www.schneier.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T03:15:04+00:00",
+      "excerpt": "Interesting: U.S. intelligence agencies have recently reached a “low confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A “low confidence”…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
       "id": "9dbdbefbb4fe8e3f",
       "title": "NGINX2Root (CVE-2026-123007): Frequently asked questions about five critical NGINX vulnerabilities",
       "url": "https://www.tenable.com/blog/nginx2root-cve-2026-123007-frequently-asked-questions-about-five-critical-nginx",
@@ -640,19 +959,19 @@
       ]
     },
     {
-      "id": "2f35e3e97cab26e2",
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T21:35:43+00:00",
-      "excerpt": "",
+      "id": "6d8f1033c5c2111e",
+      "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+      "url": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T21:36:00+00:00",
+      "excerpt": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for…",
       "cves": [],
       "vendors": [],
       "topics": [
-        "ai"
+        "cloud"
       ]
     },
     {
@@ -826,22 +1145,6 @@
       ]
     },
     {
-      "id": "d53685db8985606d",
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T18:13:42+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "dc7150fc8f352833",
       "title": "Will Wright's next simulation will use AI to mine content from your memories",
       "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
@@ -855,6 +1158,24 @@
       "vendors": [],
       "topics": [
         "ai"
+      ]
+    },
+    {
+      "id": "8f8226fd9f1833b6",
+      "title": "EMEA startups building the next-generation of agents on Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:30:00+00:00",
+      "excerpt": "As thousands of founders, investors, and technology leaders gather in Helsinki for Slush 2026, the European startup ecosystem is undergoing a profound transformation. The conversation has moved from AI experiments to operating agents. Across Europe, the Middle East, and…",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "cloud"
       ]
     },
     {
@@ -892,6 +1213,92 @@
       ],
       "topics": [
         "ai"
+      ]
+    },
+    {
+      "id": "30e97a40a4e4386c",
+      "title": "What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills",
+      "url": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:00:00+00:00",
+      "excerpt": "In June we introduced the Open Knowledge Format (OKF), an open specification that provides plain markdown and YAML to give agents the context they need. In July, v0.2 added trust signals: provenance, trust, freshness, lifecycle, and attestation. In production, bundles move…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "500419796383d42a",
+      "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
+      "url": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:00:00+00:00",
+      "excerpt": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides proactive recommendations, database administrators still…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "07943673d8359190",
+      "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+      "url": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:00:00+00:00",
+      "excerpt": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel.…",
+      "cves": [],
+      "vendors": [
+        "Linux"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "05852ebe8a936978",
+      "title": "Building an agentic stack in Envoy: routing models, tokens, and MCP",
+      "url": "https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:00:00+00:00",
+      "excerpt": "At Google Cloud, we believe the next generation of AI and agentic systems must be built on open, battle-tested foundations. Envoy, an open-source edge and service proxy designed for cloud-native applications, has already transformed microservices and modern cloud networking,…",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "f84705bb63ead6d4",
+      "title": "Scaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clusters",
+      "url": "https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T17:00:00+00:00",
+      "excerpt": "TL;DR: Single-stack IPv6 on GKE runs both nodes and pods without having to use private IPv4 addresses. Available in preview for Cloud TPU v6e and CPU node pools, including Axion, it works with DNS64/NAT64 to reach IPv4 endpoints. Long before they run out of compute or power,…",
+      "cves": [],
+      "vendors": [
+        "Kubernetes"
+      ],
+      "topics": [
+        "cloud"
       ]
     },
     {
@@ -971,14 +1378,14 @@
     },
     {
       "id": "0178fef96e57c1ae",
-      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+      "title": "Vero Security Raises $11 Million for AI Security Engineering Platform",
       "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
       "sourceId": "securityweek",
       "source": "SecurityWeek",
       "sourceHome": "https://www.securityweek.com/",
       "category": "security",
       "publishedAt": "2026-11-18T15:30:42+00:00",
-      "excerpt": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek.",
+      "excerpt": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post Vero Security Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek.",
       "cves": [],
       "vendors": [],
       "topics": [
@@ -1096,19 +1503,20 @@
       ]
     },
     {
-      "id": "0297b66520daa63c",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
+      "id": "ae02570cad8cc771",
+      "title": "Suspected Chinese APT Rebuilds EggStreme Malware After Exposure",
+      "url": "https://www.infosecurity-magazine.com/news/eggstreme-malware-rebuilt-after/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
       "category": "security",
-      "publishedAt": "2026-11-18T14:11:28+00:00",
-      "excerpt": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender…",
+      "publishedAt": "2026-11-18T14:00:00+00:00",
+      "excerpt": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
       "cves": [],
       "vendors": [],
       "topics": [
         "security",
+        "finance",
         "endpoint"
       ]
     },
@@ -1127,24 +1535,6 @@
       "topics": [
         "security",
         "vuln"
-      ]
-    },
-    {
-      "id": "ae02570cad8cc771",
-      "title": "Suspected Chinese APT Rebuilds EggStreme Malware After Exposure",
-      "url": "https://www.infosecurity-magazine.com/news/eggstreme-malware-rebuilt-after/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T14:00:00+00:00",
-      "excerpt": "Suspected Chinese APT rebuilt EggStreme malware and infrastructure after Bitdefender exposure",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance",
-        "endpoint"
       ]
     },
     {
@@ -1254,75 +1644,6 @@
       ]
     },
     {
-      "id": "646f1c07740f32f8",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T12:28:30+00:00",
-      "excerpt": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security"
-      ]
-    },
-    {
-      "id": "a1df6a877b306973",
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T12:15:00+00:00",
-      "excerpt": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
-      "id": "35c2e4dd43b696c8",
-      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T12:14:23+00:00",
-      "excerpt": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "b99f1620a53ca6de",
-      "title": "France Is Blaming Iran for the Fridge Cyberattack",
-      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "sourceId": "schneier",
-      "source": "Schneier on Security",
-      "sourceHome": "https://www.schneier.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T12:06:34+00:00",
-      "excerpt": "Interesting: U.S. intelligence agencies have recently reached a “”ow confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A “low confidence”…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "39b020024df59476",
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -1340,44 +1661,6 @@
       "topics": [
         "vuln",
         "security"
-      ]
-    },
-    {
-      "id": "7e791868e47f558b",
-      "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-      "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T12:00:00+00:00",
-      "excerpt": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow. The post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "identity"
-      ]
-    },
-    {
-      "id": "37822098abffec72",
-      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T11:55:49+00:00",
-      "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and…",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -1417,23 +1700,6 @@
       ]
     },
     {
-      "id": "c80b952773e71163",
-      "title": "Chrome 158 Patches 204 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T11:43:22+00:00",
-      "excerpt": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "1bbd32dd838ba71a",
       "title": "Java4Shell: A critical flaw with a narrow reach",
       "url": "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
@@ -1447,44 +1713,6 @@
       "vendors": [],
       "topics": [
         "endpoint"
-      ]
-    },
-    {
-      "id": "072370a9a176dc02",
-      "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-      "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T11:05:39+00:00",
-      "excerpt": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "Microsoft",
-        "GitHub"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "azure"
-      ]
-    },
-    {
-      "id": "107b673452e2fc4a",
-      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T11:03:57+00:00",
-      "excerpt": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -1526,60 +1754,6 @@
       ]
     },
     {
-      "id": "5f75cfcabfc0a05f",
-      "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T10:37:08+00:00",
-      "excerpt": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek.",
-      "cves": [
-        "CVE-2026-115731"
-      ],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "7469ff28f50f2287",
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T10:35:05+00:00",
-      "excerpt": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
-      "id": "77fd420a5d15bf76",
-      "title": "Three AI Models Agree on Just One of 121 Potential Code Flaws",
-      "url": "https://www.infosecurity-magazine.com/news/ai-models-vulnerability-findings/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T10:00:00+00:00",
-      "excerpt": "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
       "id": "ac3b3cc199fd91db",
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
@@ -1595,43 +1769,6 @@
       ],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "1c959516f7fa890c",
-      "title": "Watchdog Warns UK Government Is Falling Short on Risk Management",
-      "url": "https://www.infosecurity-magazine.com/news/watchdog-government-risk/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T09:30:00+00:00",
-      "excerpt": "National Audit Office report claims risk management failures are leading to poor government decisions",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
-      "id": "a0a5553adda9644b",
-      "title": "Microsoft announces Windows Server 2028 with hardened security",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-18T09:24:31+00:00",
-      "excerpt": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1965,6 +2102,23 @@
       ]
     },
     {
+      "id": "7d538823e8d663be",
+      "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-18T00:11:00+00:00",
+      "excerpt": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud",
+        "ai"
+      ]
+    },
+    {
       "id": "535e9de77afe80e5",
       "title": "NGINX2Root: NGINX RCE Security Updates (CVE-2026-123633, CVE-2026-123007, CVE-2026-113425, CVE-2026-121810, CVE-2026-123634)",
       "url": "https://sec.okta.com/articles/2026/11/nginx2root-nginx-rce-security-updates/",
@@ -1973,7 +2127,7 @@
       "sourceHome": "https://sec.okta.com/",
       "category": "cloud",
       "publishedAt": "2026-11-18T00:00:00+00:00",
-      "excerpt": "Okta's response We are aware of the NGINX advisories (CVE-2026-123633, CVE-2026-123007). Okta is actively investigating and will provide updates as more information becomes available.",
+      "excerpt": "On November 18, 2026, industry-wide third-party critical NGINX pre-authentication remote code execution (RCE) vulnerabilities, collectively known as NGINX2Root (CVE-2026-123633, CVE-2026-123007, CVE-2026-113425, CVE-2026-121810, and CVE-2026-123634), were disclosed. Read on…",
       "cves": [
         "CVE-2026-113425",
         "CVE-2026-121810",
@@ -1981,9 +2135,7 @@
         "CVE-2026-123633",
         "CVE-2026-123634"
       ],
-      "vendors": [
-        "Okta"
-      ],
+      "vendors": [],
       "topics": [
         "cloud",
         "identity",
@@ -2027,6 +2179,27 @@
       ]
     },
     {
+      "id": "b5691345a20f5490",
+      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
+      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+      "sourceId": "elastic-sec",
+      "source": "Elastic Security Labs",
+      "sourceHome": "https://www.elastic.co/security-labs/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+      "cves": [],
+      "vendors": [
+        "Microsoft",
+        "GitHub"
+      ],
+      "topics": [
+        "endpoint",
+        "detection",
+        "azure"
+      ]
+    },
+    {
       "id": "b942d9df3b7b7086",
       "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "url": "https://huggingface.co/blog/moe-expert-streaming",
@@ -2056,27 +2229,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "b5691345a20f5490",
-      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
-      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
-      "sourceId": "elastic-sec",
-      "source": "Elastic Security Labs",
-      "sourceHome": "https://www.elastic.co/security-labs/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-18T00:00:00+00:00",
-      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
-      "cves": [],
-      "vendors": [
-        "Microsoft",
-        "GitHub"
-      ],
-      "topics": [
-        "endpoint",
-        "detection",
-        "azure"
       ]
     },
     {
@@ -2292,19 +2444,60 @@
       ]
     },
     {
-      "id": "13996a5a920f1476",
-      "title": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
-      "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-17T18:38:37+00:00",
-      "excerpt": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+      "id": "abd71b3e79164928",
+      "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:35:00+00:00",
+      "excerpt": "Our new integrations let AI agents reason across Oracle’s business-critical data. The post Microsoft and Oracle bring agentic AI into flow of enterprise work appeared first on Microsoft Azure Blog.",
       "cves": [],
-      "vendors": [],
+      "vendors": [
+        "Microsoft"
+      ],
       "topics": [
-        "security"
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "id": "0baf6739245e801e",
+      "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:35:00+00:00",
+      "excerpt": "At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "id": "fb538b6e62438e53",
+      "title": "Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:35:00+00:00",
+      "excerpt": "At Microsoft Ignite, we're sharing what's new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself.…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "azure",
+        "cloud"
       ]
     },
     {
@@ -2345,6 +2538,44 @@
       ]
     },
     {
+      "id": "6ab3016307343fc5",
+      "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
+      "url": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:20:00+00:00",
+      "excerpt": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads. The post Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era appeared first on Microsoft…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "id": "50e4599887fac5b7",
+      "title": "Continuous improvement comes to Microsoft Foundry",
+      "url": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:15:00+00:00",
+      "excerpt": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control. The post Continuous improvement comes to Microsoft Foundry appeared first on Microsoft Azure Blog.",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "azure",
+        "cloud"
+      ]
+    },
+    {
       "id": "9b961d1f95e8cae6",
       "title": "Security for the agentic era, powered by Microsoft Perception",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
@@ -2362,6 +2593,26 @@
         "azure",
         "endpoint",
         "cloud"
+      ]
+    },
+    {
+      "id": "e002b410e01c3a62",
+      "title": "Introducing the new Microsoft IQ: Putting your organization’s intelligence to work in every agent",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+      "sourceId": "azure-blog",
+      "source": "Azure Blog",
+      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-17T18:05:00+00:00",
+      "excerpt": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence. The post Introducing the new Microsoft IQ: Putting your…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "azure",
+        "cloud",
+        "ai"
       ]
     },
     {
@@ -2578,23 +2829,6 @@
       "topics": [
         "vuln",
         "azure"
-      ]
-    },
-    {
-      "id": "c2ca324e07b9e91c",
-      "title": "Anthropic Cuts Disclosure Deadline to 30 Days For Serious Bugs",
-      "url": "https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-17T15:30:00+00:00",
-      "excerpt": "Anthropic will publish serious flaws found by its AI models 30 days after reporting them",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
       ]
     },
     {
@@ -2839,22 +3073,6 @@
       ]
     },
     {
-      "id": "31a24c682e01cfd3",
-      "title": "Facebook may have access to your entire photo gallery",
-      "url": "https://www.malwarebytes.com/blog/mobile/2026/11/facebook-may-have-access-to-your-entire-photo-gallery",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-17T11:34:09+00:00",
-      "excerpt": "Italy has fined Meta €805 million over aggressive Facebook photo access. The privacy violation remains ongoing for some users.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint"
-      ]
-    },
-    {
       "id": "3dbe7b6eb27754d9",
       "title": "Q&A: Why building math muscles remains important in the AI era",
       "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
@@ -2908,6 +3126,26 @@
       ]
     },
     {
+      "id": "32993aed5445bbbf",
+      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+      "sourceId": "datadog-sec",
+      "source": "Datadog Security Labs",
+      "sourceHome": "https://securitylabs.datadoghq.com/",
+      "category": "cloud",
+      "publishedAt": "2026-11-17T00:00:00+00:00",
+      "excerpt": "Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "vendors": [],
+      "topics": [
+        "cloud",
+        "detection",
+        "vuln"
+      ]
+    },
+    {
       "id": "65a61673a908acb8",
       "title": "Java4Shell: Oracle Java Security Updates & OpenJDK Advisory (CVE-2026-114938)",
       "url": "https://sec.okta.com/articles/2026/11/oracle-java-security-updates-openjdk-advisory-cve-2026-114938/",
@@ -2926,26 +3164,6 @@
       "topics": [
         "cloud",
         "identity",
-        "vuln"
-      ]
-    },
-    {
-      "id": "32993aed5445bbbf",
-      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
-      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
-      "sourceId": "datadog-sec",
-      "source": "Datadog Security Labs",
-      "sourceHome": "https://securitylabs.datadoghq.com/",
-      "category": "cloud",
-      "publishedAt": "2026-11-17T00:00:00+00:00",
-      "excerpt": "Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "detection",
         "vuln"
       ]
     },
@@ -3542,22 +3760,6 @@
       ]
     },
     {
-      "id": "86de79c5b7af195c",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-12T18:00:50+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "44e60b292f1cab55",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -3878,22 +4080,6 @@
       ]
     },
     {
-      "id": "c2bda7949198ad6b",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-11T15:00:15+00:00",
-      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "11e7234de6c17d92",
       "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
       "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
@@ -3962,25 +4148,6 @@
       ]
     },
     {
-      "id": "f4332efb3a5ec3d2",
-      "title": "Node.js Project: November 11 Security Releases",
-      "url": "https://sec.okta.com/articles/2026/11/node.js-project-november-11-security-releases/",
-      "sourceId": "okta-sec",
-      "source": "Okta Security",
-      "sourceHome": "https://sec.okta.com/",
-      "category": "cloud",
-      "publishedAt": "2026-11-11T00:00:00+00:00",
-      "excerpt": "On November 11, 2026, the Node.js project released security updates addressing multiple vulnerabilities across core modules. Read on for Okta's response and customer recommendations.",
-      "cves": [],
-      "vendors": [
-        "Okta"
-      ],
-      "topics": [
-        "cloud",
-        "identity"
-      ]
-    },
-    {
       "id": "0c63694e886afe68",
       "title": "CVE-2026-118383: Use-after-free vulnerability in MongoDB",
       "url": "https://securitylabs.datadoghq.com/articles/cve-2026-118383-mongodb-server-use-after-free/",
@@ -3998,6 +4165,25 @@
         "cloud",
         "detection",
         "vuln"
+      ]
+    },
+    {
+      "id": "f4332efb3a5ec3d2",
+      "title": "Node.js Project: November 11 Security Releases",
+      "url": "https://sec.okta.com/articles/2026/11/node.js-project-november-11-security-releases/",
+      "sourceId": "okta-sec",
+      "source": "Okta Security",
+      "sourceHome": "https://sec.okta.com/",
+      "category": "cloud",
+      "publishedAt": "2026-11-11T00:00:00+00:00",
+      "excerpt": "On November 11, 2026, the Node.js project released security updates addressing multiple vulnerabilities across core modules. Read on for Okta's response and customer recommendations.",
+      "cves": [],
+      "vendors": [
+        "Okta"
+      ],
+      "topics": [
+        "cloud",
+        "identity"
       ]
     },
     {
@@ -4096,22 +4282,6 @@
       ]
     },
     {
-      "id": "cbdfde6120c2ae5a",
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T16:03:47+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "827de0f378d04f8f",
       "title": "How to Evaluate AI Agent Cybersecurity Capabilities",
       "url": "https://www.wiz.io/blog/cyber-model-arena-ai-benchmark",
@@ -4128,38 +4298,6 @@
       "topics": [
         "cloud",
         "vuln",
-        "ai"
-      ]
-    },
-    {
-      "id": "2f63006d81a32665",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T12:02:28+00:00",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "d7b12a2a611a408d",
-      "title": "Opening the datasets behind our AI weather models",
-      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T11:13:04+00:00",
-      "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
         "ai"
       ]
     },
@@ -4196,22 +4334,6 @@
       "topics": [
         "vuln",
         "finance"
-      ]
-    },
-    {
-      "id": "3b0e4af33c7a9d6d",
-      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-09T19:51:47+00:00",
-      "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -4358,25 +4480,6 @@
       ]
     },
     {
-      "id": "0506cd41d8b6a6b2",
-      "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
-      "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-11-05T16:00:00+00:00",
-      "excerpt": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud"
-      ]
-    },
-    {
       "id": "4fc16d89b46f471e",
       "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
       "url": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
@@ -4408,26 +4511,6 @@
       "topics": [
         "security",
         "finance"
-      ]
-    },
-    {
-      "id": "28b9f82a4766588d",
-      "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
-      "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-11-04T16:00:00+00:00",
-      "excerpt": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads. The post Predicting…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud",
-        "detection"
       ]
     },
     {
@@ -4561,25 +4644,6 @@
       ]
     },
     {
-      "id": "f2d19086d0dced07",
-      "title": "The Platform Behind the Next AI Breakthrough",
-      "url": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-11-02T20:52:22+00:00",
-      "excerpt": "The next frontier of AI is coming into focus as agents take on longer, more strategic work. The post The Platform Behind the Next AI Breakthrough appeared first on Microsoft Azure Blog.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud"
-      ]
-    },
-    {
       "id": "96b0102539f50328",
       "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -4677,25 +4741,6 @@
       ]
     },
     {
-      "id": "fc613cd4ad8deeb8",
-      "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
-      "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-10-29T16:00:00+00:00",
-      "excerpt": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations. The post Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance appeared first on…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud"
-      ]
-    },
-    {
       "id": "38819925c743b03a",
       "title": "Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder",
       "url": "https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/",
@@ -4716,25 +4761,6 @@
       ]
     },
     {
-      "id": "fba9e34b1f111222",
-      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
-      "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-10-28T17:40:56+00:00",
-      "excerpt": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview. The post Introducing the Microsoft Copilot harness in Foundry Agent Service appeared first on Microsoft Azure Blog.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud"
-      ]
-    },
-    {
       "id": "bf3ec0f40df02e85",
       "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
       "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
@@ -4750,25 +4776,6 @@
         "vuln",
         "security",
         "ai"
-      ]
-    },
-    {
-      "id": "1ec6cf7b18a109f1",
-      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
-      "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-      "sourceId": "azure-blog",
-      "source": "Azure Blog",
-      "sourceHome": "https://azure.microsoft.com/en-us/blog/",
-      "category": "azure",
-      "publishedAt": "2026-10-26T16:00:00+00:00",
-      "excerpt": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions. The post Scale reservoir uncertainty analysis with agile reservoir modeling appeared first on Microsoft Azure Blog.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "azure",
-        "cloud"
       ]
     },
     {
