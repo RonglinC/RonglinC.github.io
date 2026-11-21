@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:12:01.460174+00:00",
+  "generatedAt": "2026-11-21T19:21:21.785490+00:00",
   "itemCount": 272,
   "sources": [
     {
@@ -516,6 +516,131 @@
     }
   ],
   "items": [
+    {
+      "id": "e69d357ca7c87d63",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T18:01:58+00:00",
+      "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "azure"
+      ]
+    },
+    {
+      "id": "dd98623fbdb39fbf",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T15:17:27+00:00",
+      "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "0f670748dd017be2",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T14:26:04+00:00",
+      "excerpt": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "bf2392b1e09607b0",
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T12:08:50+00:00",
+      "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "c8dd55eb5b4e7041",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T11:53:07+00:00",
+      "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "6b04af127433412d",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T11:05:53+00:00",
+      "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "9282616cdba73e89",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T11:03:17+00:00",
+      "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
     {
       "id": "665682cdd58a896e",
       "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
@@ -1337,26 +1462,6 @@
       ]
     },
     {
-      "id": "bf885cf36636ddb3",
-      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T12:14:28+00:00",
-      "excerpt": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "5356ed27ad27d2b8",
       "title": "Opening a 400-Year-Old Cryptex",
       "url": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
@@ -1395,22 +1500,6 @@
       ]
     },
     {
-      "id": "878d0a128d9848ba",
-      "title": "The Path to AI Autonomy in the SOC",
-      "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T12:00:00+00:00",
-      "excerpt": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60%…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "7aa5a49bce214951",
       "title": "Mail Bombing Attacks Fuel IT Helpdesk Impersonation Scams",
       "url": "https://www.infosecurity-magazine.com/news/mail-bombing-attacks-it-helpdesk/",
@@ -1445,24 +1534,6 @@
       ]
     },
     {
-      "id": "460d8cd53bd632ed",
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T10:57:43+00:00",
-      "excerpt": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "a4bd0586319029bb",
       "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
       "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
@@ -1472,23 +1543,6 @@
       "category": "security",
       "publishedAt": "2026-11-20T10:51:42+00:00",
       "excerpt": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach. The post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "2147fba99798fffc",
-      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T10:38:22+00:00",
-      "excerpt": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit…",
       "cves": [],
       "vendors": [],
       "topics": [
@@ -1510,27 +1564,6 @@
         "CVE-2026-132825"
       ],
       "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "f5e53dcd26e35b4f",
-      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T10:32:50+00:00",
-      "excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS…",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "vendors": [
-        "Cisco"
-      ],
       "topics": [
         "security",
         "vuln"
@@ -1570,26 +1603,6 @@
       "topics": [
         "ai",
         "detection"
-      ]
-    },
-    {
-      "id": "637df1c2cf17a57a",
-      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T09:25:35+00:00",
-      "excerpt": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1667,24 +1680,6 @@
       "topics": [
         "security",
         "finance"
-      ]
-    },
-    {
-      "id": "7144fa7832dc7a05",
-      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-      "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T07:35:46+00:00",
-      "excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "ransomware"
       ]
     },
     {
@@ -2285,22 +2280,6 @@
       ]
     },
     {
-      "id": "db2aa411f856b8a8",
-      "title": "Why Holiday Security Can't Wait for Black Friday",
-      "url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-19T14:00:00+00:00",
-      "excerpt": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "dfe8df7e84b8680c",
       "title": "Study reveals data centers’ long-distance damage to air quality",
       "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
@@ -2314,6 +2293,22 @@
       "vendors": [],
       "topics": [
         "ai"
+      ]
+    },
+    {
+      "id": "db2aa411f856b8a8",
+      "title": "Why Holiday Security Can't Wait for Black Friday",
+      "url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-19T14:00:00+00:00",
+      "excerpt": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
       ]
     },
     {
@@ -3266,27 +3261,6 @@
       ]
     },
     {
-      "id": "b5691345a20f5490",
-      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
-      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
-      "sourceId": "elastic-sec",
-      "source": "Elastic Security Labs",
-      "sourceHome": "https://www.elastic.co/security-labs/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-18T00:00:00+00:00",
-      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
-      "cves": [],
-      "vendors": [
-        "Microsoft",
-        "GitHub"
-      ],
-      "topics": [
-        "endpoint",
-        "detection",
-        "azure"
-      ]
-    },
-    {
       "id": "b942d9df3b7b7086",
       "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "url": "https://huggingface.co/blog/moe-expert-streaming",
@@ -3316,6 +3290,27 @@
       "vendors": [],
       "topics": [
         "ai"
+      ]
+    },
+    {
+      "id": "b5691345a20f5490",
+      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
+      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+      "sourceId": "elastic-sec",
+      "source": "Elastic Security Labs",
+      "sourceHome": "https://www.elastic.co/security-labs/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+      "cves": [],
+      "vendors": [
+        "Microsoft",
+        "GitHub"
+      ],
+      "topics": [
+        "endpoint",
+        "detection",
+        "azure"
       ]
     },
     {
