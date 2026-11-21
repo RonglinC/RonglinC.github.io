@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T02:22:06.408017+00:00",
-  "itemCount": 256,
+  "generatedAt": "2026-11-21T11:12:01.460174+00:00",
+  "itemCount": 272,
   "sources": [
     {
       "id": "krebs",
@@ -342,17 +342,17 @@
       "id": "gcp-blog",
       "name": "Google Cloud Blog",
       "category": "cloud",
-      "ok": false,
-      "count": 0,
-      "error": "TimeoutError: The read operation timed out"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": false,
-      "count": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 2"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "id": "project-zero",
@@ -516,6 +516,45 @@
     }
   ],
   "items": [
+    {
+      "id": "665682cdd58a896e",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T08:49:20+00:00",
+      "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and…",
+      "cves": [],
+      "vendors": [
+        "Google",
+        "Apple"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "fe0a47b5c8496cb4",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-21T08:49:13+00:00",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The…",
+      "cves": [],
+      "vendors": [
+        "Cisco",
+        "VMware"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
     {
       "id": "9c8c255e20f1a7e2",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -771,7 +810,7 @@
       "sourceHome": "https://thehackernews.com/",
       "category": "security",
       "publishedAt": "2026-11-20T17:57:20+00:00",
-      "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation…",
+      "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of…",
       "cves": [
         "CVE-2026-23871"
       ],
@@ -856,6 +895,138 @@
         "endpoint",
         "cloud",
         "detection"
+      ]
+    },
+    {
+      "id": "c8b69e89481a6423",
+      "title": "Ultimate guide for fixing your team’s API keys",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio, then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "e63d20486614e0c2",
+      "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+      "url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "ec7f10354b30e110",
+      "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
+      "url": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "43be72b58d6c22ba",
+      "title": "DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE",
+      "url": "https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal Operating System (TOS) which acts as the central nervous system managing port…",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "6d5d67c56c15bbfd",
+      "title": "What’s new in Managed Service for Apache Spark 4.0",
+      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes both how data pipelines run and how they are built: Teams and AI agents now…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "8197a70ccb7b1d0d",
+      "title": "How Spanner Graph detects ads fraud and abuse at Google at multi-billion node scale",
+      "url": "https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "d4ed21684714cb70",
+      "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
+      "url": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "For large organizations, building and maintaining data pipelines is one of the most complex tasks that data engineering teams are tasked with. In BigQuery environments, the Data Engineering Agent can help, leveraging Gemini to to automate these workflows. In this blog post,…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "4cb486e5e9f11c97",
+      "title": "Introducing ambient networking for GKE",
+      "url": "https://cloud.google.com/blog/products/networking/ambient-networking-for-gke-sidecarless-service-mesh/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "excerpt": "Network sidecars have a deserved reputation for excessive resource consumption and increased management overhead, especially in a service mesh environment. Today, we are announcing the general availability of ambient networking for Google Kubernetes Engine (GKE). This…",
+      "cves": [],
+      "vendors": [
+        "Kubernetes"
+      ],
+      "topics": [
+        "cloud"
       ]
     },
     {
@@ -1402,27 +1573,6 @@
       ]
     },
     {
-      "id": "948815f95ca9ccd2",
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T09:38:15+00:00",
-      "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score:…",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "vendors": [
-        "VMware"
-      ],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "637df1c2cf17a57a",
       "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
       "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
@@ -1535,23 +1685,6 @@
         "security",
         "vuln",
         "ransomware"
-      ]
-    },
-    {
-      "id": "ea05332e9befd55c",
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T07:11:39+00:00",
-      "excerpt": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "endpoint"
       ]
     },
     {
@@ -2570,6 +2703,22 @@
       ]
     },
     {
+      "id": "2f35e3e97cab26e2",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-18T21:35:43+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "f800a70818e8e50b",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -2627,6 +2776,22 @@
       "sourceHome": "https://huggingface.co/blog",
       "category": "ai",
       "publishedAt": "2026-11-18T18:53:43+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d53685db8985606d",
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-18T18:13:42+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
@@ -3101,6 +3266,27 @@
       ]
     },
     {
+      "id": "b5691345a20f5490",
+      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
+      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+      "sourceId": "elastic-sec",
+      "source": "Elastic Security Labs",
+      "sourceHome": "https://www.elastic.co/security-labs/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
+      "cves": [],
+      "vendors": [
+        "Microsoft",
+        "GitHub"
+      ],
+      "topics": [
+        "endpoint",
+        "detection",
+        "azure"
+      ]
+    },
+    {
       "id": "b942d9df3b7b7086",
       "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "url": "https://huggingface.co/blog/moe-expert-streaming",
@@ -3130,27 +3316,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "b5691345a20f5490",
-      "title": "We caught the agent-framework PyPI compromise six minutes after it published",
-      "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
-      "sourceId": "elastic-sec",
-      "source": "Elastic Security Labs",
-      "sourceHome": "https://www.elastic.co/security-labs/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-18T00:00:00+00:00",
-      "excerpt": "Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.",
-      "cves": [],
-      "vendors": [
-        "Microsoft",
-        "GitHub"
-      ],
-      "topics": [
-        "endpoint",
-        "detection",
-        "azure"
       ]
     },
     {
@@ -4082,6 +4247,22 @@
       ]
     },
     {
+      "id": "86de79c5b7af195c",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-12T18:00:50+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "44e60b292f1cab55",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -4352,6 +4533,22 @@
       ]
     },
     {
+      "id": "c2bda7949198ad6b",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-11T15:00:15+00:00",
+      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "18b724e7b2e462c7",
       "title": "Able2Shell: Frequently asked questions for reported N-able N-central zero-day vulnerabilities",
       "url": "https://www.tenable.com/blog/able2shell-frequently-asked-questions-for-reported-n-able-n-central-zero-day-vulnerabilities",
@@ -4447,6 +4644,54 @@
       ]
     },
     {
+      "id": "cbdfde6120c2ae5a",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T16:03:47+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "2f63006d81a32665",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T12:02:28+00:00",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d7b12a2a611a408d",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T11:13:04+00:00",
+      "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "06b8c8ec29b1d4ea",
       "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
       "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
@@ -4462,6 +4707,22 @@
         "endpoint",
         "detection",
         "vuln"
+      ]
+    },
+    {
+      "id": "3b0e4af33c7a9d6d",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-09T19:51:47+00:00",
+      "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
