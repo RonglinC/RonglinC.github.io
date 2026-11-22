@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T11:31:28.072580+00:00",
+  "generatedAt": "2026-11-22T19:44:51.465340+00:00",
   "itemCount": 264,
   "sources": [
     {
@@ -517,6 +517,65 @@
   ],
   "items": [
     {
+      "id": "8c67da5fcff3bfce",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-22T18:45:37+00:00",
+      "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "cloud"
+      ]
+    },
+    {
+      "id": "e0f6f10347d62406",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-22T15:43:04+00:00",
+      "excerpt": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "finance"
+      ]
+    },
+    {
+      "id": "71fab93662e434fd",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-22T15:15:25+00:00",
+      "excerpt": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "cves": [],
+      "vendors": [
+        "Google",
+        "Apple"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
       "id": "e9a91d6d460750e2",
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
       "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
@@ -566,6 +625,22 @@
       "topics": [
         "security",
         "vuln"
+      ]
+    },
+    {
+      "id": "b2bfcd99704410f8",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-22T00:00:00+00:00",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -1055,24 +1130,6 @@
       ]
     },
     {
-      "id": "01c5509c43b86232",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T17:30:00+00:00",
-      "excerpt": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "cb3b839420751cb8",
       "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
       "url": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
@@ -1319,24 +1376,6 @@
       ]
     },
     {
-      "id": "4bb560ada7b4cc2d",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T15:58:06+00:00",
-      "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "28e2e2f6018d9f6d",
       "title": "Following the “mathocalypse,” mathematicians consider the future",
       "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
@@ -1350,24 +1389,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "b611b0ee89a10d67",
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T15:00:10+00:00",
-      "excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -2555,15 +2576,15 @@
       ]
     },
     {
-      "id": "bb39c6b7a55f1a00",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "id": "ed221d23cf04ca7d",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "sourceId": "openai",
       "source": "OpenAI News",
       "sourceHome": "https://openai.com/news/",
       "category": "ai",
       "publishedAt": "2026-11-19T00:00:00+00:00",
-      "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "cves": [],
       "vendors": [],
       "topics": [
@@ -2596,22 +2617,6 @@
       "category": "ai",
       "publishedAt": "2026-11-19T00:00:00+00:00",
       "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "ed221d23cf04ca7d",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-19T00:00:00+00:00",
-      "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "cves": [],
       "vendors": [],
       "topics": [
