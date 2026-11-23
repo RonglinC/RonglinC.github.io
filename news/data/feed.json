@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T19:44:51.465340+00:00",
+  "generatedAt": "2026-11-23T01:47:11.885326+00:00",
   "itemCount": 264,
   "sources": [
     {
@@ -1461,6 +1461,24 @@
       ]
     },
     {
+      "id": "2175536c530ff39c",
+      "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+      "url": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-20T13:51:30+00:00",
+      "excerpt": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
       "id": "6b1b57079e671f60",
       "title": "US launches center to disrupt scams and warn victims sooner",
       "url": "https://www.malwarebytes.com/blog/news/2026/11/us-launches-center-to-disrupt-scams-and-warn-victims-sooner",
@@ -2304,22 +2322,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "db2aa411f856b8a8",
-      "title": "Why Holiday Security Can't Wait for Black Friday",
-      "url": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-19T14:00:00+00:00",
-      "excerpt": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
       ]
     },
     {
