@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T13:49:24.020560+00:00",
-  "itemCount": 264,
+  "generatedAt": "2026-11-24T23:55:15.537469+00:00",
+  "itemCount": 272,
   "sources": [
     {
       "id": "krebs",
@@ -350,9 +350,9 @@
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": false,
-      "count": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 1"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "id": "project-zero",
@@ -517,6 +517,646 @@
   ],
   "items": [
     {
+      "id": "555771725b08a67e",
+      "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+      "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
+      "sourceId": "unit42",
+      "source": "Palo Alto Unit 42",
+      "sourceHome": "https://unit42.paloaltonetworks.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T23:00:14+00:00",
+      "excerpt": "Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42.",
+      "cves": [
+        "CVE-2026-123633"
+      ],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "endpoint",
+        "vuln"
+      ]
+    },
+    {
+      "id": "277bc03a496ea6c2",
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T22:41:58+00:00",
+      "excerpt": "It was not clear what specific information was compromised or who was responsible. The post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "f8886011277b1302",
+      "title": "Satellites Have a Ground-Level Cybersecurity Problem",
+      "url": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T22:05:34+00:00",
+      "excerpt": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "e9c66357335ce9f6",
+      "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+      "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T21:48:06+00:00",
+      "excerpt": "The China-aligned espionage group rebuilt the open source VPN software from source, stripping out the artifacts that would normally expose it to defenders.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "e42a6664b0a441b3",
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T21:37:30+00:00",
+      "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+      "cves": [],
+      "vendors": [
+        "Kubernetes"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "cloud"
+      ]
+    },
+    {
+      "id": "92e169b4455faf34",
+      "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T21:36:11+00:00",
+      "excerpt": "Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "4a8562a2e7521189",
+      "title": "AWS Network Firewall introduces automated internet firewall mode (Preview)",
+      "url": "https://aws.amazon.com/blogs/security/aws-network-firewall-introduces-automated-internet-firewall-mode-preview/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T21:30:20+00:00",
+      "excerpt": "AWS Network Firewall now offers automated internet firewall mode (Preview). In this mode, Network Firewall applies your centrally defined rules to traffic at the internet gateway of each of your virtual private clouds (VPCs). It also performs built-in network address…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "84203ecd73090df8",
+      "title": "What's going on with the Riemann hypothesis?",
+      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+      "sourceId": "ars-ai",
+      "source": "Ars Technica — AI",
+      "sourceHome": "https://arstechnica.com/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T20:34:53+00:00",
+      "excerpt": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "cfc0494562f13b90",
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T20:21:20+00:00",
+      "excerpt": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "ransomware",
+        "identity"
+      ]
+    },
+    {
+      "id": "d06c34c6b5386ce1",
+      "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+      "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T20:01:08+00:00",
+      "excerpt": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "6099eb4b03926e24",
+      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "sourceId": "mit-ai",
+      "source": "MIT News — AI",
+      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
+      "category": "ai",
+      "publishedAt": "2026-11-24T19:30:00+00:00",
+      "excerpt": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "71593569a853d48f",
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T18:59:52+00:00",
+      "excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "94c607da54eeeca0",
+      "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+      "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+      "sourceId": "ars-ai",
+      "source": "Ars Technica — AI",
+      "sourceHome": "https://arstechnica.com/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T18:47:57+00:00",
+      "excerpt": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "23b15881f7606e22",
+      "title": "“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event",
+      "url": "https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways",
+      "sourceId": "wiz",
+      "source": "Wiz Blog",
+      "sourceHome": "https://www.wiz.io/blog",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T18:36:13+00:00",
+      "excerpt": "Key highlights from government leaders, industry experts, and the Wiz FedRAMP team from our November 12th event on modernizing vulnerability management to meet FedRAMP’s new requirements.",
+      "cves": [],
+      "vendors": [
+        "Wiz"
+      ],
+      "topics": [
+        "cloud",
+        "vuln"
+      ]
+    },
+    {
+      "id": "3fa0db47ad6b105c",
+      "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
+      "url": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T18:32:21+00:00",
+      "excerpt": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "0c82f9c5e95252ad",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T17:49:05+00:00",
+      "excerpt": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "cloud"
+      ]
+    },
+    {
+      "id": "6e79bbe2c87f756f",
+      "title": "AWS achieves Spain’s national Limited Distribution (Difusión Limitada) and NATO Restricted accreditation in the AWS Europe (Spain) Region",
+      "url": "https://aws.amazon.com/blogs/security/aws-achieves-spains-national-limited-distribution-difusion-limitada-and-nato-restricted-accreditation-in-the-aws-europe-spain-region/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T17:38:00+00:00",
+      "excerpt": "Spanish version » Amazon Web Services (AWS) is pleased to announce that AWS has achieved Spain’s national Limited Distribution (“Difusión Limitada”) and NATO Restricted accreditation for the AWS Europe (Spain) Region. The Difusión Limitada and NATO Restricted accreditation…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "e4b2aa40e2194421",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "sourceId": "ars-ai",
+      "source": "Ars Technica — AI",
+      "sourceHome": "https://arstechnica.com/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T17:34:34+00:00",
+      "excerpt": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "36fcb52f6e30ae8d",
+      "title": "A bot tested an AWS key within 8 seconds of exposure",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/11/a-bot-tested-an-aws-key-within-8-seconds-of-exposure",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-24T17:08:51+00:00",
+      "excerpt": "If you accidentally publish a cloud access key, a bot could find it before you have time to take it down.",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "endpoint",
+        "cloud"
+      ]
+    },
+    {
+      "id": "c4ad60edd9b59508",
+      "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
+      "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T17:00:00+00:00",
+      "excerpt": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to board materials, regulated workloads, applications, and AI models, those…",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "0f4ba1ba7cb5c336",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:54:07+00:00",
+      "excerpt": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "f72a6191daba5ad7",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-24T16:34:13+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "1441c6691a11b2f9",
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:32:56+00:00",
+      "excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts. The post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "VMware"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "1e3c5eefb9ece277",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:30:19+00:00",
+      "excerpt": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "617c1e7b509f09e5",
+      "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
+      "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:30:00+00:00",
+      "excerpt": "Okta and ReversingLabs linked Inception to an SSO vishing campaign targeting employee credentials",
+      "cves": [],
+      "vendors": [
+        "Okta"
+      ],
+      "topics": [
+        "security",
+        "finance",
+        "ransomware",
+        "identity"
+      ]
+    },
+    {
+      "id": "80d3ed2e468b0c01",
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:22:44+00:00",
+      "excerpt": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "5deee446c9c3c67c",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T16:15:23+00:00",
+      "excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "2979142b60fc5079",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceId": "google-ai",
+      "source": "Google AI Blog",
+      "sourceHome": "https://blog.google/technology/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "9f554b29dab6354c",
+      "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
+      "sourceId": "msrc",
+      "source": "Microsoft Update Guide",
+      "sourceHome": "https://msrc.microsoft.com/update-guide/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "excerpt": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do…",
+      "cves": [
+        "CVE-2026-112732"
+      ],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "vuln",
+        "azure"
+      ]
+    },
+    {
+      "id": "5ac248b6a272df65",
+      "title": "How to compare MDR providers when every proposal looks promising",
+      "url": "https://www.rapid7.com/blog/post/dr-comparing-mdr-providers-scorecard",
+      "sourceId": "rapid7",
+      "source": "Rapid7 Blog",
+      "sourceHome": "https://www.rapid7.com/blog/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T15:51:25+00:00",
+      "excerpt": "Choosing a managed detection and response (MDR) provider means committing budget, connecting systems, and trusting another team to act when your organization is under pressure. Yet a proposal promising 24x7 coverage, expert analysts, and fast response can leave important…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "detection"
+      ]
+    },
+    {
+      "id": "bc5d87a39a484e89",
+      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T15:10:10+00:00",
+      "excerpt": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "ef1e21291edd6f08",
+      "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
+      "url": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T15:02:00+00:00",
+      "excerpt": "Editor’s note: Founded in 1988 in Kota, Rajasthan, ALLEN is one of India’s leading coaching institutions, serving over 400,000 students across 350+ classroom campuses in 78 cities. Here, the IT and Cybersecurity Leadership Team shares how they standardized on Chrome…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "27d0fbd351ece076",
+      "title": "Recent Trends and Tactics of Agentic AI Attacks",
+      "url": "https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/",
+      "sourceId": "unit42",
+      "source": "Palo Alto Unit 42",
+      "sourceHome": "https://unit42.paloaltonetworks.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T15:00:19+00:00",
+      "excerpt": "We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42.",
+      "cves": [],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "749bf2e4133ed173",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "sourceId": "ars-ai",
+      "source": "Ars Technica — AI",
+      "sourceHome": "https://arstechnica.com/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T14:56:50+00:00",
+      "excerpt": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "4ff628bfb7a0c52c",
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T14:49:59+00:00",
+      "excerpt": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "967b3905ab6b5be9",
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-24T14:21:56+00:00",
+      "excerpt": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
       "id": "67c5c89c80b26e7d",
       "title": "Address AI Agent Risks or Face Action, FCA Warns Financial Firms",
       "url": "https://www.infosecurity-magazine.com/news/ai-agent-risks-face-action-fca/",
@@ -531,29 +1171,6 @@
       "topics": [
         "security",
         "finance"
-      ]
-    },
-    {
-      "id": "1cde71062addd244",
-      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-      "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T13:34:23+00:00",
-      "excerpt": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
-      "cves": [],
-      "vendors": [
-        "Cisco",
-        "Linux",
-        "OpenAI"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "ai"
       ]
     },
     {
@@ -636,6 +1253,27 @@
       ]
     },
     {
+      "id": "bb4a748c44aeb359",
+      "title": "Powering the OpenAI Daybreak Defense Factory with Wiz Security Intelligence",
+      "url": "https://www.wiz.io/blog/wiz-openai-codex-integration",
+      "sourceId": "wiz",
+      "source": "Wiz Blog",
+      "sourceHome": "https://www.wiz.io/blog",
+      "category": "cloud",
+      "publishedAt": "2026-11-24T13:00:03+00:00",
+      "excerpt": "Bringing cloud security intelligence to AI-driven vulnerability investigation and code remediation.",
+      "cves": [],
+      "vendors": [
+        "OpenAI",
+        "Wiz"
+      ],
+      "topics": [
+        "cloud",
+        "vuln",
+        "ai"
+      ]
+    },
+    {
       "id": "7ec204a7297c8758",
       "title": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test",
       "url": "https://www.infosecurity-magazine.com/news/chinese-ai-models-top/",
@@ -650,6 +1288,22 @@
       "topics": [
         "security",
         "finance"
+      ]
+    },
+    {
+      "id": "ad0d96247c28e3fc",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T13:00:00+00:00",
+      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -779,6 +1433,79 @@
       ]
     },
     {
+      "id": "2a15397ca0984f92",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "excerpt": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution…",
+      "cves": [
+        "CVE-2026-131914",
+        "CVE-2026-132165"
+      ],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
+      "id": "14788eb9860a57fd",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8…",
+      "cves": [
+        "CVE-2026-129713"
+      ],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
+      "id": "e7243e96d57a4c86",
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "excerpt": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
+      "id": "3ff6d699641881d2",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
       "id": "06bb577ffbd444aa",
       "title": "OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems",
       "url": "https://www.infosecurity-magazine.com/news/openai-cisco-shirudo-linux-shields/",
@@ -835,6 +1562,22 @@
       ]
     },
     {
+      "id": "9320b710a8eb9d57",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T11:00:00+00:00",
+      "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "d5d73ae4d67b05e7",
       "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
       "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
@@ -863,23 +1606,6 @@
       "category": "security",
       "publishedAt": "2026-11-24T10:44:44+00:00",
       "excerpt": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "9f4df4dc16b9b433",
-      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T10:35:04+00:00",
-      "excerpt": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations. The post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first on SecurityWeek.",
       "cves": [],
       "vendors": [],
       "topics": [
@@ -939,24 +1665,154 @@
       ]
     },
     {
-      "id": "a9e26a6a11f8b8b5",
-      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T06:02:57+00:00",
-      "excerpt": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits,…",
+      "id": "2d0c87092e78137f",
+      "title": "Reprioritizing Automated Leads with CrowdStrike Signal",
+      "url": "https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/",
+      "sourceId": "crowdstrike",
+      "source": "CrowdStrike Blog",
+      "sourceHome": "https://www.crowdstrike.com/en-us/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-24T08:00:00+00:00",
+      "excerpt": "",
       "cves": [],
       "vendors": [
-        "Cisco",
-        "Linux",
-        "OpenAI"
+        "CrowdStrike"
       ],
       "topics": [
-        "security",
-        "ai"
+        "endpoint",
+        "detection"
+      ]
+    },
+    {
+      "id": "b2eba773c1280d63",
+      "title": "ZDI-26-1159: X.Org Server PCF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1159/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "d4898c176109910c",
+      "title": "ZDI-26-1158: X.Org Server libfontenc Encoding File Parsing Improper Validation of Array Index Privilege Escalation Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1158/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "b988405c8ab222ea",
+      "title": "ZDI-26-1157: ASUS Control Center Express User Creation Improper Authorization Privilege Escalation Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1157/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to escalate privileges on affected installations of ASUS Control Center Express. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.9. The following CVEs are assigned: CVE-2026-114205.",
+      "cves": [
+        "CVE-2026-114205"
+      ],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "6e32388d377b907c",
+      "title": "ZDI-26-1156: ASUS Control Center Express Use of Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1156/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to bypass authentication of affected installations of ASUS Control Center Express. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.0. The following CVEs are assigned: CVE-2026-114204.",
+      "cves": [
+        "CVE-2026-114204"
+      ],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "5256f87dddb102fb",
+      "title": "ZDI-26-1155: ASUS Control Center Express Use of Hard-coded Cryptographic Key Authentication Bypass Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1155/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to bypass authentication on affected installations of ASUS Control Center Express. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 10.0. The following CVEs are assigned:…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "0ae4cf4e9d5d1ed6",
+      "title": "ZDI-26-1154: Oracle Outside In Technology PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1154/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "b45029e2be0957df",
+      "title": "ZDI-26-1153: Oracle Outside In Technology BMP File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1153/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
+      ]
+    },
+    {
+      "id": "79978bd94994713e",
+      "title": "ZDI-26-1152: Oracle Outside In Technology TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1152/",
+      "sourceId": "zdi",
+      "source": "Zero Day Initiative",
+      "sourceHome": "https://www.zerodayinitiative.com/",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T06:00:00+00:00",
+      "excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln"
       ]
     },
     {
@@ -976,6 +1832,56 @@
       "topics": [
         "cloud",
         "identity"
+      ]
+    },
+    {
+      "id": "f45c7e11cf2f716f",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00+00:00",
+      "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d1b95d771f7f2daa",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "9b32a4a7f056a686",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "sourceId": "openai",
+      "source": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00+00:00",
+      "excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "cves": [],
+      "vendors": [
+        "OpenAI"
+      ],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -1066,24 +1972,6 @@
       ]
     },
     {
-      "id": "c8024c02c9cc1229",
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T20:54:51+00:00",
-      "excerpt": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "85431a724858b909",
       "title": "Introducing AWS WAF simplified pricing",
       "url": "https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/",
@@ -1134,63 +2022,6 @@
       "vendors": [],
       "topics": [
         "security"
-      ]
-    },
-    {
-      "id": "1d55c9de85acb3c7",
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T20:00:20+00:00",
-      "excerpt": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
-      "id": "f734801e6d1be37e",
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T19:42:20+00:00",
-      "excerpt": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "azure"
-      ]
-    },
-    {
-      "id": "14cf8baeecf2dc18",
-      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T18:38:40+00:00",
-      "excerpt": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1260,6 +2091,23 @@
       ]
     },
     {
+      "id": "93f1d75c8ec9197f",
+      "title": "Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+      "sourceId": "gcp-blog",
+      "source": "Google Cloud Blog",
+      "sourceHome": "https://cloud.google.com/blog/",
+      "category": "cloud",
+      "publishedAt": "2026-11-23T17:00:00+00:00",
+      "excerpt": "Today, we are proud to announce that Gartner has recognized Google as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). Among the 15 vendors evaluated this year, Google was positioned furthest on “Completeness of Vision.”…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "cloud",
+        "detection"
+      ]
+    },
+    {
       "id": "7232526a80381305",
       "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
       "url": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
@@ -1278,38 +2126,19 @@
       ]
     },
     {
-      "id": "93f1d75c8ec9197f",
-      "title": "Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
-      "url": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
-      "sourceId": "gcp-blog",
-      "source": "Google Cloud Blog",
-      "sourceHome": "https://cloud.google.com/blog/",
-      "category": "cloud",
-      "publishedAt": "2026-11-23T17:00:00+00:00",
-      "excerpt": "Today, we are proud to announce that Gartner has recognized Google as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). Among the 15 vendors evaluated this year, Google was positioned furthest on “Completeness of Vision.”…",
+      "id": "2ff967f69a20ea69",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-23T16:59:40+00:00",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "cves": [],
       "vendors": [],
       "topics": [
-        "cloud",
-        "detection"
-      ]
-    },
-    {
-      "id": "4e9c38ff0a2a22a9",
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T16:50:01+00:00",
-      "excerpt": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
+        "ai"
       ]
     },
     {
@@ -1502,45 +2331,6 @@
       ]
     },
     {
-      "id": "4f7a7524ae9714e1",
-      "title": "CVE-2026-96233 ASP.NET Core Denial of Service Vulnerability",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96233",
-      "sourceId": "msrc",
-      "source": "Microsoft Update Guide",
-      "sourceHome": "https://msrc.microsoft.com/update-guide/",
-      "category": "vuln",
-      "publishedAt": "2026-11-23T16:00:00+00:00",
-      "excerpt": "Updated an acknowledgement. This is an informational change only.",
-      "cves": [
-        "CVE-2026-96233"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "azure"
-      ]
-    },
-    {
-      "id": "736adbd1c8fde3ce",
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T15:47:40+00:00",
-      "excerpt": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "azure"
-      ]
-    },
-    {
       "id": "a3c074f16eeaa47f",
       "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
       "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
@@ -1592,61 +2382,6 @@
       ]
     },
     {
-      "id": "8ad29c05b065e63b",
-      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T15:06:49+00:00",
-      "excerpt": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "2566719dc480b24a",
-      "title": "AI Agents Are Creating a Shared Responsibility Gap",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T15:00:10+00:00",
-      "excerpt": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
-      "id": "b6a877c19f01d493",
-      "title": "Signal Moves to Block iOS and Android AI Agents From Reading Chats",
-      "url": "https://www.infosecurity-magazine.com/news/signal-blocks-ai-agents-reading/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T15:00:00+00:00",
-      "excerpt": "Signal moved to shield chats from built-in AI agents and pressed platform makers for an opt-out",
-      "cves": [],
-      "vendors": [
-        "Google",
-        "Apple"
-      ],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
       "id": "38895abf767be191",
       "title": "Agentic Attacks: In The Wild",
       "url": "https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks",
@@ -1663,43 +2398,6 @@
       "topics": [
         "cloud",
         "vuln"
-      ]
-    },
-    {
-      "id": "9faab061bc873520",
-      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
-      "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T13:58:07+00:00",
-      "excerpt": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE. The post phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "7678378447a1b006",
-      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T13:28:45+00:00",
-      "excerpt": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1987,39 +2685,6 @@
       ]
     },
     {
-      "id": "b2bfcd99704410f8",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-22T00:00:00+00:00",
-      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "fa02dfda59bd35bc",
-      "title": "How Security Vendors Are Tackling Access-Control Challenges for AI Agents",
-      "url": "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-21T01:31:23+00:00",
-      "excerpt": "Identity, runtime, and development controls are converging as enterprises look for ways to keep agents within their assigned jobs. But vendors' approaches vary, so CISOs face a choice.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "identity"
-      ]
-    },
-    {
       "id": "9c8c255e20f1a7e2",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -2035,24 +2700,6 @@
         "security",
         "finance",
         "ransomware"
-      ]
-    },
-    {
-      "id": "9d260a171c60227e",
-      "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
-      "url": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-20T22:57:22+00:00",
-      "excerpt": "When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud"
       ]
     },
     {
@@ -2093,57 +2740,6 @@
       ]
     },
     {
-      "id": "4378713c5c10f400",
-      "title": "Google rolls out new search homepage with AI chat history and no search button",
-      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-      "sourceId": "ars-ai",
-      "source": "Ars Technica — AI",
-      "sourceHome": "https://arstechnica.com/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T21:58:29+00:00",
-      "excerpt": "Google search is making it even easier to access AI tools on the search page.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "48511176ee1ac915",
-      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-      "sourceId": "ars-ai",
-      "source": "Ars Technica — AI",
-      "sourceHome": "https://arstechnica.com/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T21:47:10+00:00",
-      "excerpt": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "651f25fdc2c48068",
-      "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T21:03:27+00:00",
-      "excerpt": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
-      "cves": [],
-      "vendors": [
-        "VMware"
-      ],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "146318ae7a5571b8",
       "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
       "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
@@ -2157,38 +2753,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "fa29de0860c62143",
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-      "sourceId": "ars-ai",
-      "source": "Ars Technica — AI",
-      "sourceHome": "https://arstechnica.com/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T20:59:08+00:00",
-      "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "8c1fa82ad042890c",
-      "title": "Nok et norsk energiselskap har blitt utsatt for et datainnbrudd på to dager",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-20T20:43:45+00:00",
-      "excerpt": "Det er ikke påvist noen konkret sammenheng mellom de to hendelsene, selv om de helt klart har mange likhetstrekk.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
       ]
     },
     {
@@ -2244,23 +2808,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "889b93117640e2cf",
-      "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
-      "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-20T17:30:13+00:00",
-      "excerpt": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign,…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "vuln"
       ]
     },
     {
@@ -2326,40 +2873,6 @@
       "category": "cloud",
       "publishedAt": "2026-11-20T17:00:00+00:00",
       "excerpt": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "43be72b58d6c22ba",
-      "title": "DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE",
-      "url": "https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb/",
-      "sourceId": "gcp-blog",
-      "source": "Google Cloud Blog",
-      "sourceHome": "https://cloud.google.com/blog/",
-      "category": "cloud",
-      "publishedAt": "2026-11-20T17:00:00+00:00",
-      "excerpt": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal Operating System (TOS) which acts as the central nervous system managing port…",
-      "cves": [],
-      "vendors": [
-        "Google"
-      ],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "6d5d67c56c15bbfd",
-      "title": "What’s new in Managed Service for Apache Spark 4.0",
-      "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
-      "sourceId": "gcp-blog",
-      "source": "Google Cloud Blog",
-      "sourceHome": "https://cloud.google.com/blog/",
-      "category": "cloud",
-      "publishedAt": "2026-11-20T17:00:00+00:00",
-      "excerpt": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes both how data pipelines run and how they are built: Teams and AI agents now…",
       "cves": [],
       "vendors": [],
       "topics": [
@@ -2469,23 +2982,6 @@
       ]
     },
     {
-      "id": "2305e71d32ad77c1",
-      "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
-      "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-20T12:51:36+00:00",
-      "excerpt": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint",
-        "ransomware"
-      ]
-    },
-    {
       "id": "5356ed27ad27d2b8",
       "title": "Opening a 400-Year-Old Cryptex",
       "url": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
@@ -2541,25 +3037,6 @@
       ]
     },
     {
-      "id": "6c26bbeb35f3d7be",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T10:00:00+00:00",
-      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "cves": [],
-      "vendors": [
-        "OpenAI"
-      ],
-      "topics": [
-        "ai",
-        "detection"
-      ]
-    },
-    {
       "id": "f23d5c431ef3ee7f",
       "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
       "url": "https://blog.cloudflare.com/nginx2root/",
@@ -2575,38 +3052,6 @@
       ],
       "topics": [
         "cloud"
-      ]
-    },
-    {
-      "id": "f39dd0ec28dc16ab",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T00:00:00+00:00",
-      "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "71bdbb73b20abc3d",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-20T00:00:00+00:00",
-      "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -2639,26 +3084,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "9383c788bcce4021",
-      "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026",
-      "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-19T22:31:34+00:00",
-      "excerpt": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detection, network…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud",
-        "identity",
-        "detection"
       ]
     },
     {
@@ -2695,24 +3120,6 @@
       ]
     },
     {
-      "id": "8bd398cfd06869cd",
-      "title": "Introducing the new AWS WAF security analytics dashboard",
-      "url": "https://aws.amazon.com/blogs/security/introducing-the-new-aws-waf-security-analytics-dashboard/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-19T21:10:43+00:00",
-      "excerpt": "When blocked requests spike or a customer reports being locked out, a security team has to work out what is happening, where it is happening, and if AWS WAF is making the right call. Currently, that usually means opening each protection pack (web ACL) in turn, across domains,…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
       "id": "7e1a872416127316",
       "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
       "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
@@ -2730,22 +3137,6 @@
       ],
       "topics": [
         "vuln"
-      ]
-    },
-    {
-      "id": "596d4f4a9af1e011",
-      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-      "sourceId": "ars-ai",
-      "source": "Ars Technica — AI",
-      "sourceHome": "https://arstechnica.com/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-19T20:19:28+00:00",
-      "excerpt": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -2920,25 +3311,6 @@
       ]
     },
     {
-      "id": "c341208dbde571a8",
-      "title": "libumqtt",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-19T12:00:00+00:00",
-      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment…",
-      "cves": [
-        "CVE-2026-125132"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
       "id": "21fac7ec7da0d6e3",
       "title": "Autonomy Logic OpenPLC Runtime",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
@@ -2955,24 +3327,6 @@
       "topics": [
         "vuln",
         "security"
-      ]
-    },
-    {
-      "id": "e4be427053c3e3ec",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "sourceId": "openai",
-      "source": "OpenAI News",
-      "sourceHome": "https://openai.com/news/",
-      "category": "ai",
-      "publishedAt": "2026-11-19T08:00:00+00:00",
-      "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "cves": [],
-      "vendors": [
-        "OpenAI"
-      ],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -3014,40 +3368,6 @@
       "topics": [
         "endpoint",
         "detection"
-      ]
-    },
-    {
-      "id": "f3093f781d1e0b05",
-      "title": "ZDI-26-1039: Oracle PeopleSoft register Incorrect Authorization Remote Code Execution Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1039/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-19T06:00:00+00:00",
-      "excerpt": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.9. The following CVEs are assigned: CVE-2026-35273.",
-      "cves": [
-        "CVE-2026-35273"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "9450cb81e037d4ac",
-      "title": "ZDI-26-1038: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP UpdateFirmware Out-Of-Bounds Write Remote Code Execution Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1038/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-19T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
       ]
     },
     {
@@ -3106,6 +3426,22 @@
       ]
     },
     {
+      "id": "2f35e3e97cab26e2",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-18T21:35:43+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "f800a70818e8e50b",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -3122,22 +3458,6 @@
       ]
     },
     {
-      "id": "65e33966aed17a15",
-      "title": "This featherweight, flying robot carries its own sensors and computers",
-      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
-      "sourceId": "mit-ai",
-      "source": "MIT News — AI",
-      "sourceHome": "https://news.mit.edu/topic/artificial-intelligence2",
-      "category": "ai",
-      "publishedAt": "2026-11-18T19:00:00+00:00",
-      "excerpt": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "c35a45880016cdfe",
       "title": "Why your fine-tuning job takes longer than the FLOPs say",
       "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -3146,6 +3466,22 @@
       "sourceHome": "https://huggingface.co/blog",
       "category": "ai",
       "publishedAt": "2026-11-18T18:53:43+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d53685db8985606d",
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-18T18:13:42+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
@@ -3282,26 +3618,6 @@
       ]
     },
     {
-      "id": "39b020024df59476",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T12:00:00+00:00",
-      "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM…",
-      "cves": [
-        "CVE-2024-10441",
-        "CVE-2026-40217"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
       "id": "fc8c81fda5a823e8",
       "title": "The challenge of defending against bulletproof dead drops on public blockchains",
       "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
@@ -3375,102 +3691,6 @@
       "topics": [
         "endpoint",
         "detection"
-      ]
-    },
-    {
-      "id": "b9cf1699eafe9e93",
-      "title": "ZDI-26-1037: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Authentication Bypass Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1037/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "b65992b417336bc5",
-      "title": "ZDI-26-1036: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Wi-Fi Configuration Server Missing Authentication Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1036/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3. The…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "3b41d3b6917fd747",
-      "title": "ZDI-26-1035: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Download of Code Without Integrity Check Remote Code Execution Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1035/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "cb6b5bd97b53d444",
-      "title": "ZDI-26-1034: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A FTP URL Path Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1034/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "d1d4476a4f6dd696",
-      "title": "ZDI-26-1033: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP GetConfiguration Stack-based Buffer Overflow Remote Code Execution Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1033/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "de6c4a69403d3a1d",
-      "title": "ZDI-26-1032: (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Hard-Coded Credentials Authentication Bypass Vulnerability",
-      "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-1032/",
-      "sourceId": "zdi",
-      "source": "Zero Day Initiative",
-      "sourceHome": "https://www.zerodayinitiative.com/",
-      "category": "vuln",
-      "publishedAt": "2026-11-18T06:00:00+00:00",
-      "excerpt": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.6. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln"
       ]
     },
     {
@@ -3553,22 +3773,6 @@
         "cloud",
         "identity",
         "vuln"
-      ]
-    },
-    {
-      "id": "b942d9df3b7b7086",
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
-      "category": "ai",
-      "publishedAt": "2026-11-18T00:00:00+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -3762,24 +3966,6 @@
       ]
     },
     {
-      "id": "f16e4abf4749ee33",
-      "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
-      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
-      "sourceId": "rapid7",
-      "source": "Rapid7 Blog",
-      "sourceHome": "https://www.rapid7.com/blog/",
-      "category": "vuln",
-      "publishedAt": "2026-11-17T18:26:55+00:00",
-      "excerpt": "OverviewOn November 17, 2026, Oracle released patches for CVE-2026-114938, a heap-based buffer overflow (CWE-122) in the hardware-accelerated Base64 decoder used by OpenJDK and its downstream distributions, such as Oracle Java SE, and Oracle GraalVM. The vulnerability, dubbed…",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln"
-      ]
-    },
-    {
       "id": "6ab3016307343fc5",
       "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
       "url": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
@@ -3911,40 +4097,6 @@
       ]
     },
     {
-      "id": "549812219ed7eb23",
-      "title": "Siemens ROS#",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-17T12:00:00+00:00",
-      "excerpt": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS#…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
-      "id": "505c6b86b9706a07",
-      "title": "Dorsett Controls InfoScan",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-17T12:00:00+00:00",
-      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
       "id": "432a46b6a94ff653",
       "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
@@ -3966,6 +4118,26 @@
       ]
     },
     {
+      "id": "32993aed5445bbbf",
+      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+      "sourceId": "datadog-sec",
+      "source": "Datadog Security Labs",
+      "sourceHome": "https://securitylabs.datadoghq.com/",
+      "category": "cloud",
+      "publishedAt": "2026-11-17T00:00:00+00:00",
+      "excerpt": "Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "vendors": [],
+      "topics": [
+        "cloud",
+        "detection",
+        "vuln"
+      ]
+    },
+    {
       "id": "65a61673a908acb8",
       "title": "Java4Shell: Oracle Java Security Updates & OpenJDK Advisory (CVE-2026-114938)",
       "url": "https://sec.okta.com/articles/2026/11/oracle-java-security-updates-openjdk-advisory-cve-2026-114938/",
@@ -3984,26 +4156,6 @@
       "topics": [
         "cloud",
         "identity",
-        "vuln"
-      ]
-    },
-    {
-      "id": "32993aed5445bbbf",
-      "title": "Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)",
-      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
-      "sourceId": "datadog-sec",
-      "source": "Datadog Security Labs",
-      "sourceHome": "https://securitylabs.datadoghq.com/",
-      "category": "cloud",
-      "publishedAt": "2026-11-17T00:00:00+00:00",
-      "excerpt": "Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "detection",
         "vuln"
       ]
     },
@@ -4222,23 +4374,6 @@
       ]
     },
     {
-      "id": "4fd5c7a02b332cc6",
-      "title": "The Green Agent POV: Formulating the Fix for an Exposed Container with Sensitive Data Access",
-      "url": "https://www.wiz.io/blog/inside-green-agent-investigation",
-      "sourceId": "wiz",
-      "source": "Wiz Blog",
-      "sourceHome": "https://www.wiz.io/blog",
-      "category": "cloud",
-      "publishedAt": "2026-11-13T17:05:02+00:00",
-      "excerpt": "See how the Green Agent balanced security urgency with business continuity to turn a toxic combination into an executable remediation plan and ready-to-merge pull requests.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "vuln"
-      ]
-    },
-    {
       "id": "f141f30be458164b",
       "title": "Inside the loop: Five AI attack frameworks that never ask permission",
       "url": "https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex",
@@ -4352,20 +4487,19 @@
       ]
     },
     {
-      "id": "265df75670e241cf",
-      "title": "ASPM in the AI Era Part 3: Fixing Risk at the Speed of Code",
-      "url": "https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed",
-      "sourceId": "wiz",
-      "source": "Wiz Blog",
-      "sourceHome": "https://www.wiz.io/blog",
-      "category": "cloud",
-      "publishedAt": "2026-11-12T18:32:24+00:00",
-      "excerpt": "Accelerate MTTR and eliminate remediation bottlenecks with simplified ownership mapping, code fixes, and automated workflows",
+      "id": "86de79c5b7af195c",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-12T18:00:50+00:00",
+      "excerpt": "",
       "cves": [],
       "vendors": [],
       "topics": [
-        "cloud",
-        "vuln"
+        "ai"
       ]
     },
     {
@@ -4525,22 +4659,6 @@
       ]
     },
     {
-      "id": "b4b90de9c52ba8ca",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "sourceId": "google-ai",
-      "source": "Google AI Blog",
-      "sourceHome": "https://blog.google/technology/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-11T18:00:00+00:00",
-      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "34ff4b1464fa3fa2",
       "title": "Lessons from 59 Linux Kernel Bug Reports",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
@@ -4582,6 +4700,22 @@
       ]
     },
     {
+      "id": "c2bda7949198ad6b",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-11T15:00:15+00:00",
+      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "18b724e7b2e462c7",
       "title": "Able2Shell: Frequently asked questions for reported N-able N-central zero-day vulnerabilities",
       "url": "https://www.tenable.com/blog/able2shell-frequently-asked-questions-for-reported-n-able-n-central-zero-day-vulnerabilities",
@@ -4618,25 +4752,6 @@
       ]
     },
     {
-      "id": "f4332efb3a5ec3d2",
-      "title": "Node.js Project: November 11 Security Releases",
-      "url": "https://sec.okta.com/articles/2026/11/node.js-project-november-11-security-releases/",
-      "sourceId": "okta-sec",
-      "source": "Okta Security",
-      "sourceHome": "https://sec.okta.com/",
-      "category": "cloud",
-      "publishedAt": "2026-11-11T00:00:00+00:00",
-      "excerpt": "On November 11, 2026, the Node.js project released security updates addressing multiple vulnerabilities across core modules. Read on for Okta's response and customer recommendations.",
-      "cves": [],
-      "vendors": [
-        "Okta"
-      ],
-      "topics": [
-        "cloud",
-        "identity"
-      ]
-    },
-    {
       "id": "0c63694e886afe68",
       "title": "CVE-2026-118383: Use-after-free vulnerability in MongoDB",
       "url": "https://securitylabs.datadoghq.com/articles/cve-2026-118383-mongodb-server-use-after-free/",
@@ -4654,6 +4769,25 @@
         "cloud",
         "detection",
         "vuln"
+      ]
+    },
+    {
+      "id": "f4332efb3a5ec3d2",
+      "title": "Node.js Project: November 11 Security Releases",
+      "url": "https://sec.okta.com/articles/2026/11/node.js-project-november-11-security-releases/",
+      "sourceId": "okta-sec",
+      "source": "Okta Security",
+      "sourceHome": "https://sec.okta.com/",
+      "category": "cloud",
+      "publishedAt": "2026-11-11T00:00:00+00:00",
+      "excerpt": "On November 11, 2026, the Node.js project released security updates addressing multiple vulnerabilities across core modules. Read on for Okta's response and customer recommendations.",
+      "cves": [],
+      "vendors": [
+        "Okta"
+      ],
+      "topics": [
+        "cloud",
+        "identity"
       ]
     },
     {
@@ -4677,21 +4811,51 @@
       ]
     },
     {
-      "id": "06b8c8ec29b1d4ea",
-      "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
-      "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
-      "sourceId": "crowdstrike",
-      "source": "CrowdStrike Blog",
-      "sourceHome": "https://www.crowdstrike.com/en-us/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-10T06:00:00+00:00",
+      "id": "cbdfde6120c2ae5a",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T16:03:47+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
       "topics": [
-        "endpoint",
-        "detection",
-        "vuln"
+        "ai"
+      ]
+    },
+    {
+      "id": "2f63006d81a32665",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T12:02:28+00:00",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d7b12a2a611a408d",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T11:13:04+00:00",
+      "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -4711,25 +4875,6 @@
       "topics": [
         "cloud",
         "detection"
-      ]
-    },
-    {
-      "id": "af4ec2fad7ac8d07",
-      "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems",
-      "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
-      "sourceId": "unit42",
-      "source": "Palo Alto Unit 42",
-      "sourceHome": "https://unit42.paloaltonetworks.com/",
-      "category": "security",
-      "publishedAt": "2026-11-06T21:15:09+00:00",
-      "excerpt": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42.",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks"
-      ],
-      "topics": [
-        "security",
-        "endpoint"
       ]
     },
     {
@@ -4855,26 +5000,6 @@
       "topics": [
         "security",
         "finance"
-      ]
-    },
-    {
-      "id": "40c26bcfa4e1bf07",
-      "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-      "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-      "sourceId": "unit42",
-      "source": "Palo Alto Unit 42",
-      "sourceHome": "https://unit42.paloaltonetworks.com/",
-      "category": "security",
-      "publishedAt": "2026-11-02T23:00:45+00:00",
-      "excerpt": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42.",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks"
-      ],
-      "topics": [
-        "security",
-        "endpoint",
-        "ransomware"
       ]
     },
     {
