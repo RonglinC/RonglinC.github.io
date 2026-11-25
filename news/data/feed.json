@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T23:55:15.537469+00:00",
-  "itemCount": 272,
+  "generatedAt": "2026-11-25T08:42:25.358707+00:00",
+  "itemCount": 264,
   "sources": [
     {
       "id": "krebs",
@@ -350,9 +350,9 @@
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": true,
-      "count": 8,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 1"
     },
     {
       "id": "project-zero",
@@ -516,6 +516,165 @@
     }
   ],
   "items": [
+    {
+      "id": "2bdfe3aac844b532",
+      "title": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+      "url": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T15:00:00+00:00",
+      "excerpt": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "id": "b724b1c97cbb89c4",
+      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T08:12:24+00:00",
+      "excerpt": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers. The post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "4ef48eb25684290b",
+      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T08:01:06+00:00",
+      "excerpt": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "496a135ce84501ae",
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T07:45:03+00:00",
+      "excerpt": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "83764cbe2f130a3e",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T06:50:19+00:00",
+      "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "54c447bf168b3bf7",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T06:37:06+00:00",
+      "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial…",
+      "cves": [],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "ransomware",
+        "cloud"
+      ]
+    },
+    {
+      "id": "76236c5f23993e53",
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T06:21:12+00:00",
+      "excerpt": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "748e20761f991f0b",
+      "title": "Introducing context-aware rules for AWS Network Firewall",
+      "url": "https://aws.amazon.com/blogs/security/introducing-context-aware-rules-for-aws-network-firewall/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-25T01:19:20+00:00",
+      "excerpt": "AWS Network Firewall now supports context-aware rules, which match traffic by the AWS resources that send and receive it instead of by IP address. A rule can name a virtual private cloud (VPC), a subnet, a security group, or a transit gateway attachment. Rules that match on…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "59af4451fab74d85",
+      "title": "Introducing AWS Network Firewall Next Generation policy",
+      "url": "https://aws.amazon.com/blogs/security/introducing-aws-network-firewall-next-generation-policy/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-25T01:11:09+00:00",
+      "excerpt": "When it comes to inspecting network traffic, many security teams want two things from a firewall. They want to allow only the traffic each application needs, and they want each allowed connection checked for known threats. Today, you can do both with AWS Network Firewall, a…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
     {
       "id": "555771725b08a67e",
       "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
@@ -1000,22 +1159,6 @@
       ]
     },
     {
-      "id": "2979142b60fc5079",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "sourceId": "google-ai",
-      "source": "Google AI Blog",
-      "sourceHome": "https://blog.google/technology/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-24T16:00:00+00:00",
-      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "9f554b29dab6354c",
       "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
@@ -1037,6 +1180,22 @@
       ]
     },
     {
+      "id": "2979142b60fc5079",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceId": "google-ai",
+      "source": "Google AI Blog",
+      "sourceHome": "https://blog.google/technology/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "5ac248b6a272df65",
       "title": "How to compare MDR providers when every proposal looks promising",
       "url": "https://www.rapid7.com/blog/post/dr-comparing-mdr-providers-scorecard",
@@ -1051,24 +1210,6 @@
       "topics": [
         "vuln",
         "detection"
-      ]
-    },
-    {
-      "id": "bc5d87a39a484e89",
-      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-      "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T15:10:10+00:00",
-      "excerpt": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1417,22 +1558,6 @@
       ]
     },
     {
-      "id": "45e71c6825a1c3a8",
-      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T12:01:54+00:00",
-      "excerpt": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "2a15397ca0984f92",
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
@@ -1528,23 +1653,6 @@
       ]
     },
     {
-      "id": "ac13f11fd34c8294",
-      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T11:50:21+00:00",
-      "excerpt": "Hackers stole personal information from the company’s customer portal and supplier relationship management platform. The post 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "4ef36c1c1074a02e",
       "title": "Researchers planted secrets in AI prompts. Attackers found them",
       "url": "https://www.malwarebytes.com/blog/ai/2026/11/researchers-planted-secrets-in-ai-prompts-attackers-found-them",
@@ -1575,42 +1683,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "d5d73ae4d67b05e7",
-      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T10:44:49+00:00",
-      "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "azure"
-      ]
-    },
-    {
-      "id": "4454ea29678286a8",
-      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-      "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T10:44:44+00:00",
-      "excerpt": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -1646,22 +1718,6 @@
         "security",
         "finance",
         "endpoint"
-      ]
-    },
-    {
-      "id": "6ea70d52e4b35685",
-      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-      "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T08:34:20+00:00",
-      "excerpt": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed.…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
       ]
     },
     {
@@ -1990,25 +2046,6 @@
       ]
     },
     {
-      "id": "ffb43db52f165b04",
-      "title": "Introducing API and AI security on AWS, from discovery to protection",
-      "url": "https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-23T20:25:17+00:00",
-      "excerpt": "APIs have run digital businesses for more than a decade. For a while, there seemed to be nothing new left to say about them. That changed in 2026, when AI endpoints joined them. Teams now run large language model (LLM) inference endpoints, Model Context Protocol (MCP)…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud",
-        "ai"
-      ]
-    },
-    {
       "id": "6a8227667467c886",
       "title": "US Cyber Director Pick Signals Shift Toward Expertise",
       "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
@@ -2123,56 +2160,6 @@
       ],
       "topics": [
         "cloud"
-      ]
-    },
-    {
-      "id": "2ff967f69a20ea69",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-23T16:59:40+00:00",
-      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "62f2fc517a501a62",
-      "title": "Protect identity data with point-in-time recovery in Amazon Cognito",
-      "url": "https://aws.amazon.com/blogs/security/protect-identity-data-with-point-in-time-recovery-in-amazon-cognito/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-23T16:43:50+00:00",
-      "excerpt": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "identity"
-      ]
-    },
-    {
-      "id": "6ee655f82e0c01c8",
-      "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-23T16:17:21+00:00",
-      "excerpt": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -3426,22 +3413,6 @@
       ]
     },
     {
-      "id": "2f35e3e97cab26e2",
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T21:35:43+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "f800a70818e8e50b",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -3466,22 +3437,6 @@
       "sourceHome": "https://huggingface.co/blog",
       "category": "ai",
       "publishedAt": "2026-11-18T18:53:43+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "d53685db8985606d",
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T18:13:42+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
@@ -4487,22 +4442,6 @@
       ]
     },
     {
-      "id": "86de79c5b7af195c",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-12T18:00:50+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "44e60b292f1cab55",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -4700,22 +4639,6 @@
       ]
     },
     {
-      "id": "c2bda7949198ad6b",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-11T15:00:15+00:00",
-      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "18b724e7b2e462c7",
       "title": "Able2Shell: Frequently asked questions for reported N-able N-central zero-day vulnerabilities",
       "url": "https://www.tenable.com/blog/able2shell-frequently-asked-questions-for-reported-n-able-n-central-zero-day-vulnerabilities",
@@ -4808,54 +4731,6 @@
         "security",
         "finance",
         "vuln"
-      ]
-    },
-    {
-      "id": "cbdfde6120c2ae5a",
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T16:03:47+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "2f63006d81a32665",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T12:02:28+00:00",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "d7b12a2a611a408d",
-      "title": "Opening the datasets behind our AI weather models",
-      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T11:13:04+00:00",
-      "excerpt": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
