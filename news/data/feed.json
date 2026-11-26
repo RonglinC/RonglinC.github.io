@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T19:21:07.925203+00:00",
-  "itemCount": 272,
+  "generatedAt": "2026-11-26T03:36:42.462423+00:00",
+  "itemCount": 264,
   "sources": [
     {
       "id": "krebs",
@@ -350,9 +350,9 @@
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": true,
-      "count": 8,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 1"
     },
     {
       "id": "project-zero",
@@ -517,6 +517,176 @@
   ],
   "items": [
     {
+      "id": "ede8cd0c88c24128",
+      "title": "Introducing Wiz ADR: Strengthening Cloud and AI Detection and Response with Application Context",
+      "url": "https://www.wiz.io/blog/introducing-wiz-adr",
+      "sourceId": "wiz",
+      "source": "Wiz Blog",
+      "sourceHome": "https://www.wiz.io/blog",
+      "category": "cloud",
+      "publishedAt": "2026-11-26T02:26:16+00:00",
+      "excerpt": "See which functions in your code triggered a runtime alert, use agentic investigation to cut false positives, and automate response down to the exact file and line to fix.",
+      "cves": [],
+      "vendors": [
+        "Wiz"
+      ],
+      "topics": [
+        "cloud",
+        "vuln",
+        "detection"
+      ]
+    },
+    {
+      "id": "c40ee3079c47ffc0",
+      "title": "A Feast for AI: What Wiz Agents are Thankful For",
+      "url": "https://www.wiz.io/blog/what-wiz-agents-are-thankful-for",
+      "sourceId": "wiz",
+      "source": "Wiz Blog",
+      "sourceHome": "https://www.wiz.io/blog",
+      "category": "cloud",
+      "publishedAt": "2026-11-26T02:10:58+00:00",
+      "excerpt": "Grab a slice of Data Pie and pull up a chair. Here’s how Wiz’s Red, Green, and Blue Agents celebrate a quieter, smarter security season.",
+      "cves": [],
+      "vendors": [
+        "Wiz"
+      ],
+      "topics": [
+        "cloud",
+        "vuln"
+      ]
+    },
+    {
+      "id": "fe2589bcdb8f4cc1",
+      "title": "Make post-quantum cryptography updates routine with AWS-LC",
+      "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-26T00:15:29+00:00",
+      "excerpt": "As your organization plans upgrades to post-quantum cryptography (PQC), you should also think about cryptographic agility to more easily update algorithms used to protect your data. Changes to cryptography and related protocols aren’t new, but PQC is accelerating the pace at…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "6e83d7a8012e5e9b",
+      "title": "ICYMI: October 2026 @AWS Security",
+      "url": "https://aws.amazon.com/blogs/security/icymi-october-2026-aws-security/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-25T23:04:26+00:00",
+      "excerpt": "Welcome to this month’s AWS Security news! Organizations need current information about AWS Security developments to maintain their cloud security. This monthly digest covers key AWS Security updates. Each month, we compile new announcements, features, and resources to help…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "6d9f12b0fb1d56b1",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T22:05:09+00:00",
+      "excerpt": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+      "cves": [],
+      "vendors": [
+        "Palo Alto Networks"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "b75c72b1bb5d5e79",
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T21:33:33+00:00",
+      "excerpt": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "823e645bdec5d126",
+      "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
+      "url": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-25T21:00:37+00:00",
+      "excerpt": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud",
+        "identity"
+      ]
+    },
+    {
+      "id": "74ee5660fc650f2c",
+      "title": "Reduce operational overhead by migrating from AWS CloudHSM to AWS KMS",
+      "url": "https://aws.amazon.com/blogs/security/reduce-operational-overhead-by-migrating-from-aws-cloudhsm-to-aws-kms/",
+      "sourceId": "aws-sec",
+      "source": "AWS Security Blog",
+      "sourceHome": "https://aws.amazon.com/blogs/security/",
+      "category": "cloud",
+      "publishedAt": "2026-11-25T19:54:52+00:00",
+      "excerpt": "AWS Key Management Service (AWS KMS) supports the security certifications, algorithms, and performance that most AWS CloudHSM workloads require. Organizations that migrate from AWS CloudHSM to AWS KMS have significantly reduced costs while eliminating hardware security module…",
+      "cves": [],
+      "vendors": [
+        "Amazon Web Services"
+      ],
+      "topics": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "e6770e2624d632d4",
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-25T19:39:31+00:00",
+      "excerpt": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
       "id": "adc3c3431939c14f",
       "title": "Oh, is it Thanksgiving? I hadn’t noticed!",
       "url": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
@@ -564,6 +734,24 @@
       "vendors": [],
       "topics": [
         "vuln"
+      ]
+    },
+    {
+      "id": "764a5086f02e0c32",
+      "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "sourceId": "ms-security",
+      "source": "Microsoft Security Blog",
+      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
+      "category": "azure",
+      "publishedAt": "2026-11-25T18:09:06+00:00",
+      "excerpt": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "azure",
+        "endpoint",
+        "cloud"
       ]
     },
     {
@@ -1021,6 +1209,26 @@
       ]
     },
     {
+      "id": "1dfe3d376e1f04c2",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-25T12:00:00+00:00",
+      "excerpt": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation…",
+      "cves": [
+        "CVE-2023-25914",
+        "CVE-2023-25915"
+      ],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
       "id": "412bd21d38563db0",
       "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
       "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
@@ -1290,26 +1498,6 @@
       ]
     },
     {
-      "id": "258b5f3317dc1657",
-      "title": "Microsoft confirms authentication issues after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T09:02:57+00:00",
-      "excerpt": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "b724b1c97cbb89c4",
       "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
       "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
@@ -1362,24 +1550,6 @@
       "topics": [
         "endpoint",
         "detection"
-      ]
-    },
-    {
-      "id": "496a135ce84501ae",
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T07:45:03+00:00",
-      "excerpt": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1525,27 +1695,6 @@
       ]
     },
     {
-      "id": "e42a6664b0a441b3",
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T21:37:30+00:00",
-      "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
-      "cves": [],
-      "vendors": [
-        "Kubernetes"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint",
-        "cloud"
-      ]
-    },
-    {
       "id": "92e169b4455faf34",
       "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
       "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
@@ -1593,22 +1742,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "d06c34c6b5386ce1",
-      "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
-      "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-24T20:01:08+00:00",
-      "excerpt": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "cloud"
       ]
     },
     {
@@ -1660,42 +1793,6 @@
       "topics": [
         "cloud",
         "vuln"
-      ]
-    },
-    {
-      "id": "3fa0db47ad6b105c",
-      "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
-      "url": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-24T18:32:21+00:00",
-      "excerpt": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud"
-      ]
-    },
-    {
-      "id": "6e79bbe2c87f756f",
-      "title": "AWS achieves Spain’s national Limited Distribution (Difusión Limitada) and NATO Restricted accreditation in the AWS Europe (Spain) Region",
-      "url": "https://aws.amazon.com/blogs/security/aws-achieves-spains-national-limited-distribution-difusion-limitada-and-nato-restricted-accreditation-in-the-aws-europe-spain-region/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-24T17:38:00+00:00",
-      "excerpt": "Spanish version » Amazon Web Services (AWS) is pleased to announce that AWS has achieved Spain’s national Limited Distribution (“Difusión Limitada”) and NATO Restricted accreditation for the AWS Europe (Spain) Region. The Difusión Limitada and NATO Restricted accreditation…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud"
       ]
     },
     {
@@ -1927,22 +2024,6 @@
       ]
     },
     {
-      "id": "27ffc38856a19235",
-      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
-      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-24T13:07:53+00:00",
-      "excerpt": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "1bc486f993701a25",
       "title": "Rapid7 Analysis: VMware vCenter SRP Authentication Bypass to Root (CVE-2026-123890)",
       "url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890",
@@ -2052,6 +2133,23 @@
       ]
     },
     {
+      "id": "3ff6d699641881d2",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "sourceId": "cisa",
+      "source": "CISA Advisories",
+      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "category": "vuln",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "vuln",
+        "security"
+      ]
+    },
+    {
       "id": "2a15397ca0984f92",
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
@@ -2064,25 +2162,6 @@
       "cves": [
         "CVE-2026-131914",
         "CVE-2026-132165"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
-      "id": "14788eb9860a57fd",
-      "title": "Danfoss AK-SM 8xxA Series",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-24T12:00:00+00:00",
-      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8…",
-      "cves": [
-        "CVE-2026-129713"
       ],
       "vendors": [],
       "topics": [
@@ -2108,16 +2187,18 @@
       ]
     },
     {
-      "id": "3ff6d699641881d2",
-      "title": "AutomationDirect C-More EA9 Programming Software",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "id": "14788eb9860a57fd",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
       "sourceId": "cisa",
       "source": "CISA Advisories",
       "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
       "category": "vuln",
       "publishedAt": "2026-11-24T12:00:00+00:00",
-      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of…",
-      "cves": [],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8…",
+      "cves": [
+        "CVE-2026-129713"
+      ],
       "vendors": [],
       "topics": [
         "vuln",
@@ -2309,25 +2390,6 @@
       ]
     },
     {
-      "id": "bef0ae0e6addbea9",
-      "title": "Know the identity behind the role: Authorize and audit with trusted identity propagation",
-      "url": "https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/",
-      "sourceId": "aws-sec",
-      "source": "AWS Security Blog",
-      "sourceHome": "https://aws.amazon.com/blogs/security/",
-      "category": "cloud",
-      "publishedAt": "2026-11-24T02:52:38+00:00",
-      "excerpt": "Today, AWS is making it easier to grant access and audit activity based on the user or workload (a non-human caller, such as an application, service, or an automated workflow) behind an AWS Identity and Access Management (IAM) role. Trusted identity propagation (TIP) carries…",
-      "cves": [],
-      "vendors": [
-        "Amazon Web Services"
-      ],
-      "topics": [
-        "cloud",
-        "identity"
-      ]
-    },
-    {
       "id": "f45c7e11cf2f716f",
       "title": "How Intentful uses dots to make more time for growth",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
@@ -2495,22 +2557,6 @@
       ],
       "topics": [
         "cloud"
-      ]
-    },
-    {
-      "id": "2ff967f69a20ea69",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-23T16:59:40+00:00",
-      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -3531,25 +3577,6 @@
       ]
     },
     {
-      "id": "21fac7ec7da0d6e3",
-      "title": "Autonomy Logic OpenPLC Runtime",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-      "sourceId": "cisa",
-      "source": "CISA Advisories",
-      "sourceHome": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-      "category": "vuln",
-      "publishedAt": "2026-11-19T12:00:00+00:00",
-      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1…",
-      "cves": [
-        "CVE-2026-126088"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "security"
-      ]
-    },
-    {
       "id": "0db52912d4422a7e",
       "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
       "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
@@ -3646,22 +3673,6 @@
       ]
     },
     {
-      "id": "2f35e3e97cab26e2",
-      "title": "Introducing Gemini 4 Neon",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T21:35:43+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "f800a70818e8e50b",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -3670,22 +3681,6 @@
       "sourceHome": "https://huggingface.co/blog",
       "category": "ai",
       "publishedAt": "2026-11-18T19:54:56+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "d53685db8985606d",
-      "title": "Genie 4 is now available",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-18T18:13:42+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
@@ -3951,25 +3946,6 @@
       ]
     },
     {
-      "id": "61158d8462d6fe64",
-      "title": "CVE-2026-114938 OpenJDK RCE (Java4Shell): Everything You Need to Know",
-      "url": "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
-      "sourceId": "wiz",
-      "source": "Wiz Blog",
-      "sourceHome": "https://www.wiz.io/blog",
-      "category": "cloud",
-      "publishedAt": "2026-11-17T22:29:57+00:00",
-      "excerpt": "Detect and mitigate Java4Shell (CVE-2026-114938), a critical 9.2 RCE vulnerability affecting OpenJDK and major Java-based applications.",
-      "cves": [
-        "CVE-2026-114938"
-      ],
-      "vendors": [],
-      "topics": [
-        "cloud",
-        "vuln"
-      ]
-    },
-    {
       "id": "5b26aa8233d6cd1b",
       "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
       "url": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
@@ -3987,26 +3963,6 @@
         "endpoint",
         "detection",
         "vuln"
-      ]
-    },
-    {
-      "id": "e027593b5198a73c",
-      "title": "Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
-      "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
-      "sourceId": "wiz",
-      "source": "Wiz Blog",
-      "sourceHome": "https://www.wiz.io/blog",
-      "category": "cloud",
-      "publishedAt": "2026-11-17T22:03:37+00:00",
-      "excerpt": "On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "cloud",
-        "vuln",
-        "azure"
       ]
     },
     {
@@ -4588,22 +4544,6 @@
       ]
     },
     {
-      "id": "86de79c5b7af195c",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-12T18:00:50+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "44e60b292f1cab55",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
@@ -4702,26 +4642,6 @@
       ]
     },
     {
-      "id": "75756475bfad2a61",
-      "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
-      "sourceId": "ms-security",
-      "source": "Microsoft Security Blog",
-      "sourceHome": "https://www.microsoft.com/en-us/security/blog/",
-      "category": "azure",
-      "publishedAt": "2026-11-11T19:49:57+00:00",
-      "excerpt": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket…",
-      "cves": [],
-      "vendors": [
-        "Linux"
-      ],
-      "topics": [
-        "azure",
-        "endpoint",
-        "cloud"
-      ]
-    },
-    {
       "id": "7a771abb0b904e24",
       "title": "Who Runs the Ransomware Group Qilin?",
       "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -4737,22 +4657,6 @@
         "security",
         "finance",
         "ransomware"
-      ]
-    },
-    {
-      "id": "c2bda7949198ad6b",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-11T15:00:15+00:00",
-      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -4828,38 +4732,6 @@
         "security",
         "finance",
         "vuln"
-      ]
-    },
-    {
-      "id": "cbdfde6120c2ae5a",
-      "title": "Gemini 4 Carbon is now available",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T16:03:47+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "2f63006d81a32665",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceId": "deepmind",
-      "source": "Google DeepMind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "category": "ai",
-      "publishedAt": "2026-11-10T12:02:28+00:00",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
