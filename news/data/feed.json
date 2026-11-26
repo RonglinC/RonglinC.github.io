@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T03:36:42.462423+00:00",
-  "itemCount": 264,
+  "generatedAt": "2026-11-26T16:59:02.065623+00:00",
+  "itemCount": 272,
   "sources": [
     {
       "id": "krebs",
@@ -350,9 +350,9 @@
       "id": "deepmind",
       "name": "Google DeepMind",
       "category": "ai",
-      "ok": false,
-      "count": 0,
-      "error": "ParseError: not well-formed (invalid token): line 1, column 1"
+      "ok": true,
+      "count": 8,
+      "error": null
     },
     {
       "id": "project-zero",
@@ -517,6 +517,430 @@
   ],
   "items": [
     {
+      "id": "67ad7d87899ff4a6",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T15:23:28+00:00",
+      "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "c8f242e980c85095",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T15:13:41+00:00",
+      "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep…",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "cd35373e7c24622e",
+      "title": "Anthropic built a honeypot to see if AI agents will break out",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/11/anthropic-built-a-honeypot-to-see-if-ai-agents-will-break-out",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-26T14:36:43+00:00",
+      "excerpt": "Put something useful just out of reach. How far will Claude go to get it?",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint"
+      ]
+    },
+    {
+      "id": "9789cd137fe3b630",
+      "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
+      "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T14:15:00+00:00",
+      "excerpt": "Food retailers are in the firing line again after manufacturer Danfoss issued an alert about a critical new flaw",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "2634459f64f4f5ef",
+      "title": "Google Cloud Requires AI Agents to Access Workspace Through Approved Methods",
+      "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T13:15:00+00:00",
+      "excerpt": "Google Cloud users will soon be required to use Workspace MCP servers or command line interface to connect AI agents to tools like Gmail, Google Drive or Docs",
+      "cves": [],
+      "vendors": [
+        "Google"
+      ],
+      "topics": [
+        "security",
+        "finance",
+        "cloud"
+      ]
+    },
+    {
+      "id": "132adab920d1af1f",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T13:04:06+00:00",
+      "excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek.",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "fd270c1469209292",
+      "title": "Phishers Abuse Hugging Face's AI Site Builder to Spoof Big Brands",
+      "url": "https://www.infosecurity-magazine.com/news/hugging-face-ai-builder-phishing/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T12:30:00+00:00",
+      "excerpt": "Aikido found 42 phishing pages on Hugging Face Spaces, two-thirds made with its AI site builder",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance",
+        "phishing"
+      ]
+    },
+    {
+      "id": "b8dd9e29d5986e90",
+      "title": "Why New York is banning AI chatbot toys",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-26T12:20:27+00:00",
+      "excerpt": "New York’s five-year ban on making, distributing, and selling AI chatbot toys starts February 22, after the holiday shopping season.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint"
+      ]
+    },
+    {
+      "id": "89d16dfdb76038cf",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T11:50:17+00:00",
+      "excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "4af22be77e5913a5",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-26T11:37:17+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "6410a8ce441f766f",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T11:35:25+00:00",
+      "excerpt": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign. The post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "f9d2f8e8e4b4eb37",
+      "title": "Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework",
+      "url": "https://www.infosecurity-magazine.com/news/chinese-north-korea-artex/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T11:05:00+00:00",
+      "excerpt": "Microsoft has confirmed nation-state actors’ deployment of the ARTEX in their tooling, while the CSA described the emergence of the tool as part of a “third wave” of AI-driven threats",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "089664f797d521e9",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T10:57:55+00:00",
+      "excerpt": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "phishing"
+      ]
+    },
+    {
+      "id": "1e7464f9ba684e67",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T10:57:25+00:00",
+      "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While…",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "721cacaf0d02dccc",
+      "title": "Missing teen rescued after finding help through Among Us chat",
+      "url": "https://www.malwarebytes.com/blog/family-and-parenting/2026/11/teen-missing-for-521-days-found-help-through-among-us-chat",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-26T10:57:25+00:00",
+      "excerpt": "A conversation that began in online game Among Us helped the FBI find a 17-year-old who’d been missing for over a year.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint"
+      ]
+    },
+    {
+      "id": "b41ac652b6ba25fb",
+      "title": "Home Office Reprimanded After GDPR Failure at the Border",
+      "url": "https://www.infosecurity-magazine.com/news/home-office-reprimanded-gdpr/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T10:30:00+00:00",
+      "excerpt": "The ICO has reprimanded the Home Office after data integrity failings caused distress at the border",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "72f59dbb2afdeaa4",
+      "title": "1Password Hit by Backend Breach via Hijacked Employee GitHub Account",
+      "url": "https://www.infosecurity-magazine.com/news/1password-github-account-backend/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T09:32:00+00:00",
+      "excerpt": "An attacker used a 1Password employee's GitHub account to take customer data, but not vaults",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "34a5d0acfa98a43a",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T09:12:26+00:00",
+      "excerpt": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "8dda92b340aeb19f",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T08:32:10+00:00",
+      "excerpt": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "cbd6141bd7c53f82",
+      "title": "Cyprus Becomes Espionage Target for Iranian Hackers",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+      "sourceId": "darkreading",
+      "source": "Dark Reading",
+      "sourceHome": "https://www.darkreading.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T08:00:00+00:00",
+      "excerpt": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "1c92861333e60b87",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T07:02:34+00:00",
+      "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional…",
+      "cves": [
+        "CVE-2026-136716"
+      ],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "b3e4de54923e5f57",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T06:44:46+00:00",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "191482509e7e2293",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-26T05:05:36+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "932cd5b815cf7ddb",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-26T03:48:52+00:00",
+      "excerpt": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\"…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "endpoint"
+      ]
+    },
+    {
       "id": "ede8cd0c88c24128",
       "title": "Introducing Wiz ADR: Strengthening Cloud and AI Detection and Response with Application Context",
       "url": "https://www.wiz.io/blog/introducing-wiz-adr",
@@ -571,6 +995,22 @@
       ],
       "topics": [
         "cloud"
+      ]
+    },
+    {
+      "id": "b38a570fba781427",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-26T00:00:00+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -1229,76 +1669,6 @@
       ]
     },
     {
-      "id": "412bd21d38563db0",
-      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T11:51:48+00:00",
-      "excerpt": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets:…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
-      "id": "00b7ad08321777f9",
-      "title": "US Treasury Investigates Cyber Incident Amid Reported Federal Agency Breaches",
-      "url": "https://www.infosecurity-magazine.com/news/us-treasury-cyber-incident/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T11:45:00+00:00",
-      "excerpt": "The Treasury’s Crimes Enforcement Network is investigating a cyber incident and took some services offline",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
-      "id": "299a3351e9276560",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T11:23:26+00:00",
-      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "7e65e337d0ddea26",
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T11:16:32+00:00",
-      "excerpt": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "416e156063ea2fe5",
       "title": "The Great Escape: Tradecraft insights from an agentic swarm",
       "url": "https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm/",
@@ -1340,60 +1710,6 @@
       ]
     },
     {
-      "id": "0d862b159013b1e2",
-      "title": "Ransomware Attacks Surge 23% in October Following Record Quarter",
-      "url": "https://www.infosecurity-magazine.com/news/ransomware-surge-october-record/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T10:45:00+00:00",
-      "excerpt": "The continued rise in ransomware attacks may reflect a new cyber environment, NCC Group researchers have warned",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance",
-        "ransomware"
-      ]
-    },
-    {
-      "id": "576463ff2ac062bb",
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T10:43:07+00:00",
-      "excerpt": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national,…",
-      "cves": [],
-      "vendors": [
-        "OpenAI"
-      ],
-      "topics": [
-        "security",
-        "ai"
-      ]
-    },
-    {
-      "id": "5c23c8f7cb03560f",
-      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T10:40:07+00:00",
-      "excerpt": "The edtech company says the systems are fully operational and safe to use while it investigates the incident. The post Plagiarism Checker Turnitin Investigating Cyberattack appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "0a1cff15d075f8d6",
       "title": "An Indic Voice Agent with CUGA",
       "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
@@ -1407,130 +1723,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "0837dab5b08265f7",
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T10:10:20+00:00",
-      "excerpt": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
-      "id": "d706afb142eaa08e",
-      "title": "NCSC Shares Guidance to Tackle Agentic Threat From ARTEX-Like Tools",
-      "url": "https://www.infosecurity-magazine.com/news/ncsc-tips-tackle-agentic-threat/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T10:00:00+00:00",
-      "excerpt": "UK’s National Cyber Security Centre urges “strong operational discipline” to manage agentic offensive frameworks",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
-      "id": "b3fa6e3798e7b4f3",
-      "title": "UK Authorized Push Payment Losses Surge 22% as Fraudsters Steal £660m",
-      "url": "https://www.infosecurity-magazine.com/news/uk-app-losses-surge-22-fraudsters/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T09:29:00+00:00",
-      "excerpt": "Authorized push payment (APP) fraud increased 22% annually in the first half of the year",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
-      "id": "5bd62b525bdc4751",
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T09:06:59+00:00",
-      "excerpt": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "b08efced54e46107",
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T09:05:13+00:00",
-      "excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data. The post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek.",
-      "cves": [
-        "CVE-2026-131914"
-      ],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "b724b1c97cbb89c4",
-      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T08:12:24+00:00",
-      "excerpt": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers. The post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks"
-      ],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "4ef48eb25684290b",
-      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T08:01:06+00:00",
-      "excerpt": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -1553,39 +1745,20 @@
       ]
     },
     {
-      "id": "83764cbe2f130a3e",
-      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T06:50:19+00:00",
-      "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker…",
+      "id": "f84508e9631e8652",
+      "title": "Securing Employees’ AI Use Requires a Unified Architecture",
+      "url": "https://www.crowdstrike.com/en-us/blog/securing-employees-ai-use-requires-unified-architecture/",
+      "sourceId": "crowdstrike",
+      "source": "CrowdStrike Blog",
+      "sourceHome": "https://www.crowdstrike.com/en-us/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-25T08:00:00+00:00",
+      "excerpt": "",
       "cves": [],
       "vendors": [],
       "topics": [
-        "security"
-      ]
-    },
-    {
-      "id": "54c447bf168b3bf7",
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T06:37:06+00:00",
-      "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial…",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks"
-      ],
-      "topics": [
-        "security",
-        "ransomware",
-        "cloud"
+        "endpoint",
+        "detection"
       ]
     },
     {
@@ -1849,43 +2022,6 @@
       ]
     },
     {
-      "id": "f72a6191daba5ad7",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
-      "category": "ai",
-      "publishedAt": "2026-11-24T16:34:13+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
-      "id": "617c1e7b509f09e5",
-      "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
-      "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T16:30:00+00:00",
-      "excerpt": "Okta and ReversingLabs linked Inception to an SSO vishing campaign targeting employee credentials",
-      "cves": [],
-      "vendors": [
-        "Okta"
-      ],
-      "topics": [
-        "security",
-        "finance",
-        "ransomware",
-        "identity"
-      ]
-    },
-    {
       "id": "9f554b29dab6354c",
       "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
@@ -1940,22 +2076,6 @@
       ]
     },
     {
-      "id": "56432c639f1d6ba4",
-      "title": "How Southeastern University Got a Handle on Its Data",
-      "url": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
-      "sourceId": "darkreading",
-      "source": "Dark Reading",
-      "sourceHome": "https://www.darkreading.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T15:46:46+00:00",
-      "excerpt": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
-      ]
-    },
-    {
       "id": "ef1e21291edd6f08",
       "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
       "url": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
@@ -2007,20 +2127,19 @@
       ]
     },
     {
-      "id": "67c5c89c80b26e7d",
-      "title": "Address AI Agent Risks or Face Action, FCA Warns Financial Firms",
-      "url": "https://www.infosecurity-magazine.com/news/ai-agent-risks-face-action-fca/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-24T13:45:00+00:00",
-      "excerpt": "The FCA said financial organizations must provide effective oversight and governance controls for AI agents, amid rising deployment in the sector",
+      "id": "27ffc38856a19235",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T13:07:53+00:00",
+      "excerpt": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
       "cves": [],
       "vendors": [],
       "topics": [
-        "security",
-        "finance"
+        "ai"
       ]
     },
     {
@@ -2560,6 +2679,22 @@
       ]
     },
     {
+      "id": "2ff967f69a20ea69",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-23T16:59:40+00:00",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "02a2ad04fb00f828",
       "title": "CVE-2026-69291 Windows Volume Manager Extension Driver Remote Code Execution Vulnerability",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69291",
@@ -2697,22 +2832,6 @@
       ]
     },
     {
-      "id": "daef24fa6abb0c41",
-      "title": "Muse AI got nosy and started making things up, Meta insiders say",
-      "url": "https://www.malwarebytes.com/blog/ai/2026/11/muse-ai-got-nosy-and-started-making-things-up-meta-insiders-say",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-23T15:37:05+00:00",
-      "excerpt": "Insiders say Meta’s AI agent Muse surfaced information from other apps and sometimes hallucinated when prompted to engage users.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint"
-      ]
-    },
-    {
       "id": "38895abf767be191",
       "title": "Agentic Attacks: In The Wild",
       "url": "https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks",
@@ -2729,22 +2848,6 @@
       "topics": [
         "cloud",
         "vuln"
-      ]
-    },
-    {
-      "id": "10fb494d6d2b77d0",
-      "title": "FBI crime database reportedly hacked",
-      "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/fbi-crime-database-reportedly-hacked",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-23T12:57:11+00:00",
-      "excerpt": "The FBI is reportedly investigating a breach of the National Crime Information Center. What could this mean for you?",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint"
       ]
     },
     {
@@ -2802,22 +2905,6 @@
       "topics": [
         "vuln",
         "security"
-      ]
-    },
-    {
-      "id": "1c363f892f9e8939",
-      "title": "OXLoader abuses DLL hijacking to distribute different malware families",
-      "url": "https://www.malwarebytes.com/blog/threat-intel/2026/11/oxloader-abuses-dll-hijacking-to-distribute-different-malware-families",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-23T11:35:39+00:00",
-      "excerpt": "Our analysis traces OXLoader campaigns spreading malware through fake complaints and activators.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint"
       ]
     },
     {
@@ -3354,22 +3441,6 @@
       ]
     },
     {
-      "id": "f5fce26b50bdd331",
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
-      "category": "ai",
-      "publishedAt": "2026-11-20T00:00:00+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "145e1ccfeb8100d0",
       "title": "AI helps researchers investigate how thousands of medical studies share code",
       "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
@@ -3673,14 +3744,30 @@
       ]
     },
     {
-      "id": "f800a70818e8e50b",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
+      "id": "2f35e3e97cab26e2",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
       "category": "ai",
-      "publishedAt": "2026-11-18T19:54:56+00:00",
+      "publishedAt": "2026-11-18T21:35:43+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "d53685db8985606d",
+      "title": "Genie 4 is now available",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-18T18:13:42+00:00",
       "excerpt": "",
       "cves": [],
       "vendors": [],
@@ -4483,25 +4570,6 @@
       ]
     },
     {
-      "id": "5d1157ac4557eb23",
-      "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
-      "url": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
-      "sourceId": "crowdstrike",
-      "source": "CrowdStrike Blog",
-      "sourceHome": "https://www.crowdstrike.com/en-us/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-13T06:00:00+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [
-        "CrowdStrike"
-      ],
-      "topics": [
-        "endpoint",
-        "detection"
-      ]
-    },
-    {
       "id": "408098baf2d504cc",
       "title": "Linux Kernel TCP Flaw (CVE-2026-98432)",
       "url": "https://sec.okta.com/articles/2026/11/linux-kernel-tcp-flaw-cve-2026-98432/",
@@ -4541,6 +4609,22 @@
         "cloud",
         "identity",
         "vuln"
+      ]
+    },
+    {
+      "id": "86de79c5b7af195c",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-12T18:00:50+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -4660,6 +4744,22 @@
       ]
     },
     {
+      "id": "c2bda7949198ad6b",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-11T15:00:15+00:00",
+      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "18b724e7b2e462c7",
       "title": "Able2Shell: Frequently asked questions for reported N-able N-central zero-day vulnerabilities",
       "url": "https://www.tenable.com/blog/able2shell-frequently-asked-questions-for-reported-n-able-n-central-zero-day-vulnerabilities",
@@ -4732,6 +4832,38 @@
         "security",
         "finance",
         "vuln"
+      ]
+    },
+    {
+      "id": "cbdfde6120c2ae5a",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T16:03:47+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "2f63006d81a32665",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "sourceId": "deepmind",
+      "source": "Google DeepMind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "category": "ai",
+      "publishedAt": "2026-11-10T12:02:28+00:00",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
