@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:45:56.636339+00:00",
+  "generatedAt": "2026-11-27T12:31:14.016587+00:00",
   "itemCount": 264,
   "sources": [
     {
@@ -517,6 +517,364 @@
   ],
   "items": [
     {
+      "id": "52f20947d61283c8",
+      "title": "Malware steals Gmail messages using a fake Google Sheets extension",
+      "url": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "sourceId": "malwarebytes",
+      "source": "Malwarebytes Labs",
+      "sourceHome": "https://www.malwarebytes.com/blog/",
+      "category": "endpoint",
+      "publishedAt": "2026-11-27T12:09:14+00:00",
+      "excerpt": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "endpoint"
+      ]
+    },
+    {
+      "id": "5031908e8e0ba50b",
+      "title": "Recent Outages Have Economic Causes",
+      "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+      "sourceId": "schneier",
+      "source": "Schneier on Security",
+      "sourceHome": "https://www.schneier.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T12:02:49+00:00",
+      "excerpt": "This essay originally appeared in The Guardian. It’s an expanded version of the one I posted as “We Get the Infrastructure We Pay For.” It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an…",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "1da9ee90d5ac99d0",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T11:18:36+00:00",
+      "excerpt": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "581e612681bc8bff",
+      "title": "UK Welfare and Pension Services Taken Offline Following Cyber Incident",
+      "url": "https://www.infosecurity-magazine.com/news/uk-welfare-services-offline/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T11:15:00+00:00",
+      "excerpt": "The DWP said that online services had been taken offline as a precaution following a cyber-incident, regular pension and benefit payments have not been affected",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "9c4842c5d7022309",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T11:00:00+00:00",
+      "excerpt": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. The post In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "15dbb09b7e39c421",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T10:32:18+00:00",
+      "excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "60c649e1683b527d",
+      "title": "FIFA Confirms Cyber-Attack, Personal and Business Information Compromised",
+      "url": "https://www.infosecurity-magazine.com/news/fifa-confirms-cyberattack/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T10:30:00+00:00",
+      "excerpt": "A cyber-attack targeting FIFA has exposed a “limited set of personal and business information”",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "6376cd79c14f9efc",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T10:10:15+00:00",
+      "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "f2c11e395cd189f4",
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T09:56:36+00:00",
+      "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "1a7c4fc263883c28",
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T09:30:54+00:00",
+      "excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "417b372316bda15e",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T09:29:30+00:00",
+      "excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "6b4a7f7c72a267c0",
+      "title": "CVE-2026-62840 Linux Kernel Elevation of Privilege Vulnerability",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62840",
+      "sourceId": "msrc",
+      "source": "Microsoft Update Guide",
+      "sourceHome": "https://msrc.microsoft.com/update-guide/",
+      "category": "vuln",
+      "publishedAt": "2026-11-27T09:10:39+00:00",
+      "excerpt": "Information published.",
+      "cves": [
+        "CVE-2026-62840"
+      ],
+      "vendors": [
+        "Linux"
+      ],
+      "topics": [
+        "vuln",
+        "azure"
+      ]
+    },
+    {
+      "id": "5bcfd53df99f4aa7",
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T09:08:16+00:00",
+      "excerpt": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+      "cves": [],
+      "vendors": [
+        "Microsoft"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "22c62e0c1f959e6a",
+      "title": "CyberStrikeAI Creator Shuts Down Open-Source AI Offensive Framework",
+      "url": "https://www.infosecurity-magazine.com/news/cyberstrikeai-shut-down-threatbook/",
+      "sourceId": "infosecmag",
+      "source": "Infosecurity Magazine",
+      "sourceHome": "https://www.infosecurity-magazine.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T09:00:00+00:00",
+      "excerpt": "The open source version of CyberStrikeAI has been permanently removed from, but an enterprise version of the AI pentesting tool is still accessible",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "finance"
+      ]
+    },
+    {
+      "id": "8233370bb97407f9",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "sourceId": "bleeping",
+      "source": "BleepingComputer",
+      "sourceHome": "https://www.bleepingcomputer.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T08:06:58+00:00",
+      "excerpt": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "cves": [
+        "CVE-2026-99362"
+      ],
+      "vendors": [
+        "Linux"
+      ],
+      "topics": [
+        "security",
+        "vuln",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "b2b1b58b9392dfcb",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T07:44:49+00:00",
+      "excerpt": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "5930723d1e308802",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "sourceId": "securityweek",
+      "source": "SecurityWeek",
+      "sourceHome": "https://www.securityweek.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T07:36:14+00:00",
+      "excerpt": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek.",
+      "cves": [],
+      "vendors": [
+        "GitHub"
+      ],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "eff37d5489903ba8",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T06:04:20+00:00",
+      "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security"
+      ]
+    },
+    {
+      "id": "c4be24a48d53d3a9",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "sourceId": "thn",
+      "source": "The Hacker News",
+      "sourceHome": "https://thehackernews.com/",
+      "category": "security",
+      "publishedAt": "2026-11-27T05:48:20+00:00",
+      "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as…",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "security",
+        "vuln"
+      ]
+    },
+    {
+      "id": "eedef43aae252250",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "sourceId": "huggingface",
+      "source": "Hugging Face Blog",
+      "sourceHome": "https://huggingface.co/blog",
+      "category": "ai",
+      "publishedAt": "2026-11-27T00:00:00+00:00",
+      "excerpt": "",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
+      ]
+    },
+    {
       "id": "ba9280141b46e489",
       "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -611,24 +969,6 @@
       ]
     },
     {
-      "id": "67ad7d87899ff4a6",
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T15:23:28+00:00",
-      "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "c8f242e980c85095",
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
       "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
@@ -637,7 +977,7 @@
       "sourceHome": "https://thehackernews.com/",
       "category": "security",
       "publishedAt": "2026-11-26T15:13:41+00:00",
-      "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep…",
+      "excerpt": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are…",
       "cves": [],
       "vendors": [
         "GitHub"
@@ -750,24 +1090,6 @@
       "cves": [],
       "vendors": [],
       "topics": [
-        "endpoint"
-      ]
-    },
-    {
-      "id": "89d16dfdb76038cf",
-      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T11:50:17+00:00",
-      "excerpt": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
         "endpoint"
       ]
     },
@@ -893,25 +1215,6 @@
       ]
     },
     {
-      "id": "72f59dbb2afdeaa4",
-      "title": "1Password Hit by Backend Breach via Hijacked Employee GitHub Account",
-      "url": "https://www.infosecurity-magazine.com/news/1password-github-account-backend/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T09:32:00+00:00",
-      "excerpt": "An attacker used a 1Password employee's GitHub account to take customer data, but not vaults",
-      "cves": [],
-      "vendors": [
-        "GitHub"
-      ],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
       "id": "34a5d0acfa98a43a",
       "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
       "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
@@ -923,25 +1226,6 @@
       "excerpt": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap. The post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek.",
       "cves": [],
       "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "8dda92b340aeb19f",
-      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
-      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T08:32:10+00:00",
-      "excerpt": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "GitHub"
-      ],
       "topics": [
         "security",
         "vuln"
@@ -964,42 +1248,6 @@
       ]
     },
     {
-      "id": "1c92861333e60b87",
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T07:02:34+00:00",
-      "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional…",
-      "cves": [
-        "CVE-2026-136716"
-      ],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "b3e4de54923e5f57",
-      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T06:44:46+00:00",
-      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
       "id": "191482509e7e2293",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
@@ -1013,25 +1261,6 @@
       "vendors": [],
       "topics": [
         "ai"
-      ]
-    },
-    {
-      "id": "932cd5b815cf7ddb",
-      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-26T03:48:52+00:00",
-      "excerpt": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\"…",
-      "cves": [],
-      "vendors": [
-        "Microsoft"
-      ],
-      "topics": [
-        "security",
-        "endpoint"
       ]
     },
     {
@@ -1126,46 +1355,6 @@
       ]
     },
     {
-      "id": "6d9f12b0fb1d56b1",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T22:05:09+00:00",
-      "excerpt": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
-      "id": "b75c72b1bb5d5e79",
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T21:33:33+00:00",
-      "excerpt": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-      "cves": [],
-      "vendors": [
-        "GitHub"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
-      ]
-    },
-    {
       "id": "823e645bdec5d126",
       "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
       "url": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
@@ -1200,24 +1389,6 @@
       ],
       "topics": [
         "cloud"
-      ]
-    },
-    {
-      "id": "e6770e2624d632d4",
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-      "sourceId": "bleeping",
-      "source": "BleepingComputer",
-      "sourceHome": "https://www.bleepingcomputer.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T19:39:31+00:00",
-      "excerpt": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln",
-        "endpoint"
       ]
     },
     {
@@ -1342,23 +1513,6 @@
       ]
     },
     {
-      "id": "d989a9bf2debb44e",
-      "title": "US Anti-Scam Surge Hits 800 Defendants and 29 Scam Compounds",
-      "url": "https://www.infosecurity-magazine.com/news/doj-anti-scam-surge-800-defendants/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T16:00:00+00:00",
-      "excerpt": "DOJ's anti-scam surge has targeted over 800 defendants while the FBI has hit over 29 scam compounds",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "finance"
-      ]
-    },
-    {
       "id": "6655ec1a5745d1aa",
       "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
       "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
@@ -1373,23 +1527,6 @@
       "topics": [
         "security",
         "endpoint"
-      ]
-    },
-    {
-      "id": "48e612e5275bfcb8",
-      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
-      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T15:27:36+00:00",
-      "excerpt": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE. The post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
       ]
     },
     {
@@ -1426,26 +1563,6 @@
       "topics": [
         "security",
         "endpoint"
-      ]
-    },
-    {
-      "id": "c3f42de2a55e3546",
-      "title": "Palo Alto Fixes Fragnesia Kernel Bug Chained With PHP2Shell in Firewall Attacks",
-      "url": "https://www.infosecurity-magazine.com/news/palo-alto-fragnesia-php2shell-fix/",
-      "sourceId": "infosecmag",
-      "source": "Infosecurity Magazine",
-      "sourceHome": "https://www.infosecurity-magazine.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T15:00:00+00:00",
-      "excerpt": "Palo Alto fixed Fragnesia after attackers chained it with PHP2Shell to root firewalls",
-      "cves": [],
-      "vendors": [
-        "Palo Alto Networks",
-        "Linux"
-      ],
-      "topics": [
-        "security",
-        "finance"
       ]
     },
     {
@@ -1499,26 +1616,6 @@
       ]
     },
     {
-      "id": "41088e2cf463fe45",
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T14:15:25+00:00",
-      "excerpt": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers. The post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [
-        "Okta"
-      ],
-      "topics": [
-        "security",
-        "vuln",
-        "identity"
-      ]
-    },
-    {
       "id": "9c9d280d5e5bdef1",
       "title": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
@@ -1547,43 +1644,6 @@
       "cves": [],
       "vendors": [],
       "topics": [
-        "vuln"
-      ]
-    },
-    {
-      "id": "2c337d3fcce50e2c",
-      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-      "sourceId": "securityweek",
-      "source": "SecurityWeek",
-      "sourceHome": "https://www.securityweek.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T13:39:21+00:00",
-      "excerpt": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident. The post US Treasury’s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security",
-        "vuln"
-      ]
-    },
-    {
-      "id": "228ee7fe806b7edc",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "sourceId": "thn",
-      "source": "The Hacker News",
-      "sourceHome": "https://thehackernews.com/",
-      "category": "security",
-      "publishedAt": "2026-11-25T12:48:54+00:00",
-      "excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read…",
-      "cves": [
-        "CVE-2026-120705",
-        "CVE-2026-129243"
-      ],
-      "vendors": [],
-      "topics": [
-        "security",
         "vuln"
       ]
     },
@@ -2029,22 +2089,6 @@
       ]
     },
     {
-      "id": "2979142b60fc5079",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-      "sourceId": "google-ai",
-      "source": "Google AI Blog",
-      "sourceHome": "https://blog.google/technology/ai/",
-      "category": "ai",
-      "publishedAt": "2026-11-24T16:00:00+00:00",
-      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
-      ]
-    },
-    {
       "id": "9f554b29dab6354c",
       "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
@@ -2063,6 +2107,22 @@
       "topics": [
         "vuln",
         "azure"
+      ]
+    },
+    {
+      "id": "2979142b60fc5079",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "sourceId": "google-ai",
+      "source": "Google AI Blog",
+      "sourceHome": "https://blog.google/technology/ai/",
+      "category": "ai",
+      "publishedAt": "2026-11-24T16:00:00+00:00",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "cves": [],
+      "vendors": [],
+      "topics": [
+        "ai"
       ]
     },
     {
@@ -2313,23 +2373,6 @@
       "topics": [
         "vuln",
         "security"
-      ]
-    },
-    {
-      "id": "4ef36c1c1074a02e",
-      "title": "Researchers planted secrets in AI prompts. Attackers found them",
-      "url": "https://www.malwarebytes.com/blog/ai/2026/11/researchers-planted-secrets-in-ai-prompts-attackers-found-them",
-      "sourceId": "malwarebytes",
-      "source": "Malwarebytes Labs",
-      "sourceHome": "https://www.malwarebytes.com/blog/",
-      "category": "endpoint",
-      "publishedAt": "2026-11-24T11:21:42+00:00",
-      "excerpt": "Researchers planted access keys in AI prompts. Within hours, attackers were testing some of them against Amazon cloud accounts.",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "endpoint",
-        "cloud"
       ]
     },
     {
@@ -2780,25 +2823,6 @@
       "excerpt": "Updated an acknowledgement. This is an informational change only.",
       "cves": [
         "CVE-2026-70197"
-      ],
-      "vendors": [],
-      "topics": [
-        "vuln",
-        "azure"
-      ]
-    },
-    {
-      "id": "bd29473cb3010b97",
-      "title": "CVE-2026-96225 .NET Elevation of Privilege Vulnerability",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96225",
-      "sourceId": "msrc",
-      "source": "Microsoft Update Guide",
-      "sourceHome": "https://msrc.microsoft.com/update-guide/",
-      "category": "vuln",
-      "publishedAt": "2026-11-23T16:00:00+00:00",
-      "excerpt": "Updated an acknowledgement. This is an informational change only.",
-      "cves": [
-        "CVE-2026-96225"
       ],
       "vendors": [],
       "topics": [
@@ -3397,22 +3421,6 @@
       ],
       "topics": [
         "cloud"
-      ]
-    },
-    {
-      "id": "994b8e335d23acc5",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "sourceId": "huggingface",
-      "source": "Hugging Face Blog",
-      "sourceHome": "https://huggingface.co/blog",
-      "category": "ai",
-      "publishedAt": "2026-11-20T00:00:00+00:00",
-      "excerpt": "",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "ai"
       ]
     },
     {
@@ -4348,22 +4356,6 @@
       "vendors": [],
       "topics": [
         "vuln"
-      ]
-    },
-    {
-      "id": "9fc6af765ee5b3a1",
-      "title": "Usable Security at Luxury Hotels",
-      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "sourceId": "schneier",
-      "source": "Schneier on Security",
-      "sourceHome": "https://www.schneier.com/",
-      "category": "security",
-      "publishedAt": "2026-11-16T12:05:18+00:00",
-      "excerpt": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why “just don’t click on links” is bad advice. It…",
-      "cves": [],
-      "vendors": [],
-      "topics": [
-        "security"
       ]
     },
     {
